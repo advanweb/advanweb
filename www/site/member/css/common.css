@@ -1,0 +1,424 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		3. サイト共通スタイルシート
+		Site:		Advanced Creators Members Site
+		Version:	1.0.2
+		Date:		2007.9.17
+		Author:		XIAORING <http://mkgweb.undo.jp/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	3.1 要素の再設定
+============================================================ */
+
+/* ------------------------------------------------------------
+	ハイパーリンク
+------------------------------------------------------------ */
+/* ハイパーリンク */
+a {
+	border-width: 0 0 1px 0;
+	border-style: dotted;
+	border-color: #36f;
+	color: #04f;
+	background-color: inherit;
+	text-decoration: none;
+}
+
+/* 訪問済み */
+a:visited {
+	border-color: #69c;
+	color: #48f;
+	text-decoration: none;
+}
+
+/* マウスオーバー、アクティブ */
+a:hover,
+a:active {
+	border-color: #f6c;
+	color: #f39;
+	background-color: #ffd;
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+	見出し
+------------------------------------------------------------ */
+/* サイトタイトル */
+h1 {
+	color: #333;
+}
+h1 a, h1 a:visited {
+	border-color: #333;
+	color: #333;
+}
+
+/* ページタイトル */
+h2 {
+	color: #369;
+}
+h2 a:link, h2 a:visited {
+	border-color: #369;
+	color: #369;
+}
+
+/* コンテンツ大見出し */
+h3 {
+	color: #096;
+}
+h3 a, h3 a:visited {
+	border-color: #096;
+	color: #096;
+}
+
+/* コンテンツ小見出し */
+h4 {
+	color: #c63;
+}
+h4 a, h4 a:visited {
+	border-color: #c63;
+	color: #c63;
+}
+
+/* マウスオーバー */
+h1 a:hover, h1 a:active,
+h2 a:hover, h2 a:active,
+h3 a:hover, h3 a:active,
+h4 a:hover, h4 a:active {
+	border-color: #f6c;
+	color: #f39;
+}
+
+/* ------------------------------------------------------------
+	引用
+------------------------------------------------------------ */
+/* 画像を適用 */
+blockquote {
+	padding-left: 31px;
+	background: #f6f6f9 url(../img/ico_right_02.png) no-repeat 15px 18px;
+}
+
+/* ------------------------------------------------------------
+	リスト
+------------------------------------------------------------ */
+/* 画像を適用 */
+ul li {
+	list-style: none;
+	background: url(../img/ico_right_01.png) no-repeat 2px 5px;
+	margin: 0.25em 0;
+	padding-left: 18px;
+}
+
+/* 2階層以降 */
+ul ul,
+ol ul {
+	margin: 0.5em 0;
+}
+
+ul ul li,
+ol ul li {
+	list-style-type: none;
+	background-image: url(../img/ico_right_03.png);
+}
+
+ul ul ul,
+ul ol ul,
+ol ul ul,
+ol ol ul {
+	margin: 0.5em 0;
+}
+
+ul ul ul li,
+ul ol ul li,
+ol ul ul li,
+ol ol ul li {
+	list-style-type: none;
+	background-image: url(../img/ico_right_04.png);
+}
+
+/* ------------------------------------------------------------
+	定義リスト
+------------------------------------------------------------ */
+/* 画像を適用 */
+dt {
+	list-style-type: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: transparent url(../img/ico_right_01.png) no-repeat 4px 5px;
+}
+
+/* ------------------------------------------------------------
+	フォーム部品
+------------------------------------------------------------ */
+/* フォーム内見出しの色 */
+form h3,
+form h4 {
+	color: #458;
+}
+
+
+/* ------------------------------------------------------------
+	borderとbackgroundを指定するときは以下を使う
+------------------------------------------------------------ */
+/* インプット */
+input, textarea {
+	/* border: solid 1px #99c; */
+}
+
+/* テキスト入力系 */
+input[type="text"],
+input[type="password"],
+textarea {
+	border: solid 1px #99c;
+	background-color: #fdfdff;
+}
+
+/* 入力中の表示変更 */
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+	background-color: #fff;
+}
+
+/* IEは:focusが聞かないので背景を再設定 */
+* html input[type="text"],
+* html input[type="password"],
+* html textarea {
+	background-color: #fff;
+}
+*+html input[type="text"],
+*+html input[type="password"],
+*+html textarea {
+	background-color: #fff;
+}
+
+/* ラジオボタンとチェックボックス */
+input[type="radio"],
+input[type="checkbox"] {
+	/* border: none; */
+}
+
+/* ボタン系 */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+/*
+	border-color: #04f;
+	background-color: #e0e8ff;
+*/
+}
+
+/*
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+	margin: -1px 7px 0 6px;
+	border-width: 1px 2px 2px 1px;
+	background-color: #e9ecff;
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active {
+	margin: 0 7px;
+	padding: 1px 2px 0 3px;
+	border-width: 2px 1px 1px 2px;
+	background-color: #d9e0ff;
+}
+*/
+
+/* プルダウンメニュー */
+select {
+	/* border: 1px solid #99c; */
+}
+
+
+/* ------------------------------------------------------------
+	水平線
+------------------------------------------------------------ */
+
+/* 画像を適用 */
+hr {
+	border: none;
+	background: transparent url(../img/hr_01.png) repeat-x 0px -2px;
+}
+
+/* IE(7含む)は画像ではなくdashed */
+*+html hr {
+	border-width: 1px 0 0 0;
+	border-style: dashed;
+	border-color: #99c;
+	background: none;
+}
+* html hr {
+	border-width: 1px 0 0 0;
+	border-style: dashed;
+	border-color: #99c;
+	background: none;
+}
+
+
+/* ============================================================
+	3.2 サイト共通デザインモジュール
+============================================================ */
+
+/* ------------------------------------------------------------
+	補足テキスト
+------------------------------------------------------------ */
+.aux {
+	color: #568;
+	font-size: 85%;
+}
+
+/* ------------------------------------------------------------
+	戻るナビゲーション
+------------------------------------------------------------ */
+.navBack {
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+	text-align: right;
+}
+.navBack li {
+	display: inline;
+	background: url(../img/ico_left_01.png) no-repeat 2px center;
+}
+
+/* ------------------------------------------------------------
+	補足ナビゲーション
+------------------------------------------------------------ */
+.navAux {
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+	text-align: right;
+}
+.navAux li {
+	display: inline;
+	background-position: 2px center;
+}
+
+/* ------------------------------------------------------------
+	パンくずリスト
+------------------------------------------------------------ */
+ol.topicPath {
+	margin: 0.5em 10px;
+	padding: 0;
+}
+
+ol.topicPath li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+/* >を追加 */
+ol.topicPath li+li {
+	background: url(../img/ico_right_12.png) no-repeat 2px center;
+	margin-left: 0;
+	padding-left: 15px;
+}
+
+/* ------------------------------------------------------------
+	dlの横並びリストスタイル
+------------------------------------------------------------ */
+dl.list,
+dl.list dt,
+dl.list dd,
+dl.listLong,
+dl.listLong dt,
+dl.listLong dd {
+	border-width: 0;
+	border-style: dotted;
+	border-color: #569;
+}
+
+dl.list dt,
+dl.listLong dt {
+	width: 5em;
+	float: left;
+	clear: left;
+	margin: 0;
+	padding: 5px 0.5em 0px 0.5em;
+	background: none;
+}
+	
+dl.list dd,
+dl.listLong dd {
+	margin: 0;
+	padding: 5px 0.5em 0px 6.5em;
+	border-width: 0 0 1px 0;
+}
+
+/* clear fix */
+dl.list,
+dl.listLong {
+	zoom: 1;/*for IE 5.5-7*/
+}
+dl.list:after,
+dl.listLong:after {/*for modern browser*/
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+/* .listLong*/
+dl.listLong dt {
+	width: 10em;
+}
+
+dl.listLong dd {
+	padding-left: 11.5em;
+}
+
+/* ------------------------------------------------------------
+	フロートのクリア
+------------------------------------------------------------ */
+.clear {
+	clear: both;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/* ------------------------------------------------------------
+	非表示ナビゲーション
+------------------------------------------------------------ */
+.hidden {
+	display: none;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* ------------------------------------------------------------
+	コンテンツ内・画像表示用クラス
+------------------------------------------------------------ */
+.photo {
+	max-width: 95%;
+	overflow: auto;
+	/* \*//*/
+	overflow: visible;
+	/**/
+}
+.photo a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+}
+
+/* IE6以下はdiv.imgに横幅指定*/
+* html div.photo {
+	width: 95%;
+}
+

@@ -1,0 +1,594 @@
+﻿@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		4. サイトテーマスタイルシート
+		Site:		Advanced Creators 機材管理サイト
+		Version:	1.0.9
+		Date:		2007.12.18
+		Author:		XIAORING <http://mkgweb.undo.jp/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	4.1 ページレイアウト
+============================================================ */
+
+/* ------------------------------------------------------------
+	4.1.1 ページ全体
+------------------------------------------------------------ */
+body{
+	padding: 0;
+	color: #fff;
+	background: #666 url(../img/bg_01.png) repeat-x;
+	text-align: center;
+}
+
+/* IE(7.0含む)はpngの色が違うので、背景も合わせて再設定 */
+*+html body {
+	background-color: #5a5a5a;
+}
+* html body {
+	background-color: #5a5a5a ;
+}
+
+/* ------------------------------------------------------------
+	4.1.2 コンテナ　表示領域
+------------------------------------------------------------ */
+div#container {
+	width: 710px;
+	margin: 0 auto;
+	padding: 0 20px;
+	color: #111;
+	background: #fff url(../img/bg_02.png);
+}
+
+/* ------------------------------------------------------------
+	4.1.3 ヘッダー
+------------------------------------------------------------ */
+div#header {
+	margin: 0 -20px 20px -20px;
+	padding-top: 20px;
+}
+
+/* ------------------------------------------------------------
+	4.1.3 (1) サイトタイトル
+------------------------------------------------------------ */
+div#header h1 {
+	width: 750px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	line-height: 100px;
+}
+
+div#header h1 a {
+	text-decoration: none;
+	border: none;
+}
+
+div#header h1 img {
+	vertical-align: bottom;
+}
+
+/* ------------------------------------------------------------
+	4.1.3 (2) グローバルナビゲーション
+------------------------------------------------------------ */
+ul#gNav {
+	margin: 10px 15px 0;
+}
+
+/* リストを横並び */
+ul#gNav li {
+	list-style: none;
+	display: inline;
+	float: left;
+	margin: 0 5px;
+	padding: 0;
+	background: none;
+	font-weight: bold;
+}
+
+/* リンクをボックス表示 */
+ul#gNav li a {
+	display: block;
+	padding: 0 10px;
+	border-width: 1px 1px 4px 1px;
+	border-style: solid;
+	border-color: #569;
+	color: #36c;
+	background: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul#gNav li a:hover,
+ul#gNav li a:active {
+	background: #69c;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* clear fix */
+ul#gNav{
+	zoom: 1;/*for IE 5.5-7*/
+}
+ul#gNav:after{/*for modern browser*/
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+/* ------------------------------------------------------------
+	4.1.4 メインの列
+------------------------------------------------------------ */
+div#mainCol {
+	background-color: #fff;
+}
+
+/* ------------------------------------------------------------
+	4.1.4 (1) メインコンテンツ
+------------------------------------------------------------ */
+div#content {
+	margin: 20px;
+}
+
+/* ------------------------------------------------------------
+	4.1.5 サブの列
+------------------------------------------------------------ */
+/* カテゴリーリスト (dt: カテゴリー名, dd: 項目) */
+div#subCol dl {
+	border: none;
+	margin: 0 0 20px 0;
+}
+
+/* カテゴリー名 */
+div#subCol dt {
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+	margin: 0;
+	padding: 5px 0 0 15px;
+	border: none;
+	background: transparent url(../img/bg_cate_head_03.gif) no-repeat left bottom;
+	font-weight: bold;
+}
+
+/* 項目 */
+div#subCol dd {
+	margin: 0;
+	padding: 0;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #546598;
+	background: #f5f6f9 url(../img/bg_cate_01.png) repeat-y;
+}
+
+div#subCol dd ul {
+	margin: 0;
+	padding: 5px 0px 5px 7px;
+}
+
+div#subCol dd ul li {
+	margin: 0;
+	padding: 0 0 0 18px;
+}
+
+/* クラスでリストの画像を変える */
+div#subCol dl.pa dd ul li {
+	background-image: url(../img/ico_pa_01.png);
+}
+div#subCol dl.lighting dd ul li {
+	background-image: url(../img/ico_lighting_01.png);
+}
+div#subCol dl.cable dd ul li {
+	background-image: url(../img/ico_cable_01.png);
+}
+div#subCol dl.stand dd ul li {
+	background-image: url(../img/ico_stand_01.png);
+}
+div#subCol dl.accessory dd ul li {
+	background-image: url(../img/ico_accessory_01.png);
+}
+
+/* 項目のハイパーリンク */
+div#subCol dd ul li a,
+div#subCol dd ul li a:visited {
+	border-bottom: none;
+}
+div#subCol dd ul li a:hover,
+div#subCol dd ul li a:active {
+	border-bottom: 1px dotted #f6c;
+	color: #f39;
+}
+
+/* 項目内のdl */
+div#subCol dl dl {
+	margin: 0.25em 0;
+	padding: 0;
+}
+
+div#subCol dl dl dt {
+	height: auto;
+	line-height: 1.6;
+	overflow: auto;
+	margin: 0;
+	padding: 0 18px;
+	border: none;
+	background: transparent url(../img/ico/right_01.png) no-repeat 2px 5px;
+	font-weight: bold;
+}
+
+div#subCol dl dl dd {
+	margin: 0;
+	padding: 0 18px;
+	background: none;
+}
+
+/* hrを非表示 */
+div#subCol hr {
+	display: none;
+	width: 0;
+	height: 0;
+	border: none;
+	visibility: hidden;
+}
+
+/* ------------------------------------------------------------
+	4.1.6 フッター
+------------------------------------------------------------ */
+div#footer {
+	clear: both;
+	margin: 0 20px;
+	padding: 0.5em 0 20px;
+	font-size: 85%;
+	text-align: center;
+}
+
+div#footer ul.gNav {
+	margin: 1.0em auto;
+	padding: 0;
+	text-align: center;
+}
+div#footer ul.gNav li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+div#footer ul.gNav li:before {
+	content: "| ";
+}
+div#footer ul.gNav li.index:before {
+	content: "";
+}
+
+/* addressにコピーライトなどを */
+div#footer address {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+/* ============================================================
+	4.2 コンテンツ内で使われるデザインモジュール
+============================================================ */
+
+/* ------------------------------------------------------------
+	エントリー
+------------------------------------------------------------ */
+/* エントリー全体 */
+div.entry {
+	margin: 1em 10px;
+	padding: 15px;
+	border: solid 1px #569;
+	background-color: #f6f6ff;
+}
+
+/* 連続するエントリーの間を開ける */
+div.entry+div.entry {
+	margin-top: 2em;
+}
+
+/* エントリータイトル */
+div.entry h3 {
+	margin: 0 0 0.5em;
+	color: #569;
+}
+
+/* 投稿者 */
+div.entry h4 {
+	margin: 0.5em 0;
+	color: #569;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+/* 投稿日時 */
+div.entry p.date {
+	margin: 0.5em 0;
+	color: #569;
+	font-size: 100%;
+	font-weight: normal;
+	text-align: right;
+}
+
+/* ------------------------------------------------------------
+	エントリー内のレス
+------------------------------------------------------------ */
+div.entry div.res {
+	margin-top: 1em;
+	margin-bottom: 0;
+	padding: 0 12px;
+	background-color: #fff;
+	border: solid 1px #569;
+}
+
+/* レスの投稿者名 */
+div.entry div.res h4 {
+	text-align: left;
+}
+
+/* レスの段落 */
+div.entry div.res p {
+	border: 0;
+	padding: 0;
+}
+
+/* レスの投稿日時 */
+div.entry div.res p.date {
+	text-align: right;
+}
+
+/* ------------------------------------------------------------
+	ノートのスレッド　カテゴリー別
+	
+	ボーダー、タイトル、投稿者、投稿日時、背景の色を変更
+------------------------------------------------------------ */
+
+/* 機材 */
+div.entry.equip {
+	border: solid 1px #669;
+	background-color: #f6f6ff;
+}
+div.entry.equip h3 {
+	padding-left: 20px;
+	color: #669;
+	background: url(../img/ico_pa_01.png) no-repeat 3px 7px;
+}
+div.entry.equip div.res {
+	border-color: #669;
+}
+div.entry.equip h4,
+div.entry.equip p.date {
+	color: #669;
+}
+
+/* イベント */
+div.entry.event {
+	border: solid 1px #486;
+	background-color: #f6fcf8;
+}
+div.entry.event h3 {
+	padding-left: 20px;
+	color: #486;
+	background: url(../img/ico_lighting_01.png) no-repeat 3px 7px;
+}
+div.entry.event div.res {
+	border-color: #486;
+}
+div.entry.event h4,
+div.entry.event p.date {
+	color: #486;
+}
+
+/* ログ */
+div.entry.log {
+	border: solid 1px #759;
+	background-color: #fcf8fd;
+}
+div.entry.log h3 {
+	padding-left: 20px;
+	color: #759;
+	background: url(../img/ico_log_01.png) no-repeat 3px 7px;
+}
+div.entry.log div.res {
+	border-color: #759;
+}
+div.entry.log h4,
+div.entry.log p.date {
+	color: #759;
+}
+
+/* ノート */
+div.entry.note {
+	border: solid 1px #c74;
+	background-color: #fefbf8;
+}
+div.entry.note h3 {
+	padding-left: 20px;
+	color: #c74;
+	background: url(../img/ico_note_01.png) no-repeat 3px 7px;
+}
+div.entry.note div.res {
+	border-color: #c74;
+}
+div.entry.note h4,
+div.entry.note p.date {
+	color: #c74;
+}
+
+/* サイト */
+div.entry.web {
+	border: solid 1px #57b;
+	background-color: #f9fdff;
+}
+div.entry.web h3 {
+	padding-left: 20px;
+	color: #57b;
+	background: url(../img/ico_web_01.png) no-repeat 3px 7px;
+}
+div.entry.web div.res {
+	border-color: #57b;
+}
+div.entry.web h4,
+div.entry.web p.date {
+	color: #57b;
+}
+
+/* 重要 */
+div.entry.important {
+	border: solid 1px #c56;
+	background-color: #fff6f9;
+}
+div.entry.important h3 {
+	padding-left: 20px;
+	color: #c56;
+	background: url(../img/ico_exclamation_01.png) no-repeat 3px 7px;
+}
+div.entry.important div.res {
+	border-color: #c56;
+}
+div.entry.important h4,
+div.entry.important p.date {
+	color: #c56;
+}
+
+/* ------------------------------------------------------------
+	データベースリストのテーブル
+------------------------------------------------------------ */
+table.dbList th,
+table.dbList td {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+/* 機材名のリンク */
+table.dbList td a {
+	font-size: 114%;
+}
+
+table.dbList tr:hover {
+	background-color: #ffd;
+}
+
+/* クラスでリストの画像を変える */
+table.dbList td.pa,
+table.dbList td.lighting,
+table.dbList td.cable,
+table.dbList td.stand,
+table.dbList td.accessory {
+	background: url(../img/ico_right_01.png) no-repeat 5px center;
+	margin: 0.25em 0;
+	padding-left: 21px;
+}
+
+table.dbList td.pa {
+	background-image: url(../img/ico_pa_01.png);
+}
+table.dbList td.lighting {
+	background-image: url(../img/ico_lighting_01.png);
+}
+table.dbList td.cable {
+	background-image: url(../img/ico_cable_01.png);
+}
+table.dbList td.stand {
+	background-image: url(../img/ico_stand_01.png);
+}
+table.dbList td.accessory {
+	background-image: url(../img/ico_accessory_01.png);
+}
+
+/* ------------------------------------------------------------
+	トピックパス
+------------------------------------------------------------ */
+ol.navTopicPath {
+	clear: both;
+	width: 450px;
+	margin: 0.5em 0;
+	font-size: 85%;
+}
+/* IEはpadding-bottomを増やしてborder-bottomを見せる */
+*+html ol.navTopicPath, * html ol.navTopicPath {
+	padding-bottom: 1px;
+}
+
+ol.navTopicPath li {
+	display: inline;
+	margin: 0;
+}
+
+ol.navTopicPath li a {
+	margin: 0;
+	padding: 0 12px 0 0;
+	background: url(../img/ico/right_12.png) no-repeat right center;
+}
+
+/* ------------------------------------------------------------
+	ページングナビゲーション
+------------------------------------------------------------ */
+div.navPaging {
+	width: 450px;
+	margin: 20px 0;
+}
+
+/* 次と前のナビゲーション */
+ul.navPrevNext {
+	clear: both;
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+ul.navPrevNext li.prev {
+	float: left;
+	padding: 0 0.5em 0 16px;
+	background: url(../img/ico/left_02.png) no-repeat left center;
+}
+/* IEはpadding-bottomを増やしてborder-bottomを見せる */
+*+html ul.navPrevNext li.prev, * html ul.navPrevNext li.prev {
+	padding-bottom: 1px;
+}
+
+ul.navPrevNext li.next {
+	list-style: none;
+	float: right;
+	padding: 0 16px 0 0.5em;
+	background: url(../img/ico/right_02.png) no-repeat right center;
+}
+/* IEはpadding-bottomを増やしてborder-bottomを見せる */
+*+html ul.navPrevNext li.next, * html ul.navPrevNext li.next {
+	padding-bottom: 1px;
+}
+
+/* clearfix*/
+ul.navPrevNext{
+	zoom:1;/*for IE 5.5-7*/
+}
+ul.navPrevNext:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+
+/* ------------------------------------------------------------
+	エラーメッセージ
+------------------------------------------------------------ */
+p.error {
+	color: #f39;
+	font-weight: bold;
+}
+
+/* ------------------------------------------------------------
+	変数表示テスト
+------------------------------------------------------------ */
+p.dev {
+	color: #000;
+	background-color: #fff;
+}
+

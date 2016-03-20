@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		IE PNG Fix.js用CSS
+		Site:		Advanced Creators 模擬店2008『はまーの手作りですけど、何か？』
+		Version:	1.0.0
+		Date:		2008.9.14
+		Author:		Advanced Creators <http://advancedcreators.undo.jp/>
+		
+	****************************************************************/
+
+
+/* div#header の background-imageに適用 */
+* html div#header {
+	behavior: expression(IEPNGFIX.fix(this));
+}

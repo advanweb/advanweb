@@ -1,0 +1,66 @@
+#+1196405742
+ll
+#+1196405746
+cd www/
+#+1196405752
+ll
+#+1196405768
+cd sche
+#+1196405771
+ll
+#+1196405783
+chmod 755 sche
+#+1196405790
+chmod 755 sche18.cgi
+#+1196405792
+ll
+#+1196405803
+cd schedata/
+#+1196405804
+ll
+#+1196405986
+pwd
+#+1196405989
+cd ../
+#+1196405996
+less sche18.cgi
+#+1196406056
+ssh kazuya@nepara.dip.jp
+#+1196406062
+ssh kazuya@neppara.dip.jp
+#+1196406169
+ssh kazuya@neppara.dip.jp
+#+1196406310
+pwd
+#+1196406318
+rm -r *
+#+1196406319
+ll
+#+1196406341
+fetch http://www.ns.neppa-ra.com/~kazuya/advan.tar.gz
+#+1196406349
+tar xvzf advan.tar.gz
+#+1196406351
+ll
+#+1196406394
+exit
+#+1196406434
+ll
+#+1196406442
+cd www
+#+1196406445
+ll
+#+1196406455
+emacs schedule.html
+#+1196406461
+vi schedule.html
+#+1196406581
+vi schedule.html
+#+1196406610
+cp schedule.html schedule0.html
+#+1196406614
+vi schedule.html
+#+1196406637
+vi schedule.html
+#+1196406800
+logout

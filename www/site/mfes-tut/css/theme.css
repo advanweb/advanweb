@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		4. サイトテーマスタイルシート
+		Site:		MUSIC FES@TUT
+		Version:	1.0.7
+		Date:		2007.11.15
+		Author:		MUSIC FES@TUT <http://mfes-tut.undo.jp/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	4.1 ページレイアウト
+============================================================ */
+
+/* ------------------------------------------------------------
+	4.1.1 ページ全体
+------------------------------------------------------------ */
+html,
+body {
+	height: 100%;
+}
+
+body {
+	padding: 0;
+	color: #fff;
+	background: #070707 url(../img/bg/pagebody.jpg) repeat-y center center;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+/* ------------------------------------------------------------
+	4.1.2 コンテナ　表示領域
+------------------------------------------------------------ */
+div#container {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+}
+
+/* ------------------------------------------------------------
+	4.1.4 ヘッダー
+------------------------------------------------------------ */
+div#header {
+	margin: 0 40px;
+	padding: 20px 0 0 0;
+}
+
+/* ------------------------------------------------------------
+	4.1.4 (1) サイトタイトル
+------------------------------------------------------------ */
+div#header h1 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+div#header h1 a {
+	border: none;
+	background: none;
+	text-decoration: none;
+}
+
+div#header .logo {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* ステッカー */
+div#header p.sticker {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+/* ------------------------------------------------------------
+	4.1.4 (2) グローバルナビゲーション
+------------------------------------------------------------ */
+ul#gNav {
+	width: 720px;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+ul#gNav li {
+	list-style-type: none;
+	float: left;
+	width: 120px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	background: none;
+	line-height: 32px;
+}
+
+/* リンクの設定 */
+ul#gNav li a {
+	display: block;
+	width: 120px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-image: url(../img/btn/gnav.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+ul#gNav li.top a {
+	background-position: 0px -32px;
+}
+ul#gNav li.about a {
+	background-position: -120px -32px;
+}
+ul#gNav li.circle a {
+	background-position: -240px -32px;
+}
+ul#gNav li.time a {
+	background-position: -360px -32px;
+}
+ul#gNav li.access a {
+	background-position: -480px -32px;
+}
+ul#gNav li.contact a {
+	background-position: -600px -32px;
+}
+
+ul#gNav li a:hover {
+	/* background-color: #531; */ /* for IE */
+}
+ul#gNav li a:hover img {
+	visibility: hidden; /* hidden img */
+}
+
+ul#gNav li a img {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ------------------------------------------------------------
+	4.1.5 スプラッシュ
+------------------------------------------------------------ */
+div#splash.flash {
+	clear: both;
+	margin: 0;
+	padding: 10px 0 0 0;
+	border: 0;
+}
+
+div#splash.flash object,
+div#splash.flash embed {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div#splash.image {
+	clear: both;
+	margin: 0 40px;
+	padding: 10px 0 0 0;
+	border: 0;
+}
+
+div#splash.image h2 {
+	margin: 0;
+	padding: 0;
+}
+	
+/* for IE<6.0 */
+* html div#splash.image h2 {
+	text-align: center;
+}
+
+
+/* ------------------------------------------------------------
+	4.1.6 コンテンツ
+------------------------------------------------------------ */
+div#contents {
+	width: 720px;
+	padding: 0 40px 0;
+}
+
+/* clearfix */
+div#contents{
+	zoom: 1;/*for IE 5.5-7*/
+}
+div#contents:after{/*for modern browser*/
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+
+/* ------------------------------------------------------------
+	4.1.6 メインカラム
+------------------------------------------------------------ */
+div#mainCol {
+	margin: 0;
+	color: inherit;
+}
+
+
+/* ------------------------------------------------------------
+	4.1.7 サブカラム
+------------------------------------------------------------ */
+div#subCol {
+	margin: 0;
+	color: inherit;
+}
+
+/* カテゴリーリスト (dt: カテゴリー名, dd: 項目) */
+div#subCol dl {
+	border: none;
+	margin: 1em 0 2em 0;
+}
+
+/* カテゴリー名 */
+div#subCol dt {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+/* 項目 */
+div#subCol dd {
+	margin: 0;
+	padding: 0.25em 10px 2em 10px;
+}
+
+div#subCol dd ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* 項目内のdl */
+div#subCol dl dl {
+	margin: 0.25em 0;
+	padding: 0;
+}
+
+div#subCol dl dl dt {
+	height: auto;
+	line-height: 1.6;
+	overflow: auto;
+	margin: 0;
+	padding: 0 5px;
+	border: none;
+	font-weight: bold;
+}
+
+div#subCol dl dl dd {
+	margin: 0;
+	padding: 0 18px;
+	background: none;
+}
+
+/* ------------------------------------------------------------
+	4.1.7 フッター
+------------------------------------------------------------ */
+div#footer {
+	padding: 1em 0 20px;
+	font-size: 85%;
+	text-align: center;
+}
+
+div#footer hr {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/* Global Navigation */
+div#footer ul.gNav {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+div#footer ul.gNav li {
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 11px;
+	background: transparent url(../img/ico/bull.gif) 3px center no-repeat;
+}
+div#footer ul.gNav li.top {
+	background: none;
+}
+
+/* addressにコピーライトなどを */
+div#footer address {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+/* ============================================================
+	4.2 コンテンツ内で使われるデザインモジュール
+============================================================ */
+
+/* 画像のfloat */
+img.img.left,
+p.img.img.left {
+	float: left;
+	clear: left;
+	margin: 0 15px 10px -15px;
+}
+img.img.right,
+p.img.img.right {
+	float: right;
+	clear: right;
+	margin: 0 -15px 10px 15px;
+}

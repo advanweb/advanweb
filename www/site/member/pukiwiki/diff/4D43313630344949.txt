@@ -1,0 +1,96 @@
+ #nofollow
+ #norelated
+ * MC1604II [#eaadd758]
+ YAMAHA社が販売してるミキシングコンソール。~
+ 現在[[アドバン>Advanced Creators]]の持っている16chコンソールでは最大の大きさと、重量。 ~
+ また、現在のアドバン最古のコンソールでもある。 ~
+-製造年は1991年なのでGAよりも古い。 ~
++製造年は1991年なので[[GA32/12]]よりも古い。 ~
+ 
+-これもまた、[[GA32/12]]と同じくケースが重い。しかし、MC1604IIはGAよりは軽いため、２人で運ぶことができる。 ~
++これもまた、GAと同じくケースが重い。しかし、MC1604IIはGAよりは軽いため、２人で運ぶことができる。 ~
+ 置く場合もGAと同じく底(ケースの薄い側)側を壁にもたれかけさせないと倒れる危険性がある。 ~
+ 設置はキャスター側を奥(キャスターなし側を操作する人がいるほう)にする。 ~
+ 
+ 16ch卓としては優秀で、MATRIX OUT、AUX OUT(1,2)、GROUP OUTにおいてXLRコネクターでのバランス転送ができる。 ~
+ AUXはすべてのチャンネルでプリフェーダーなので、AUXを返し用の出力として使う場合は便利かもしれない。 ~
+ メーターはVUメーターを採用しているのでより人に近い感覚でレベルを見ることができる。 ~
+ 各インプットチャンネルはすべてモノラルで構成されていて、なおかつすべてXLRコネクタで接続可能。なので、バランス転送ができモノラル入力の多いバンドものの時に役に立つこと受けあいだろう。 ~
+ ファンタムは４チャンネルごとにかけることができ、ハイインピーダンス入力時にはかからない。 ~
+ 
+ 
+ ** 諸元 [#p42f90f0]
+ ***一般仕様 [#b707d3fe]
+ | 周波数特性 |>| 20Hz〜20kHz 0-3dB,0+1dB(&#64;600Ω,+4dB) |
+ | 全高調波歪率 |>| 0.1%以下(20Hz〜20kHz&#64;600Ω,+14dB) |
+ | ノイズレベル((&#64;12.7kHz,-6dB/oct.のLPFで補正)) | 入力換算ノイズ | -128dB(Rs=150Ω) |
+ |~| 残留ノイズ | −97dB |
+ |~| GROUP OUT | -80dB マスターフェーダー→nominal&br;All CHアサインスイッチ→off |
+ |~|~| -64dB マスターフェーダー→nominal&br;Oneチャンネルフェーダー→nominal |
+ |~| STEREO OUT | -79dB マスターフェーダー→nominal&br;All CHアサインスイッチ→off |
+ |~|~| -64dB マスターフェーダー→nominal&br;Oneチャンネルフェーダー→nominal |
+ |~| AUX OUT | -77dB AUX OUTコントロール→nominal&br;All Input CH AUXコントロール→minimum |
+ |~|~| -64dB AUX OUTコントロール→nominal&br;One Input CH AUXコントロール→nominal |
+ |~| MATRIX OUT | -92dB MATRIX OUTコントロール→nominal&br;All MATRIXミックスコントロール→minimum |
+ | 最大電圧利得 | CH IN→GROUP OUT | 84dB |
+ |~| CH IN→STEREO OUT(CH to STEREO) | 84dB |
+ |~| CH IN→STEREO OUT(GROUP to STEREO) | 94dB |
+ |~| CH IN→AUX OUT(Pre Fader) | 76dB |
+ |~| CH IN→AUX OUT(Post Fader) | 86dB |
+ |~| CH IN→CH INSERT OUT | 60dB |
+ |~| TAPE IN→GROUP OUT | 34dB |
+ |~| RETURN→GROUP OUT | 74dB |
+ |~| TALKBACK IN→GROUP OUT | 74dB |
+ |~| SUB IN→GROUP,STEREO | 10dB |
+ |~| SUB IN→AUX OUT | 6dB |
+ | ゲインコントロール |>| 44dB Variable |
+ | PADスイッチ |>| 0/20dB |
+ | イコライザー特性 |>| HIGH EQ ±15dB(10kHzシェルビング)&br;HIGH MID EQ ±15dB(400Hz〜8kHzピーキング)&br;LOW MID EQ ±15dB(80Hz〜1.6kHzピーキング)&br;LOW EQ ±15dB(100Hzシェルビング) |
+ | ハイパスフィルター |>| 12dB/oct. roll-off 80Hz |
+ | クロストーク(1kHz) |>| -70dB&#64;adjacent input&br;-70dB&#64;input to output |
+ | VUメーター |>| GROUP1/AUX1,GROUP2/AUX2,&br;GROUP3/AUX3,GROUP4/AUX4,&br;MATRIX1/CUE L,MATRIX2/CUE R,STEREO L・R&br;(0VU=+4dB)|
+ | インジケーター |>| CH PEAK クリッピングの3dB手前で点灯(Post EQ) &br;CUE SIGNAL 規定レベルの20dB手前で点灯 |
+ | PHANTOM電源 |>| +48V(DC) |
+ | 電源 |>| AC100V,50/60Hz |
+ | 消費電力 |>| 70W |
+ | 寸法(W×H×D) |>| 923×185×739mm |
+ | 重量 |>| 29kg|
+ 
+ 
+ ***入力仕様 [#w8464b14]
+ |>|>| 入力端子 | 入力インピーダンス | ソースインピーダンス |>|>| 入力レベル | 使用コネクター |
+ | | PAD | GAIN |~|~| 感度((規定レベル(+4dB)を得るために必要なレベルを示す)) | 規定レベル | 最大ノンクリップレベル |~|
+ |CH INPUT&br;(1〜16)| 0dB | -60dB | (LO-Z)5kΩ&br;(HI-Z)10kΩ | 50〜600Ω&br;Microphones&br;&600ΩLines | -80dB(0.08mV) | -60dB(0.78mV) | -40dB(7.75mV) | (LO-Z)XLR-3-31type(Balanced)&br;(HI-Z)PHONE JACK(Balanced)(TRS)((HI-Z CH INPUT Phone Jacks (T=HOT,R=COLD,S=GND) )) |
+ |~| 0dB | -16dB |~|~| -44dB(4.89mV) | -16dB(0.123V) | 0dB(0.775V) |~|
+ |~| 20dB |~|~|~| -24dB(48.9mV) | +4dB(1.23V) | +20dB(12.3V) |~|
+ |>|>| CH INSERT IN(1〜16) | 10kΩ | 600ΩLines | -20dB(77.5mV) | 0dB(0.775V) | +20dB(7.75V) | Phone Jack(TRS)((Insert Phone Jacks(T=OUT,R=IN,S=GND)) |
+ |>|>| INSERT IN&br;GROUP(1〜4)&br;STEREO(L,R) | 10kΩ | 600ΩLines | -10dB(245mV) | 0dB(0.775V) | +20dB(7.75V) | Phone Jack(TRS)((Insert Phone Jacks(T=OUT,R=IN,S=GND)) |
+ |>|>| RETURN(1,2)[L,R] | 20kΩ((LまたはRのどちらかを使用する時は10kΩ)) | 600ΩLines | -16dB(123mV) | +4dB(1.23V) | +24dB(12.3V) | Phone Jack(Unbalanced) |
+ |>|>| SUB IN&br;(GROUP 1〜4&br;STEREO [L,R]&br;AUX 1〜4) | 10kΩ | 600ΩLines | -6dB(338mV) | +4dB(1.23V) | +24dB(12.3V) | Phone Jack(Unbalanced) |
+ |>|>| TALKBACK IN | 10kΩ | 50〜600ΩMicrophones | -70dB(0.25mV) | -50dB(2.45mV) | -26dB(38.8mV) | XLR-3-31type(Unbalanced) |
+ |>|>| TAPE IN(1,2) [L,R] | 47kΩ | 600ΩLines | -30dB(24.5mV) | -10dB(0.245V) | +20dB(7.75V) | RCA PIN Jack(Unbalanced) |
+ &#8226; 0dB=0.775Vrms.
+ 
+ 
+ ***出力仕様 [#i769c1a6]
+ | 出力端子 | 出力インピーダンス | 負荷インピーダンス |>| 出力レベル | 使用コネクター |
+ |~|~|~| 規定レベル | 最大ノンクリップレベル |~|
+ | GROUP OUT(1〜4) | 150Ω | 600ΩLines | +4dB(1.23V) | +24dB(12.3V) | XLR-3-32type(Balanced) |
+ | STEREO OUT(L,R) | 150Ω | 600ΩLines | +4dB(1.23V) | +24dB(12.3V) | XLR-3-32type(Balanced) |
+ | AUX OUT(1,2) | 150Ω | 600ΩLines | +4dB(1.23V) | +24dB(12.3V) | XLR-3-32type(Balanced) |
+ | AUX OUT(3,4) | 75Ω | 600ΩLines | +4dB(1.23V) | +20dB(7.75V) | Phone Jack(Unbalanced) |
+ | MATRIX OUT(1,2) | 150Ω | 600ΩLines | +4dB(1.23V) | +24dB(12.3V) | XLR-3-32type(Balanced) |
+ | CH INSERT OUT | 600Ω | 10kΩLines | 0dB(0.775V) | +20dB(7.75V) | Phone Jack(TRS)((Insert Phone Jacks(T=OUT,R=IN,S=GND) )) |
+ | INSERT OUT&br;GROUP(1〜4)&br;STEREO(L,R) | 600Ω | 10kΩLines | 0dB(0.775V) | +20dB(7.75V) | Phone Jack(TRS)((Insert Phone Jacks(T=OUT,R=IN,S=GND) )) |
+ | REC OUT(L,R) | 600Ω | 47kΩLines | -10dB(0.245V) | +10dB(2.45V) | RCA PIN Jack(Unbalanced) |
+ | PHONES OUT(L,R) | 100Ω | 8ΩPhones | 1mW | 20mW | Stereo Phone Jack |
+ |~|~| 40ΩPhones | 3mW | 75mW |~|
+ &#8226;0dB=0.775Vrms.
+ 
+ 
+ ** 取扱説明書 [#u75732d4]
+ 
+ ** 関連ページ [#xe700a48]
+ 
+ #ls2
+ - [[InterWikiName]] -- [[InterWiki]]のサーバリスト

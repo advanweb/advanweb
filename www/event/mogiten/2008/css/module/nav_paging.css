@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		ページングナビゲーション
+		Site:		Advanced Creators 模擬店2008『はまーの手作りですけど、何か？』
+		Version:	1.0.0
+		Date:		2008.4.15
+		Author:		Advanced Creators <http://advancedcreators.undo.jp/>
+		
+	****************************************************************/
+
+
+div.navPaging {
+	width: 450px;
+	margin: 20px 0;
+}
+
+/* 次と前のナビゲーション */
+ul.navPrevNext {
+	clear: both;
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+ul.navPrevNext li.prev {
+	float: left;
+	padding: 0 0.5em 0 16px;
+	background: url(../../img/ico/left_02.png) no-repeat left center;
+}
+/* IEはpadding-bottomを増やしてborder-bottomを見せる */
+*+html ul.navPrevNext li.prev, * html ul.navPrevNext li.prev {
+	padding-bottom: 1px;
+}
+
+ul.navPrevNext li.next {
+	list-style: none;
+	float: right;
+	padding: 0 16px 0 0.5em;
+	background: url(../../img/ico/right_02.png) no-repeat right center;
+}
+/* IEはpadding-bottomを増やしてborder-bottomを見せる */
+*+html ul.navPrevNext li.next, * html ul.navPrevNext li.next {
+	padding-bottom: 1px;
+}
+
+/* clearfix*/
+ul.navPrevNext{
+	zoom:1;/*for IE 5.5-7*/
+}
+ul.navPrevNext:after{/*for modern browser*/
+	content:".";
+	display: block;
+	height:0px;
+	clear:both;
+	visibility:hidden;
+}
+

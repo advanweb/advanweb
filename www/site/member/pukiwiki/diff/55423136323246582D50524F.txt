@@ -1,0 +1,73 @@
+ #nofollow
+ #norelated
+ * UB1622FX-PRO [#md0d55ca]
+ BEHRINGERが販売してる[[ミキシングコンソール]]。~
+ [[アドバン>Advanced Creators]]にある12chコンソール。 ~
+ 
+ いろいろなエフェクトが付いている。 ~
+ 軽いよ！ ~
+ こねこ現場で大人気。 ~
+ 
++[[ProMix 01]]が盗難に遭い、その後なぜかこのUB1622FX-PROになって帰ってきたという、謎の経歴を持つ。 ~
++
+ ** 諸元 (編集中(現在正しくないデータです))[#j44b3d40]
+ *** 一般仕様 [#s0e0c16c]
+ //コピペを編集したので抜けてたりします。見つけたら直してくだしあ
+ | 周波数特性(ST OUT) |>| 20Hz〜20kHz+1dB,-3dB&#64;+4dBu((0dBu=0.775V,0dBV=1Vとする)),600Ω(GAINコントロール=最小レベル) |
+ | 全高調波歪率(THD) |>| 0.1%(THD+N)&#64;+14dBu,20Hz〜20kHz,600Ω(GAINコントロール=最小レベル) |
+ | ハム&ノイズ((Rs=150Ω&#64;21.7kHz,-6dB/oct.のローパスフィルターにて測定(&#64;20kHz,-∞dB/oct.フィルターに相当) )) | -128dBu | 入力換算ノイズ(CH1〜8) |
+ |~| -100dBu | 残留ノイズ(ST OUT) |
+ |~| -88dBu(92dB S/N) | ST OUT,GROUP OUT&br;マスターフェーダー=ノミナル、&br;全チャンネルアサインスイッチ=OFF |
+ |~| -81dBu(85dB S/N) | AUX,EFFECTマスターコントロール=ノミナル、&br;全チャンネルミックスコントロール=最小レベル |
+ |~| -64dBu(68dB S/N) | ST OUT,GROUP OUT&br;マスターフェーダー＆1チャンネルフェーダー=ノミナル(CH1〜8) |
+ | 最大電圧ゲイン((PAN/BAL左か右へ回す)) |>|60dB CH MIC INPUT→CH INSERT OUT&br;84dB CH MIC INPUT→GROUP OUT/ST OUT(CH to ST)&br;94dB CH MIC INPUT→ST OUT(GROUP to ST)&br;62.2dB CH MIC INPUT→REC OUT(CH to ST)&br;76dB CH MIC INPUT→AUX SEND(PRE)&br;86dB CH MIC INPUT→AUX SEND(POST)/EFFECT SEND&br;58dB CH LINE INPUT→GROUP OUT/ST OUT(CH to ST)&br;84dB ST CH MIC INPUT→GROUP OUT/ST OUT(CH to ST)&br;58dB ST CH LINE INPUT→GROUP OUT/ST OUT(ST to ST)&br;47dB ST CH LINE INPUT→AUX SEND(PRE)&br;57dB ST CH LINE INPUT→AUX SEND(POST)/EFFECT SEND&br;34dB ST CH INPUT→GROUP OUT/ST OUT(ST to ST)&br;16dB AUX RETURN→ST OUT&br;9dB AUX RETURN→AUX SEND&br;27.8dB 2TR INPUT→ST OUT |
+ | モノラル、ステレオインプットゲインコントロール |>| 44 dB 可変 |
+ | モノラル、ステレオハイパスフィルター |>| 80Hz12dB/octave |
+ | クロストーク (1 kHz) |>| &#8211;70 dB 入力チャンネル間&br;&#8211;70 dB 入出力チャンネル間（CH INPUT） |
+ | モノラル入力チャンネルイコライザー特性&br;最大可変幅(CH1〜8) ((シェルビングタイプのターンオーバー / ロールオフ周波数：最大可変幅に対し3dB下がったポイント)) |>| ±15dB&br;HIGH 10kHz シェルビングタイプ&br;MID 0.25 〜 5kHzピーキングタイプ&br;LOW 100Hz シェルビングタイプ |
+ |ステレオ入力チャンネルイコライザー特性&br;最大可変幅(CH9/10 〜 15/16) ((シェルビングタイプのターンオーバー / ロールオフ周波数：最大可変幅に対し3dB下がったポイント)) |>| ±15dB&br;HIGH 10kHz シェルビングタイプ&br;HI-MID 3kHz ピーキングタイプ&br;LO-MID 800Hz ピーキングタイプ&br;LOW 100 Hz シェルビングタイプ |
+ | グラフィックイコライザー |>| 7バンド(125,250,500,1k,2k,4k,8k)&br;最大可変幅 ±12dB |
+ | 内蔵デジタルエフェクト |>| 16プログラム、パラメーターコントロール |
+ | モノラル、ステレオインプットピークインジケーター |>| 各チャンネル、イコライザー(およびMICアンプ:ST CH)の後段において、&br;どちらか一方の信号レベルがクリッピングの手前3dBに達すると赤く点灯 |
+ | レベルメーター |>| 12ポイントLED×2[ステレオ(L,R)]&br;ピーク時:赤のインジケーター&br;+5,+3,+1,0:黄のインジケーター&br;&#8211;1,&#8211;3,&#8211;5, &#8211;7,&#8211;10,&#8211;15,&#8211;20:緑のインジケーター |
+ | ファンタム電源+48VDC(バランス入力) |>| PHANTOM+48Vスイッチ＝ONで供給 |
+ | 付属品 |>| 電源アダプター (PA-30) |
+ | 電源 |>|100V AC 50/60Hz |
+ | 消費電力 |>| 51W |
+ | 最大外形寸法(W×H×D) |>| 423×108×416.6mm |
+ | 質量 |>| 5.5 kg |
+ //書くの疲れた・・・
+ 
+ 
+ ***入力仕様 [#d3fdad71]
+ | 入力端子名称 | ゲイン | 入力&br;インピーダンス | 適合インピーダンス | 感度((入力感度：最大ゲイン測定時に定格出力が得られる最小レベル)) | 規定レベル | 最大ノンクリップレベル | 端子仕様 |
+ | MIC INPUT(CH1〜8) | -60 | 3kΩ | 50〜600Ωマイク | -80dBu(0.078mV) | -60dBu(0.775mV) | -40dBu(7.75mV) | XLR-3-31タイプ&br;(バランス型) |
+ |~| -16 |~|~| -36dBu(12.3mV) | -16dBu(123mV) | +4dBu(1.23V) |~|
+ | LINE INPUT(CH1〜8) | -34 | 10kΩ | 600Ωライン | -54dBu(1.55mV) | -34dBu(15.5mV) | 14dBu(155mV) | フォーンジャック(TRS)&br;(バランス型[T:ホット,&br;R:コールド,S:グラウンド]) |
+ |~| +10 |~|~| -10dBu(245mV) | +10dBu(2.45V) | +30dBu(24.5V) |~|
+ | ST CH MIC INPUT&br;(CH9(L)/CH10(R),&br;CH11(L)/CH12(R)) | -60 | 3kΩ | 50〜600Ωマイク | -80dBu(0.078mV) | -60dBu(0.775mV) | -40dBu(7.75mV) | XLR-3-31タイプ&br;(バランス型) |
+ |~| -16 |~|~| -36dBu(12.3mV) | -16dBu(123mV) | -10dBu(245mV) |~|
+ | ST CH LINE INPUT&br;(CH9(L)/CH10(R),&br;CH11(L)/CH12(R)) | -34 | 10kΩ | 600Ωライン | -54dBu(1.55mV) | -34dBu(15.5mV) | -14dBu(155mV) | フォーンジャック&br;(アンバランス型) |
+ |~| +10 |~|~| -10dBu(245mV) | +10dBu(2.45V) | +30dBu(24.5V) |~|
+ | ST CH INPUT&br;(CH13(L)/CH14(R),&br;CH15(L)/CH16(R)) | | 10kΩ | 600Ωライン | -30dBu(24.5mV) | -10dBu(245mV) | +10dBu(2.45V) | フォーンジャック&br;(アンバランス型),&br;RCAピンジャック |
+ | CH INSERT IN&br;(CH1〜8) | | 10kΩ | 600Ωライン | -20dBu(77.5mV) | 0dBu(0.775V) | +20dBu(7.75V) | フォーンジャック(TRS)&br;(アンバランス型&br;[T:アウト,R:イン,S:グラウンド]) |
+ | AUX RETURN(L,R) | | 10kΩ | 600Ωライン | -12dBu(195mV) | +4dBu(1.23V) | +24dBu(12.3V) | フォーンジャック(TRS)&br;(アンバランス型&br;[T:アウト,R:イン,S:グラウンド]) |
+ | 2TR IN(L,R) | | 10kΩ | 600Ωライン | -26dBV(50.1mV) | -10dBV(316mV) | +10dBV(3.16V) | RCAピンジャック |
+ &#8226;0dBu=0.775V,0dBV=1Vとする。
+ 
+ *** 出力仕様 [#t5f97a70]
+ | 出力端子名称 | 出力インピーダンス | 適合インピーダンス | 規定レベル | 最大ノンクリップレベル | 端子仕様 |
+ | ST OUT(L,R) | 150Ω | 600Ωライン | +4dBu(1.23V) | +24dBu(12.3V) | XLR-3-32タイプ(バランス型)&br;フォーンジャック(TRS)&br;(バランス型&br;[T:ホット,R:コールド,S:グラウンド]) |
+ | GROUP OUT(1-4)&br;AUX SEND(1-2)&br;EFFECT SEND | 150Ω | 10kΩライン | +4dBu( 1.23V) | +20dBu(7.75V) | フォーンジャック(TRS)&br;(インピーダンスバランス型&br;[T:ホット, R:コールド,S:グラウンド]) |
+ | CH INSERT OUT&br;(CH1〜8) | 150Ω | 10kΩライン | 0dBu(0.775V) | +20dBu(7.75V) | フォーンジャック(TRS)&br;(アンバランス型&br;[T:アウト,R:イン,S:グラウンド]) |
+ | REC OUT(L,R) | 600Ω | 10kΩライン | &#8211;10dBV(316mV) | +10dBV(3.16V) | RCAピンジャック |
+ | C-R OUT(L,R) | 150Ω | 10kΩライン | +4dBu(1.23V) | +20dBu(7.75V) | フォーンジャック(TRS)&br;(インピーダンスバランス型&br;[T:ホット,R:コールド,S:グラウンド]) |
+ | PHONES | 100Ω | 40Ωフォーン | 3mW | 75mW | ステレオフォーンジャック |
+ &#8226;0dBu=0.775V,0dBV=1Vとする。
+ 
+ ** 取扱説明書 [#gf206023]
+ 
+ ** 関連ページ [#j9f5a800]
+ 
+ #ls2
+ - [[InterWikiName]] -- [[InterWiki]]のサーバリスト

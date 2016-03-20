@@ -1,0 +1,41 @@
+ * 色 [#m7e4108e]
+ 
+ ** 抵抗 [#j87e421e]
+ 抵抗のカラーコード。覚えておくと便利です。色を数字で例える時この順に則ってる時が多いです。 ~
+ 
+ | 番号 | 色 |
+ | 0 |BGCOLOR(black):COLOR(white):黒 |
+ | 1 |BGCOLOR(brown):COLOR(white):茶 |
+ | 2 |BGCOLOR(red):COLOR(white):赤 |
+ | 3 |BGCOLOR(orange):COLOR(black):橙 |
+ | 4 |BGCOLOR(yellow):COLOR(black):黄 |
+ | 5 |BGCOLOR(green):COLOR(white):緑 |
+ | 6 |BGCOLOR(blue):COLOR(white):青 |
+ | 7 |BGCOLOR(purple):COLOR(white):紫 |
+ | 8 |BGCOLOR(gray):COLOR(white):灰 |
+ | 9 |BGCOLOR(white):COLOR(black):白 |
+ | 0.1 |BGCOLOR(gold):COLOR(black):金 |
+ | 0.01 |BGCOLOR(silver):COLOR(black):銀 |
+ 
+ ** 照明 [#q17fddc3]
+ 照明も概ね同じ色順でできている。 ~
+ 1桁目で色、2桁目で濃さを示し、濃さは数字が大きくなるほど薄くなる。 ~
+ | 10番台 |BGCOLOR(pink):COLOR(black):ピンク |
+ | 20番台 |BGCOLOR(red):COLOR(white):赤 |
+ | 30番台 |BGCOLOR(orange):COLOR(black):アンバー |
+ | 40番台 |BGCOLOR(yellow):COLOR(black):黄 |
+ | 50番台 |BGCOLOR(green):COLOR(white):緑 |
+ | 60番台 |BGCOLOR(#088):COLOR(white):青緑 |
+ | 70番台 |BGCOLOR(blue):COLOR(white):青 |
+ | 80番台 |BGCOLOR(purple):COLOR(white):紫 |
+ | 0番台 | 透明 |
+ | 00番台 | 半透明 |
++&ref(color.jpg);
+ 
+ 色のない生あかりは、「生」や「W(ホワイト)」と表現します。 ~
+ 海外製品のフィルターになるとバラバラの番号なので覚えづらい。 ~
+ 
+ ** 音響 [#l74122ac]
+ 先バラマルチスネークの色番号は上記抵抗のカラーコードに準拠している。 ~
+ またマルチケーブル内の芯線の皮膜もこの色順に準拠している。 ~
+ そのようなマルチスネークを使う現場では順番をこの順にしておくと誰もがわかりやすくパッチできるようになる。 ~

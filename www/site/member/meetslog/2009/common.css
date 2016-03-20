@@ -1,0 +1,383 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		3. サイト共通スタイルシート
+		Site:		Advanced Creators
+		Version:	1.0.3
+		Date:		2007.9.25
+		Author:		Advanced Creators <http://sound.jp/advancedcreators/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	3.1 要素の再設定
+============================================================ */
+
+/* ------------------------------------------------------------
+	ハイパーリンク
+------------------------------------------------------------ */
+/* ハイパーリンク */
+a {
+	border-color: #f70;
+	color: #f70;
+}
+
+/* 訪問済み */
+a:visited {
+	border-color: #eb4;
+	color: #eb4;
+}
+
+/* マウスオーバー、アクティブ */
+a:hover,
+a:active {
+	border-color: #fff;
+	color: #ff9;
+	background-color: #531;
+}
+
+/* ------------------------------------------------------------
+	見出し
+------------------------------------------------------------ */
+/* サイトタイトル */
+h1 {
+	color: #eee;
+}
+
+h1 a,
+h1 a:visited,
+h1 a:hover,
+h1 a:active {
+	border-color: #eee;
+	color: #eee;
+}
+
+/* ページタイトル */
+h2,
+h2 a {
+	color: #ddd;
+}
+h2 {
+	font-size: 136%;
+	margin: 0;
+}
+
+/* コンテンツ大見出し */
+h3,
+h3 a {
+	color: #aae;
+}
+h3 {
+	margin-left: -24px;
+	margin-right: -24px;
+	padding: 0 24px 1px;
+	border-bottom: 1px dotted #bbb;
+	background: url(../img/ico/music.png);
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+}
+
+/* コンテンツ小見出し */
+h4,
+h4 a{
+	color: #dd9;
+}
+h4 {
+	margin-left: -16px;
+	margin-right: -16px;
+	padding: 0 16px;
+	background: url(../img/ico/asterisk.png);
+	background-repeat: no-repeat;
+	background-position: 2px 5px;
+}
+
+h1 a:hover, h1 a:active,
+h2 a:hover, h2 a:active,
+h3 a:hover, h3 a:active,
+h4 a:hover, h4 a:active,
+h5 a:hover, h5 a:active,
+h6 a:hover, h6 a:active {
+	border-color: #fff;
+	color: #ff9;
+	background-color: #531;
+}
+
+/* ------------------------------------------------------------
+	強調
+------------------------------------------------------------ */
+strong {
+	color: #f69;
+}
+
+/* ------------------------------------------------------------
+	リスト
+------------------------------------------------------------ */
+/* 画像を適用 */
+ul li {
+	list-style-type: none;
+	background-image: url(../img/ico/right.png);
+	background-repeat: no-repeat;
+	background-position: 2px 5px;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+	margin-left: 0;
+	padding-left: 18px;
+}
+
+/* 2階層以降 */
+ul ul,
+ol ul {
+	margin: 0.5em 0;
+}
+
+ul ul li,
+ol ul li {
+	list-style-type: none;
+	background-image: url(../img/ico/disc.png);
+}
+
+ul ul ul,
+ul ol ul,
+ol ul ul,
+ol ol ul {
+	margin: 0.5em 0;
+}
+
+ul ul ul li,
+ul ol ul li,
+ol ul ul li,
+ol ol ul li {
+	list-style-type: none;
+	background-image: url(../img/ico/circle.png);
+}
+
+/* ------------------------------------------------------------
+	定義リスト
+------------------------------------------------------------ */
+/* 画像を適用 */
+dt {
+	list-style-type: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #dd9;
+	background: transparent url(../img/ico/disc.png) no-repeat 4px 5px;
+}
+
+/* ------------------------------------------------------------
+	表
+------------------------------------------------------------ */
+table, td, tr, th {
+	color: #eee;
+	border-color: #999;
+}
+
+th {
+	color: #aae;
+	background-color: #013;
+}
+
+/* ------------------------------------------------------------
+	フォーム部品
+------------------------------------------------------------ */
+
+/* テキスト入力系に横幅指定 */
+input[type="text"],
+input[type="password"] {
+	width: 10em;
+}
+
+textarea {
+	width: 20em;
+}
+
+/* ------------------------------------------------------------
+	水平線
+------------------------------------------------------------ */
+
+/* 画像を適用 */
+hr {
+	border: none;
+	background: transparent url(../img/bg/hr_01.png) repeat-x -2px;
+}
+
+/* IE(7含む)は画像ではなくdashed */
+*+html body hr,
+* html body hr {
+	border-width: 1px 0 0 0;
+	border-style: dashed;
+	border-color: #99c;
+	background: none;
+}
+
+
+/* ------------------------------------------------------------
+	インラインフレーム
+------------------------------------------------------------ */
+iframe {
+	border: none;
+}
+
+
+/* ============================================================
+	3.2 サイト共通デザインモジュール
+============================================================ */
+
+/* ------------------------------------------------------------
+	補足テキスト
+------------------------------------------------------------ */
+.aux {
+	color: #999;
+	font-size: 85%;
+}
+
+/* ------------------------------------------------------------
+	戻るナビゲーション
+------------------------------------------------------------ */
+.navBack {
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+	text-align: right;
+}
+.navBack li {
+	display: inline;
+	background: url(../img/ico/left_01.png) no-repeat 2px center;
+}
+
+/* ------------------------------------------------------------
+	補足ナビゲーション
+------------------------------------------------------------ */
+.navAux {
+	margin-top: -0.5em;
+	margin-bottom: 0.5em;
+	text-align: right;
+}
+.navAux li {
+	display: inline;
+	background-position: 2px center;
+}
+
+/* ------------------------------------------------------------
+	パンくずリスト
+------------------------------------------------------------ */
+ol.topicPath {
+	margin: 0.5em 10px;
+	padding: 0;
+}
+
+ol.topicPath li {
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+/* >を追加 */
+ol.topicPath li+li {
+	background: url(../img/ico/right_12.png) no-repeat 2px center;
+	margin-left: 0;
+	padding-left: 15px;
+}
+
+/* ------------------------------------------------------------
+	dlの横並びリストスタイル
+------------------------------------------------------------ */
+dl.list,
+dl.list dt,
+dl.list dd,
+dl.listLong,
+dl.listLong dt,
+dl.listLong dd {
+	border-width: 0;
+	border-style: dotted;
+	border-color: #999;
+}
+
+dl.list dt,
+dl.listLong dt {
+	width: 6em;
+	float: left;
+	clear: left;
+	margin: 0;
+	padding: 5px 0.5em 0px 0.5em;
+	background: none;
+}
+	
+dl.list dd,
+dl.listLong dd {
+	margin: 0;
+	padding: 5px 0.5em 0px 7.5em;
+	border-width: 0 0 1px 0;
+}
+
+/* clear fix */
+dl.list,
+dl.listLong {
+	zoom: 1;/*for IE 5.5-7*/
+}
+dl.list:after,
+dl.listLong:after {/*for modern browser*/
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+/* .listLong*/
+dl.listLong dt {
+	width: 10em;
+}
+
+dl.listLong dd {
+	padding-left: 11.5em;
+}
+
+/* ------------------------------------------------------------
+	フロートのクリア
+------------------------------------------------------------ */
+.clear {
+	clear: both;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+/* ------------------------------------------------------------
+	非表示ナビゲーション
+------------------------------------------------------------ */
+.hidden {
+	display: none;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* ------------------------------------------------------------
+	コンテンツ内・画像表示用クラス
+------------------------------------------------------------ */
+.img {
+	max-width: 95%;
+	overflow: auto;
+	/* \*//*/
+	overflow: visible;
+	/**/
+}
+.img a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+}
+
+/* IE6以下はdiv.imgに横幅指定*/
+* html div.img {
+	width: 95%;
+}
+

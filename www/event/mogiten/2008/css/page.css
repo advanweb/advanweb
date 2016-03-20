@@ -1,0 +1,198 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		6. ページスタイルシート
+		Site:		Advanced Creators 模擬店2008『はまーの手作りですけど、何か？』
+		Version:	1.0.8
+		Date:		2008.4.15
+		Author:		Advanced Creators <http://advancedcreators.undo.jp/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	6.1 日記
+============================================================ */
+body.diary.entry h2 {
+	font-size: 136%;
+	margin-bottom: 0;
+}
+
+/* ------------------------------------------------------------
+	エントリー
+------------------------------------------------------------ */
+/* エントリー全体 */
+div.entry {
+	margin: 1.5em 0 3em 0;
+}
+
+/* タイトル */
+div.entry h3 {
+	margin: 0.5em 0 0;
+	padding: 0 5px;
+	font-size: 152%;
+}
+
+div.entry h3 a,
+div.entry h3 a:link,
+div.entry h3 a:visited {
+	display: block;
+	border: none;
+	color: #096;
+	background: none;
+}
+div.entry h3 a:hover,
+div.entry h3 a:active {
+	color: #f39;
+	background: #fff url(../img/bg/a.png) repeat-x left bottom;
+}
+
+/* ヘッダー */
+div.entry p.header {
+	margin: 0.5em 0;
+	padding: 0 5px;
+	color: #569;
+	font-size: 85%;
+}
+
+/* フッター */
+div.entry div.footer {
+	font-size: 85%;
+	text-align: right;
+}
+
+div.entry div.footer dl.tag,
+div.entry div.footer dl.tag dt,
+div.entry div.footer dl.tag dd,
+div.entry div.footer dl.tag dd ul,
+div.entry div.footer dl.tag dd ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+}
+div.entry div.footer dl.tag {
+	display: block;
+	margin: 1em 0;
+	text-align: right;
+}
+div.entry div.footer dl.tag dt{
+	color: #89c;
+	font-weight: normal;
+}
+div.entry div.footer dl.tag dd ul li a {
+	margin: 0 1px;
+	padding: 1px 2px;
+	border: 1px solid #bbf;
+	color: #9ae;
+	background: #f9f9fc;
+}
+div.entry div.footer dl.tag dd ul li a:hover,
+div.entry div.footer dl.tag dd ul li a:active {
+	color: #fff;
+	background: #ccd3ff;
+}
+
+div.entry div.footer ul.footer {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+div.entry div.footer ul.footer li {
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 13px;
+	color: #569;
+	background-image: url(../img/bg/pipe.png);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+
+div.entry div.footer ul.footer li.date {
+	padding-left: 0;
+	background: none;
+}
+
+div.entry div.footer p.parmaLink {
+	margin: 0;
+	padding: 0;
+	color: #569;
+	background: none;
+	text-align: right;
+}
+div.entry p.parmaLink input {
+	margin-right: 0;
+}
+/* ------------------------------------------------------------
+	エントリー内・画像表示用クラス
+------------------------------------------------------------ */
+div.entry p.img {
+	margin: 1em 0 1.5em;
+	font-size: 85%;
+	text-align: center;
+}
+
+div.entry p.img img {
+	margin: 0 0 5px 0;
+	padding: 10px;
+	border: 1px solid #999;
+	border-color: #ccc #999 #999 #ccc;
+	background: #fdfdfd url(../img/bg/img.png) no-repeat left top;
+	vertical-align: bottom;
+}
+
+div.entry p.img a:hover img,
+div.entry p.img a:active img {
+	border-color: #ddd #bbb #bbb #ddd;
+}
+
+/* ------------------------------------------------------------
+	エントリーリスト
+------------------------------------------------------------ */
+/* 項目 */
+ul.entryList li {
+	list-style: none;
+	padding: 0;
+	background: none;
+}
+
+ul.entryList li a {
+	display: block;
+	margin: 0;
+	padding: 2px 22px;
+	border-width: 0 0 1px 0;
+	border-style: dotted;
+	border-color: #569;
+	background: url(../img/ico/right_01.png) no-repeat 4px center;
+}
+
+ul.entryList li a:hover,
+ul.entryList li a:active {
+	border-color: #f39;
+	background-color: #ffd;
+}
+
+/* タイトル */
+ul.entryList li a span.title {
+	clear: right;
+	font-size: 114%;
+}
+
+/* 日付 */
+ul.entryList li a span.date {
+	margin-left: 1em;
+	padding-left: 1em;
+	border-left: 1px solid #99c;
+	color: #569;
+	font-size: 85%;
+	text-align: right;
+}
+
+ul.entryList li a:hover span.date {
+	border-color: #f39;
+	color: #f39;
+}
+
+

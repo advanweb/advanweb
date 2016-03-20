@@ -1,0 +1,410 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		6. ページスタイルシート
+		Site:		Advanced Creators 機材管理サイト
+		Version:	1.0.4
+		Date:		2007.12.28
+		Author:		XIAORING <http://mkgweb.undo.jp/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	6.1 機材
+============================================================ */
+
+/* ------------------------------------------------------------
+	パンくずリスト
+------------------------------------------------------------ */
+/* アイコン表示 */
+body.equip ol.topicPath li.pa,
+body.equip ol.topicPath li.lighting,
+body.equip ol.topicPath li.cable,
+body.equip ol.topicPath li.stand,
+body.equip ol.topicPath li.accessory {
+	padding-left: 18px;
+	background: url(../img/ico_pa_01.png) no-repeat 2px center;
+}
+body.equip ol.topicPath li.lighting {
+	background-image: url(../img/ico_lighting_01.png);
+}
+body.equip ol.topicPath li.cable {
+	background-image: url(../img/ico_cable_01.png);
+}
+body.equip ol.topicPath li.stand {
+	background-image: url(../img/ico_stand_01.png);
+}
+body.equip ol.topicPath li.accessory {
+	background-image: url(../img/ico_accessory_01.png);
+}
+
+
+/* ------------------------------------------------------------
+	コンディション表示
+------------------------------------------------------------ */
+body.equip dl.condition {
+	margin: 1em 10px;
+	padding: 10px;
+	border: solid 1px #99c;
+	background-color: #f6f6f9;
+}
+
+/* dt,ddを横並び */
+body.equip dl.condition dt {
+	float: left;
+	clear: none;
+	width: 3em;
+	margin: 0;
+	padding: 22px 0 0 0;
+	border: none;
+	color: #369;
+	background: url(../img/ico_check_02.png) no-repeat center top;
+	font-size: 85%;
+	font-weight: normal;
+	text-align: center;
+}
+
+body.equip dl.condition dd {
+	float: left;
+	line-height: 1.2;
+	margin: 0 0.25em 0 0;
+	padding: 0;
+	border: none;
+	color: #369;
+	background: none;
+	font-size: 174%;
+}
+
+/* フォーム内の場合はfont-sizeは変えない */
+body.equip form dl.condition dd {
+	font-size: 100%;
+}
+
+/* clear fix */
+body.equip dl.condition {
+	zoom: 1;/*for IE 5.5-7*/
+}
+body.equip dl.condition:after{/*for modern browser*/
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+/* ------------------------------------------------------------
+	コンディション表示　状態別
+	
+	アイコン、文字色を変更
+------------------------------------------------------------ */
+/* 良好 */
+body.equip dl.condition dt.cond1 {
+	background-image: url(../img/ico_circle_01.png);
+}
+body.equip dl.condition dt.cond1,
+body.equip dl.condition dd.cond1 {
+	color: #06f;
+}
+
+/* 微妙 */
+body.equip dl.condition dt.cond2 {
+	background-image: url(../img/ico_square_01.png);
+}
+body.equip dl.condition dt.cond2,
+body.equip dl.condition dd.cond2 {
+	color: #60d;
+}
+
+/* 不調 */
+body.equip dl.condition dt.cond3 {
+	background-image: url(../img/ico_triangle_01.png);
+}
+body.equip dl.condition dt.cond3,
+body.equip dl.condition dd.cond3 {
+	color: #d50;
+}
+
+/* 故障 */
+body.equip dl.condition dt.cond4 {
+	background-image: url(../img/ico_cross_01.png);
+}
+body.equip dl.condition dt.cond4,
+body.equip dl.condition dd.cond4 {
+	color: #c04;
+}
+
+/* 修理 */
+body.equip dl.condition dt.cond5 {
+	background-image: url(../img/ico_cross_02.png);
+}
+body.equip dl.condition dt.cond5,
+body.equip dl.condition dd.cond5 {
+	color: #999;
+}
+
+/* 不明 */
+body.equip dl.condition dt.cond6 {
+	background-image: url(../img/ico_question_02.png);
+}
+body.equip dl.condition dt.cond6,
+body.equip dl.condition dd.cond6 {
+	color: #999;
+}
+
+/* ------------------------------------------------------------
+	コンディションの備考
+------------------------------------------------------------ */
+body.equip dl.condition dt.condComm {
+	float: none;
+	clear: left;
+	visibility: hidden;
+	height: 0px;
+	margin: 0;
+	padding: 0;
+	background-image: none;
+}
+
+body.equip dl.condition dd.condComm {
+	float: none;
+	line-height: 1.6;
+	margin: 5px 0 0 0;
+	padding: 0;
+	color: #111;
+	font-size: 100%;
+}
+
+/* ------------------------------------------------------------
+	form内dlの場合の修正
+------------------------------------------------------------ */
+body.equip form dl.condition dd {
+	width: 2em;
+}
+
+body.equip form dl.condition dd input {
+	margin: 0;
+}
+
+body.equip form dl.condition {
+	margin: 0;
+}
+
+body.equip form dl.condition dt.condComm {
+	visibility: visible;
+	height: auto;
+	margin: 0;
+	padding: 0.5em 0 0 0;
+	font-size: 100%;
+}
+
+body.equip form dl.condition dd.condComm {
+	width: 450px;
+}
+
+/* ------------------------------------------------------------
+	カテゴリーの一覧
+------------------------------------------------------------ */
+/* クラスでdtの画像を変える */
+body.equip div#content dl.pa dt {
+	background-image: url(../img/ico_pa_01.png);
+}
+body.equip div#content dl.lighting dt {
+	background-image: url(../img/ico_lighting_01.png);
+}
+body.equip div#content dl.cable dt {
+	background-image: url(../img/ico_cable_01.png);
+}
+body.equip div#content dl.stand dt {
+	background-image: url(../img/ico_stand_01.png);
+}
+body.equip div#content dl.accessory dt {
+	background-image: url(../img/ico_accessory_01.png);
+}
+
+/* dt */
+body.equip div#content dl.pa dt,
+body.equip div#content dl.lighting dt,
+body.equip div#content dl.cable dt,
+body.equip div#content dl.stand dt,
+body.equip div#content dl.accessory dt {
+	border-bottom: 1px dotted #569;
+}
+
+/* ddのマージンをクリア */
+body.equip div#content dl.pa dd,
+body.equip div#content dl.lighting dd,
+body.equip div#content dl.cable dd,
+body.equip div#content dl.stand dd,
+body.equip div#content dl.accessory dd {
+	margin: 0;
+}
+
+/* リストを横並び */
+body.equip div#content dl.pa dd ul li,
+body.equip div#content dl.lighting dd ul li,
+body.equip div#content dl.cable dd ul li,
+body.equip div#content dl.stand dd ul li,
+body.equip div#content dl.accessory dd ul li {
+	display: inline;
+	margin: 0 0.5em 0 0;
+	padding: 0;
+	background: none;
+}
+
+/* ------------------------------------------------------------
+	完全削除ボタン
+------------------------------------------------------------ */
+body.equip.detail div#content .submit.delete {
+	margin-top: 4em;
+}
+body.equip.detail div#content .submit.delete input {
+	font-size: 77%;
+}
+
+
+/* ============================================================
+	6.2 イベント
+============================================================ */
+
+/* ------------------------------------------------------------
+	使用機材
+------------------------------------------------------------ */
+body.event div#content dl dt.pa {
+	background-image: url(../img/ico_pa_01.png);
+}
+body.event div#content dl dt.stage {
+	background-image: url(../img/ico_stand_01.png);
+}
+body.event div#content dl dt.lighting {
+	background-image: url(../img/ico_lighting_01.png);
+}
+body.event div#content dl dt.other {
+	background-image: url(../img/ico_accessory_01.png);
+}
+
+
+
+/* ============================================================
+	6.3 ヘルプ
+============================================================ */
+
+/* ------------------------------------------------------------
+	コンディションの凡例
+------------------------------------------------------------ */
+
+/* dt,ddを横並び */
+body.help table.condition th {
+	width: 3em;
+	padding: 27px 0 0 0;
+	color: #369;
+	background: #fff url(../img/ico_check_02.png) no-repeat center 5px;
+	font-size: 85%;
+	font-weight: normal;
+	text-align: center;
+}
+
+/* 良好 */
+body.help table.condition th.cond1 {
+	background-image: url(../img/ico_circle_01.png);
+	color: #06f;
+}
+
+/* 微妙 */
+body.help table.condition th.cond2 {
+	background-image: url(../img/ico_square_01.png);
+	color: #60d;
+}
+
+/* 不調 */
+body.help table.condition th.cond3 {
+	background-image: url(../img/ico_triangle_01.png);
+	color: #d50;
+}
+
+/* 故障 */
+body.help table.condition th.cond4 {
+	background-image: url(../img/ico_cross_01.png);
+	color: #c04;
+}
+
+/* 修理 */
+body.help table.condition th.cond5 {
+	background-image: url(../img/ico_cross_02.png);
+	color: #999;
+}
+
+/* 不明 */
+body.help table.condition th.cond6 {
+	background-image: url(../img/ico_question_02.png);
+	color: #999;
+}
+
+
+/* ------------------------------------------------------------
+	コネクター記号
+------------------------------------------------------------ */
+
+/* dt,ddを横並び */
+body.help table.connector th {
+	width: 3em;
+}
+
+
+/* ------------------------------------------------------------
+	色記号
+------------------------------------------------------------ */
+
+body.help table.color th {
+	background-color: #f9f9f9;
+}
+
+body.help table.color th.black {
+	color: #000;
+}
+body.help table.color th.brown {
+	color: #930;
+}
+body.help table.color th.red {
+	color: #f00;
+}
+body.help table.color th.pink {
+	color: #f0f;
+}
+body.help table.color th.orange {
+	color: #f60;
+}
+body.help table.color th.yellow {
+	color: #aa0;
+}
+body.help table.color th.green {
+	color: #396;
+}
+body.help table.color th.aqua {
+	color: #3cc;
+}
+body.help table.color th.blue {
+	color: #36f;
+}
+body.help table.color th.purple {
+	color: #936;
+}
+body.help table.color th.gray {
+	color: #808080;
+}
+body.help table.color th.silver {
+	color: #808080;
+}
+body.help table.color th.white {
+	color: #808080;
+}
+
+/* Popup Window再調整 */
+body.popupWin {
+	margin: 0;
+	padding: 0 10px;
+}
+body.popupWin div {
+	margin: 0;
+	padding: 0;
+}

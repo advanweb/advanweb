@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>イベント関連 2012 | Advanced Creators Members Site</title>
+<meta name="author" content="XIAORING @ 2007 Advanced Creators Web Administrator" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<link rel="index" href="../../../index.html" />
+<link rev="made" href="http://sound.jp/advancedcreators/" />
+<link rel="stylesheet" href="../../../css/main_master.css" type="text/css" />
+<link rel="shortcut icon" href="../../../img/favicon.ico" />
+</head>
+<body class="lecture">
+
+<div id="container"><!-- 全体 -->
+	
+	<div id="mainCol"><!-- メインの表示列 -->
+		
+		<div id="header"><!-- ヘッダー -->
+			<h1><a href="../../../index.html">Advanced Creators Members Site</a></h1>
+		<!-- header end --></div>
+	
+		<div id="content"><!-- 内容 -->
+			<h2>イベント関連 2014</h2>
+			<div class="navPaging">
+				<p class="hidden">現在のページまでの階層</p><!-- トピックパス -->
+				<ol class="navTopicPath"><li><a href="../../../index.html">トップページ</a></li><li>イベント関連 2014</li>
+				</ol>
+				<hr class="hidden" />
+			</div>
+			
+			<p>イベント関連の情報や資料を載せておくページです。<br />
+				<a href="../../../musicfes/joyful.cgi">雑談BBS</a>から拾ってきたファイルもここにあります。<br />ある程度はまとめてあります。基本zip圧縮になってます。2014年4月のイベントから順番に並べた(つもり)でいます。</p>
+			<h3>各イベントの資料</h3>
+			<ul>
+				<li><a href="./eventdata/shinkan2012.zip">新入生歓迎会</a></li>
+				<li><a href="./eventdata/3akapi2012.zip">4月赤平新歓ライブ</a></li>
+                <li><a href="./eventdata/studenth2012.zip">学生天国</a></li>
+                <li><a href="./eventdata/tachikawa2012.zip">立川いったい祭り</a></li>
+                <li><a href="./eventdata/sumou2012.zip">相撲大会</a></li>
+                <li><a href="./eventdata/sports2012.zip">スポーツ大会</a></li>
+                <li><a href="./eventdata/5zissen2012.zip">5月実践公演</a></li>
+                <li><a href="./eventdata/1nen2012.zip">軽音1年生ライブ</a></li>
+                <li><a href="./eventdata/6akapi2012.zip">6月赤平乱舞</a></li>
+                <li><a href="./eventdata/harutei2012.zip">軽音春の定期審査</a></li>
+                <li><a href="./eventdata/summerbr2012.zip">みなみ野サマーブリーズ</a></li>
+                <li><a href="./eventdata/9akapi2012.zip">9月赤平乱舞</a></li>
+                <li><a href="./eventdata/koukasai2012.zip">紅華祭</a></li>
+                <li><a href="./eventdata/jazz2012.zip">Jazz In Fuchu</a></li>
+                <li><a href="./eventdata/huyutei2012.zip">軽音冬の定期審査</a></li>
+                <li><a href="./eventdata/dd2012.zip">D × D UNIVERSITY</a></li>
+                <li><a href="./eventdata/2_11beat2012.zip">Beat</a></li>
+                <li><a href="./eventdata/akapi2013.zip">3月赤平乱舞</a></li>
+
+			</ul>
+			<h3>過去のイベント</h3>
+			<ul>
+				<li><a href="../2007/index.html">2007年イベント関連</a></li>
+				<li><a href="../2008/index.html">2008年イベント関連</a></li>
+                <li><a href="../2010/index.html">2010年イベント関連</a></li>
+                <li><a href="../2011/index.html">2011年イベント関連</a></li>
+			</ul>
+			<div class="navPaging">
+				<hr class="hidden" />
+				<p class="hidden">現在のページまでの階層</p><!-- トピックパス -->
+				<ol class="navTopicPath"><li><a href="../../../index.html">トップページ</a></li><li>イベント関連 2012</li>
+				</ol>
+			</div>
+		<!-- content end --></div>
+		
+	
+		<div id="footer"><!-- フッター -->
+			<hr />
+			<address>Advanced Creators Members Site<br />
+			Copyright &copy; 2013 Advanced Creators. All rights reserved.
+			</address>
+		<!-- footer end --></div>
+		
+	<!-- mainCol end --></div>
+
+<!-- container end --></div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		6. ページスタイルシート
+		Site:		MUSIC FES@TUT
+		Version:	1.0.6
+		Date:		2007.11.19
+		Author:		MUSIC FES@TUT <http://mfes-tut.undo.jp/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	index.html ホーム
+============================================================ */
+
+/* ------------------------------------------------------------
+	日時、場所
+------------------------------------------------------------ */
+body.home div.information {
+	margin: 20px;
+	padding: 0 20px;
+	border: 2px dashed #FF3;
+}
+
+body.home div.information h3 {
+	margin-top: 20px;
+}
+
+body.home div.information p.date {
+	font-size: 167%;
+}
+
+body.home div.information p.place {
+	font-size: 136%;
+}
+
+body.home div.information p.free {
+	margin: 1.5em 0 20px 0;
+	color: #fff;
+	font-size: 136%;
+}
+
+/* ------------------------------------------------------------
+	終了しました
+------------------------------------------------------------ */
+body.home p.finished {
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #996;
+	font-size: 114%;
+}
+body.home p.finished strong {
+	color: #ff9;
+}
+
+body.home p.guest {
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #996;
+	font-size: 140%;
+}
+body.home p.guest strong {
+	color: #FCF;
+}
+
+/* ============================================================
+	about.html 音樂祭について
+============================================================ */
+
+/* ------------------------------------------------------------
+	クレジット
+------------------------------------------------------------ */
+body.about .credit {
+	text-align: right;
+}
+
+
+/* ============================================================
+	circle.html 出演サークル
+============================================================ */
+
+/* ------------------------------------------------------------
+	サークルのコメント
+------------------------------------------------------------ */
+body.circle div.circle dl {
+	margin: 0.5em 10px 1.5em;
+	padding: 10px;
+	border: 1px dotted #99c;
+}
+body.circle div.circle dl dt {
+	margin-bottom: 1em;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #99c;
+	font-size: 124%;
+}
+
+
+/* ============================================================
+	access.html アクセス
+============================================================ */
+
+/* ------------------------------------------------------------
+	段組を解除
+------------------------------------------------------------ */
+body.access div#mainCol {
+	float: none;
+}
+
+body.access div#subCol {
+	display: none;
+	float: none;
+	width: 0;
+	padding: 0;
+	border: 0;
+	background: none;
+	visibility: hidden;
+}
+
+/* ------------------------------------------------------------
+	地図をフロート
+------------------------------------------------------------ */
+body.access p.img.train  {
+	float: right;
+	width: 340px;
+	margin: 0 0 0 20px;
+}
+
+/* ------------------------------------------------------------
+	注意文
+------------------------------------------------------------ */
+body.access p.notice {
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid #996;
+	background-color: #220;
+	font-size: 114%;
+}
+body.access p.notice strong {
+	color: #ff9;
+}
+
+
+/* ============================================================
+	contact.html お問い合わせ
+============================================================ */
+
+/* ------------------------------------------------------------
+	FAQ
+------------------------------------------------------------ */
+body.contact dl.faq {
+	margin: 1em 10px;
+	padding: 10px;
+	border: 1px dotted #99c;
+}
+
+body.contact dl.faq dt {
+	position: relative;
+	margin-left: 0;
+	margin-bottom: 0.5em;
+	padding-left: 2.6em;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #99c;
+	font-size: 114%;
+}
+body.contact dl.faq dd {
+	position: relative;
+	margin-left: 0;
+	padding-left: 3em;
+}
+
+body.contact dl.faq dt span.caps {
+	position: absolute;
+	top: 0;
+	left: 5px;
+	color: #99f;
+	font-weight: bold;
+}
+body.contact dl.faq dd span.caps {
+	position: absolute;
+	top: 0;
+	left: 5px;
+	color: #f99;
+	font-size: 114%;
+	font-weight: bold;
+}
+
+/* for IE<6.0 */
+* html body.contact dl.faq dt span.caps,
+* html body.contact dl.faq dd span.caps {
+	position: relative;
+	left: 0;
+}
+* html body.contact dl.faq dt
+* html body.contact dl.faq dd {
+	padding-left: 0;
+}
+
+

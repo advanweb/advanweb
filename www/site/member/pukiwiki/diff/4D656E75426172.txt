@@ -1,0 +1,51 @@
+ &size(16){''検索''}; ~
+ #search
+ 
+ &size(16){''カテゴリー的な''}; ~
+ ''おんきょー'' ~
+-&nbsp;[[ミキサー>ミキシングコンソール]] ~
+-&nbsp;[[マイクロフォン]] ~
+-&nbsp;[[アンプリファー]] ~
+-&nbsp;[[スピーカー]] ~
+-&nbsp;[[エフェクター]] ~
+-&nbsp;[[プレイヤー]] ~
++&nbsp;[[ミキサー>Mixing Console]] ~
++&nbsp;[[マイク>Microphone]] ~
++&nbsp;[[アンプ>Amplifier]] ~
++&nbsp;[[スピーカー>Speaker]] ~
++&nbsp;[[エフェクター>Effector]] ~
++&nbsp;[[プレイヤー>Player]] ~
+ 
+ ''しょーめー'' ~
+ &nbsp;[[調光卓]] ~
+ &nbsp;[[ディマー]] ~
+ 
+ ''いべんと'' ~
+ &nbsp;[[イベント一覧]] ~
+ 
+ ''あどばん'' ~
+ &nbsp;[[アドバン関連]] ~
+ 
+ ''ようご'' ~
+ &nbsp;[[音響用語]] ~
+ &nbsp;[[照明用語]] ~
+ &nbsp;[[舞台用語]] ~
+ &nbsp;[[その他用語]] ~
+ 
+ &nbsp;[[参考文献]] ~
+ 
+ //編集者のやる気にかかわる値ｗ
+ LEFT:Today ~
+ RIGHT:&counter(today); ~
+ LEFT:Yesterday ~
+ RIGHT:&counter(yesterday); ~
+ LEFT:Total ~
+ RIGHT:&counter(total); ~
+ 
+ //常に表示されるメニューバーです。
+ //&edit(MenuBar,noicon){edit};
+ //を記述しておくとMenuBarを気軽に修正できるようになって便利かも。
+ 
+ #hr
+ 
+ #recent(20)

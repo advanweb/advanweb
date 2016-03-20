@@ -1,0 +1,68 @@
+ #nofollow
+ #norelated
+ * 1642-VLZ PRO [#x749fa07]
+ MACKIE社が販売してる[[ミキシングコンソール]]。~
+ [[アドバン>Advanced Creators]]にある16chコンソール。 ~
+ 
+ 何かと優秀。 ~
+ 取説見れば見るほど、使い方勉強すればするほど優秀さがわかる。 ~
+ すべてのキャノン、フォン端子においてバランス転送ができる。 ~
+ AUX数が4つと他の16ch卓より多め。 ~
+-ゲイントリムが全チャンネルについている、グループできる、ダイレクトアウトがある、、、 ~
++ゲイントリムが全チャンネルについている、グループできる、ダイレクトアウトがある、ピーク容量が大きい、、、 ~
+ などなど・・・探せばたくさんある。 ~
+ 
+ MACKIE社が米国の会社のため若干使用している用語が違う。 ~
+ そのためアドバンでは「使いづらい」、「分からない」との評価を受けがち・・・ ~
+ でも、用語が違うだけで操作方法はほぼ同じです。 ~
+ 
+ なにげに取説にリコールシートがついていたりする。 ~
+ 
+ そしてMACKIEの取説はいろいろと%%クレイジー%%素敵すぎる。 ~
+ なおスタッフセットにいつも入れている[[油性ペン>http://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AD%E3%83%BC]]のことではない。 ~
+ 
+ ** 諸元 [#xbbc0845]
+ 一般仕様
+ | 周波数特性 |>| すべてのマイクインプットからすべてのアウトプット&br;20Hz〜60kHz +0dB/-1dB&br;20Hz〜100kHz +0dB/-3dB |
+ | 全高調波歪率(THD) |>| 1kHz &#64; +14dBu: 20Hzﾐ20kHz&br;Mic in to Insert out: 0.0007%以下|
+ | Main Mixノイズ |>| 20Hz〜20kHz バンドウイズ、1/4インチ Main out、チャンネルTrimノブ"U"、チャンネルEQフラット、&br;全チャンネルをMain Mixにアサイン、 奇数チャンネルのPan左、偶数のパン右。 |
+ |~| Main Mix FADER"U" | chan FADER"-∞": -86.5dBu（90dB SN比、基準 +4dBu）|
+ |~| Main Mix FADER"U" | chan FADER"U": -84.0dBu |
+ | アッテネーション（クロストーク） |>| 1kHz （0dBu）、20Hz〜20kHz バンド幅、ラインイン、1/4インチ Main out、Trimノブ"U" |
+ |~| チャンネルMute スイッチオン | -84dBu |
+ |~| チャンネルGain ノブ"-∞" | -84dBu |
+ | 入力換算雑音（EIN） |>| MicインからInsert Send out、最大ゲイン |
+ |~| 150 ohm termination | -129.5dBm unweighted |
+ | 同相成分除去比 （CMR） |>| MicインからInsert Send out、最大ゲイン |
+ |~| 1kHz | 90dB以上 |
+ | 最大レベル | Micイン | +22dBu |
+ |~| 他のインプット | +22dBu |
+ |~| Main Mix 1/4" TRSアウト、XLRアウト | +28dBu |
+ |~| 他のアウトプット | +22dBu |
+ | インピーダンス | Micイン | 1.3kΩ |
+ |~| チャンネルInsertリターン | 2.5kΩ |
+ |~| 他のインプット | 10kΩ以上 |
+ |~| Tapeアウト | 1.1kΩ |
+ |~| 他のアウトプット | 120Ω |
+ | 3 band EQ （チャンネル1-8）| High Shelving | ±15db&#64;12kHz |
+ |~| Mid Peaking | ±15dB, sweep 100Hzﾐ8kHz |
+ |~| Low Shelving | ±15db&#64;80Hz |
+ |~| Low Cut Filter | 18dB/octave, ﾐ3dB&#64;75Hz |
+ | 4-band EQ （チャンネル9-16）|High Shelving | ±15db&#64;12kHz |
+ |~| Hi Mid Shelving | ±15dB, 3kHz |
+ |~| Lo Mid Shelving | ±15dB, 800Hz |
+ |~| Low Shelving | ±15db&#64;80Hz |
+ |~| Low Cut Filter (Ch9-12) | 18dB/octave, ﾐ3dB&#64;75Hz |
+ | 消費電力 |>|100VAC、50/60Hz、40W |
+ | ヒューズ | 120V | 1A Slo Blo、5 x 20mm |
+ |~| 220ﾐ240V | 0.5A Slo Blo、5 x 20mm |
+ | 重量 |>| 18.3kg |
+ | ラックマウント |>| オプションのラックの耳を使用すると1642-VLZ PROを19インチのラックの収納することが可能です。&br;ミキサー本体に10ラックスペース、上部にはケーブル接続のために2ラックスペースが必要です。 |
+ //書くの疲れた・・・
+ 
+ ** 取扱説明書 [#v6d854bd]
+ 
+ ** 関連ページ [#a88c9a62]
+ 
+ #ls2
+ - [[InterWikiName]] -- [[InterWiki]]のサーバリスト

@@ -1,0 +1,427 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		4. サイトテーマスタイルシート
+		Site:		Advanced Creators 模擬店2008『はまーの手作りですけど、何か？』
+		Version:	1.0.1
+		Date:		2008.10.7
+		Author:		Advanced Creators <http://advancedcreators.undo.jp/>
+		
+	****************************************************************/
+
+
+
+/* ------------------------------------------------------------
+	モジュール別CSSファイルの読み込み
+------------------------------------------------------------ */
+/* @import url("module/nav_topic_path.css"); */		/* パンくずリスト */
+/* @import url("module/nav_paging.css"); */			/* ページングナビゲーション */
+
+
+/* ============================================================
+	4.1 ページレイアウト
+============================================================ */
+
+/* ------------------------------------------------------------
+	4.1.1 ページ全体
+------------------------------------------------------------ */
+body{
+	margin: 0;
+	padding: 0;
+	color: #111;
+}
+
+/* ------------------------------------------------------------
+	4.1.2 コンテナ　表示領域
+------------------------------------------------------------ */
+div#container {
+	width: auto;
+	margin: 0 auto;
+	padding: 0;
+	color: #111;
+	background: url(../img/bg/cloth.jpg);
+	text-align: center;
+}
+
+/* ------------------------------------------------------------
+	4.1.3 ヘッダー
+------------------------------------------------------------ */
+div#header {
+	height: 510px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: url(../img/bg/area.png) bottom left repeat-x;
+	z-index: 9;
+	
+	/* Hack Apply to <= IE 6.0 */
+	_background: url(../img/bg/area.gif) bottom left repeat-x;	/* IE6以下のみPNGではなくGIFを読ませる */
+}
+
+div#header * {
+	margin: 0;
+	padding: 0;
+}
+
+div#header p.presented {
+	position: absolute;
+	top: -40px;
+	left: 6%;
+	width: 214px;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+	z-index: 2;
+}
+
+div#header p.presented a:hover,
+div#header p.presented a:active {
+	position: relative;
+	top: 20px;
+	left: 2px;
+}
+
+div#header p.presented a,
+div#header p.presented a:visited,
+div#header p.presented a:hover,
+div#header p.presented a:active {
+	border: none;
+	background: none;
+}
+
+/* ------------------------------------------------------------
+	4.1.4 サイトタイトル
+------------------------------------------------------------ */
+div#title {
+	position: relative;
+	width: 800px;
+	height: 480px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+}
+
+div#title h1 {
+	width: 800px;
+	height: 480px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	line-height: 320px;
+}
+
+div#title h1 a {
+	text-decoration: none;
+	border: none;
+}
+
+div#title h1 img {
+	vertical-align: center;
+}
+
+
+/* 日付・会場 */
+div#title h2 {
+	position: absolute;
+	top: 192px;
+	left: 0px;
+	width: 406px;
+	height: 116px;
+	width: 405px;
+	height: 121px;
+	margin: 0;
+	text-align: left;
+	z-index: 3;
+}
+
+/* コピー */
+div#title p.copy {
+	position: absolute;
+	bottom: 125px;
+	left: 40px;
+	width: 350px;
+	margin: 0;
+	font-size: 85%;
+	text-align: left;
+	z-index: 4;
+}
+
+/* ------------------------------------------------------------
+	4.1.5 メニュー
+------------------------------------------------------------ */
+/* メニュー */
+div#menu {
+	width: 800px;
+	margin: -130px auto 0;
+	text-align: left;
+	overflow: hidden;
+	z-index: 1;
+}
+
+div#menu h3 {
+	width: 800px;
+	margin: 0 15px;
+	border: none;
+}
+
+div#menu ul.menu {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 0 0 -14px;
+	overflow: hidden;
+}
+
+div#menu ul.menu li {
+	list-style: none;
+	display: inline;
+	float: left;
+	position: relative;
+	width: 248px;
+	height: 185px;
+	margin: 0 0 0 14px;
+	padding: 0;
+	background: none;
+	line-height: 160px;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* clear fix */
+div#menu ul.menu{
+	zoom: 1;/*for IE 5.5-7*/
+}
+div#menu ul.menu:after{/*for modern browser*/
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+/* メニューのリンクのbackground-colorを解除 */
+div#menu ul.menu li a,
+div#menu ul.menu li a:visited,
+div#menu ul.menu li a:hover,
+div#menu ul.menu li a:active {
+	background: none;
+	border: none;
+}
+
+div#menu ul.menu li a:hover {
+	position: relative;
+	top: -2px;
+}
+div#menu ul.menu li a:active {
+	position: relative;
+	top: 1px;
+}
+
+/* ------------------------------------------------------------
+	4.1.6 コンテンツ
+------------------------------------------------------------ */
+div#content {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/* ------------------------------------------------------------
+	4.1.7 メインの列
+------------------------------------------------------------ */
+div#mainCol {
+	margin-bottom: 20px;
+}
+
+
+/* メニューの補足 */
+ul#menuNote li {
+	margin: 0.5em 12px;
+	padding-left: 24px;
+	background-image: url(../img/ico/right.png);
+	background-repeat: no-repeat;
+	background-position: 2px 6px;
+	font-size: 107%;
+
+	/* Hack for <= IE6.0 */
+	/* _background-image: url(../img/ico/right.gif); */	/* IE6以下はGIFにする */
+}
+
+/* 地図 */
+div#mainCol p.map {
+	margin: 1em 0 1.5em;
+	font-size: 85%;
+	text-align: center;
+}
+
+div#mainCol p.map img {
+	margin: 0 -10px 5px -10px;
+	padding: 10px;
+	border: 1px solid #999;
+	border-color: #ccc #999 #999 #ccc;
+	background: #fdfdfd url(../img/bg/img.png) no-repeat left top;
+	vertical-align: bottom;
+}
+
+div#mainCol p.map a:hover img,
+div#mainCol p.map a:active img {
+	border-color: #ddd #bbb #bbb #ddd;
+	background: none;
+}
+
+div#mainCol p.map a,
+div#mainCol p.map a:visited,
+div#mainCol p.map a:hover,
+div#mainCol p.map a:active {
+	border: none;
+	background: none;
+}
+
+/* 紅華祭バナー */
+div#access ul.bnr li {
+	margin: 0;
+	padding: 0;
+	background: none;
+	text-align: right;
+}
+
+div#access ul.bnr li a,
+div#access ul.bnr li a:visited,
+div#access ul.bnr li a:hover,
+div#access ul.bnr li a:active {
+	border: none;
+	background: none;
+}
+
+
+/* ------------------------------------------------------------
+	4.1.8 サブの列
+------------------------------------------------------------ */
+div#subCol {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+/* 店舗概要 */
+div#summary dl {
+	margin: -0.5em 0 0;
+	padding: 0 0 1em;
+}
+
+div#summary dl dt {
+	margin: 1.5em 0 0.5em;
+	padding: 0 0 1px 14px;
+	border-bottom: 1px solid #777;
+	background: none;
+	color: #999;
+	background: transparent url(../img/ico/bull.png) 3px 7px no-repeat;
+
+	/* Hack for <= IE6.0 */
+	/* _background-image: url(../img/ico/bull.gif); */	/* IE6以下はGIFにする */
+}
+
+div#summary dl dd {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* バナー */
+div#banner {
+	text-align: center;
+}
+div#banner p {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+/* ------------------------------------------------------------
+	4.1.9 フッター
+------------------------------------------------------------ */
+div#footer {
+	clear: both;
+	margin: 0;
+	padding: 0.5em 0 20px;
+	font-size: 85%;
+	text-align: center;
+	background-color: $fff;
+}
+
+div#footer ul.gNav {
+	margin: 1.0em auto;
+	padding: 0;
+	text-align: center;
+}
+div#footer ul.gNav li {
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 13px;
+	background-image: url(../img/bg/pipe.png);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+
+div#footer ul.gNav li.index {
+	padding-left: 0;
+	background: none;
+}
+
+/* addressにコピーライトなどを */
+div#footer address {
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* hrを非表示 */
+div#footer hr {
+	display: none;
+	width: 0;
+	height: 0;
+	border: none;
+	visibility: hidden;
+}
+
+
+/* ============================================================
+	4.2 コンテンツ内で使われるデザインモジュール
+============================================================ */
+
+/* ------------------------------------------------------------
+	mainCol、subCol内のボックスモデル
+------------------------------------------------------------ */
+.box {
+	margin: 1em 3px;
+	padding: 0.5em 25px;
+	border: 1px solid #999;
+	border-color: #bbb #888 #777 #aaa;
+	background-color: #fcfcfc;
+	background: #fff url(../img/bg/paper.png) left bottom repeat-x;
+}
+
+.box h3 {
+	margin-top: 0.5em;
+}
+
+div#subCol .box {
+	padding: 0.5em 18px;
+}
+
+/* ------------------------------------------------------------
+	エラーメッセージ
+------------------------------------------------------------ */
+p.error {
+	color: #f39;
+	font-weight: bold;
+}
+
+/* ------------------------------------------------------------
+	変数表示テスト
+------------------------------------------------------------ */
+p.dev {
+	color: #000;
+	background-color: #fff;
+}
+

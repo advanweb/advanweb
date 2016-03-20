@@ -1,0 +1,247 @@
+﻿@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		4. サイトテーマスタイルシート
+		Site:		Advanced Creators
+		Version:	1.0.5
+		Date:		2007.10.29
+		Author:		Advanced Creators <http://sound.jp/advancedcreators/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	4.1 ページレイアウト
+============================================================ */
+
+/* ------------------------------------------------------------
+	4.1.1 ページ全体
+------------------------------------------------------------ */
+body{
+	padding: 0;
+	color: #000;
+	background-color: #f6f6f6;
+	background-image: url(../img/bg/bg_o09.jpg);
+	text-align: center;
+}
+
+/* ------------------------------------------------------------
+	4.1.2 コンテナ　表示領域
+------------------------------------------------------------ */
+div#container {
+	width: 700px;
+	margin: 0 auto;
+	padding: 0 25px;
+	color: #eee;
+	background-color: transparent;
+	background-image: url(../img/bg/area.gif);
+	background-repeat: repeat-y;
+	text-align: left;
+}
+
+/* < IE7 */
+* html div#container {
+	background-image: url(../img/bg/area.gif);
+}
+
+/* ------------------------------------------------------------
+	4.1.4 ヘッダー
+------------------------------------------------------------ */
+div#header {
+	position: relative;
+	width: 700px;
+	margin: 0;
+	padding: 5px 0 0;
+	background-color: #000;
+}
+
+/* ------------------------------------------------------------
+	4.1.4 (1) サイトタイトル
+------------------------------------------------------------ */
+div#header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+div#header h1 a {
+	border: none;
+	background: none;
+	text-decoration: none;
+}
+
+/* ------------------------------------------------------------
+	4.1.4 (2) グローバルナビゲーション
+------------------------------------------------------------ */
+ul#gNav {
+	position: absolute;
+	width: 359px;
+	margin: 0;
+	padding: 0;
+	top: 21px;
+	right: 0px;
+}
+
+ul#gNav li {
+	list-style-type: none;
+	float: left;
+	width: 85px;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	background: none;
+	line-height: 24px;
+}
+
+/* 個々のボタンのwidth */
+ul#gNav li.about {
+	width: 52px;
+}
+ul#gNav li.request {
+	width: 71px;
+}
+ul#gNav li.freshman {
+	width: 81px;
+}
+ul#gNav li.schedule {
+	width: 76px;
+}
+ul#gNav li.bbs {
+	width: 38px;
+}
+ul#gNav li.link {
+	width: 41px;
+}
+
+/* リンクの設定 */
+ul#gNav li a {
+	display: block;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+ul#gNav li.about a {
+	background-image: url(../img/btn/about_hover.png);
+	width: 52px;
+}
+ul#gNav li.request a {
+	background-image: url(../img/btn/request_hover.png);
+	width: 71px;
+}
+ul#gNav li.freshman a {
+	background-image: url(../img/btn/freshman_hover.png);
+	width: 81px;
+}
+ul#gNav li.schedule a {
+	background-image: url(../img/btn/schedule_hover.png);
+	width: 76px;
+}
+ul#gNav li.bbs a {
+	background-image: url(../img/btn/bbs_hover.png);
+	width: 38px;
+}
+ul#gNav li.sitemap a {
+	background-image: url(../img/btn/sitemap_hover.png);
+	width: 62px;
+}
+ul#gNav li.link a {
+	background-image: url(../img/btn/link_hover.png);
+	width: 41px;
+}
+
+ul#gNav li a:hover {
+	background-color: #531; /* for IE */
+}
+ul#gNav li a:hover img {
+	visibility: hidden; /* hidden img */
+}
+
+ul#gNav li a img {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* ------------------------------------------------------------
+	4.1.5 メインの列
+------------------------------------------------------------ */
+div#mainCol {
+	clear: both;
+	width: 680px;
+	margin: 0 10px;
+	padding: 0;
+	color: inherit;
+}
+
+/* IE6以下のみ */
+div#mainCol {
+	_background: none;
+}
+
+/* ------------------------------------------------------------
+	4.1.5 (1) メインコンテンツ
+------------------------------------------------------------ */
+div#content {
+	margin: 20px;
+}
+
+/* ------------------------------------------------------------
+	4.1.6 フッター
+------------------------------------------------------------ */
+div#footer {
+	margin: 2em 20px 0;
+	padding: 0 0 20px;
+	font-size: 85%;
+	text-align: center;
+}
+
+div#footer hr {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/* Global Navigation */
+div#footer ul.gNav {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+div#footer ul.gNav li {
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 11px;
+	background: #000 url(../img/ico/bull.png) 3px center no-repeat;
+}
+div#footer ul.gNav li.home {
+	background: none;
+}
+
+/* addressにコピーライトなどを */
+div#footer address {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+/* ============================================================
+	4.2 コンテンツ内で使われるデザインモジュール
+============================================================ */
+
+/* 画像のfloat */
+img.img.left,
+p.img.img.left {
+	float: left;
+	clear: left;
+	margin: 0 15px 10px -15px;
+}
+img.img.right,
+p.img.img.right {
+	float: right;
+	clear: right;
+	margin: 0 -15px 10px 15px;
+}

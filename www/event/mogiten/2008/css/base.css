@@ -1,0 +1,703 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		2. 基本スタイルシート
+		Site:		Advanced Creators 模擬店2008『はまーの手作りですけど、何か？』
+		Version:	1.0.11
+		Date:		2008.7.17
+		Author:		Advanced Creators <http://advancedcreators.undo.jp/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	
+	2.1 Yahoo Library Font.css
+	http://developer.yahoo.com/yui/fonts/
+
+	*Copyright (c) 2006, Yahoo! Inc. All rights reserved.
+	*http://developer.yahoo.com/yui/license.txt
+
+============================================================ */
+
+body {
+	font-size: 13px;
+	*font-size: small;
+	*font: x-small;
+}
+
+table {
+	font-size: inherit;
+	font: 100%;
+}
+
+select,
+input,
+textarea {
+	font-size: 99%;
+}
+
+
+
+/* ============================================================
+	2.2 Universal Selector
+============================================================ */
+
+/* デフォルト値リセット */
+* {
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+/* 全体の設定 */
+body {
+	padding: 20px;
+	color: #111;
+	background-color: #fff;
+	text-align: left;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body, p, h1, h2, h3, h4, h5, h6,
+table, tbody, tr, td, th, ul, li, dl, dt, dd,
+pre, address, form, blockquote, em, strong {
+	border: none;
+	color: inherit;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Arial, "ＭＳ Ｐゴシック", "MS PGothic", Osaka, sans-serif;
+	/* font-family: Arial, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif !important; */
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, div,
+table, tbody, tr, td, th, ul, li, dl, dt, dd, hr,
+pre, address, form, blockquote {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6,
+div, p, pre, ul, ol, dl, dt, dd,
+address, form, blockquote{
+	display: block;
+}
+
+p,
+tr, td, th, li, dt, dd,
+address, form, blockquote {
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+
+/* ============================================================
+	2.3 Hypertext Module
+============================================================ */
+
+/* ハイパーリンク */
+a {
+	color: #04f;
+	text-decoration: underline;
+}
+
+/* 訪問済み */
+a:visited {
+	color: #48f;
+}
+
+/* マウスオーバー、アクティブ */
+a:hover,
+a:active {
+	color: #f39;
+}
+
+
+
+/* ============================================================
+	2.3 Text Module
+============================================================ */
+
+/* ------------------------------------------------------------
+	2.3.1 見出し
+	
+		h1:	サイトタイトル
+		h2:	ページタイトル
+		h3:	コンテンツ大見出し
+		h4:	コンテンツ小見出し
+	
+------------------------------------------------------------ */
+
+/* 全体の設定 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0.5em 0;
+	color: #458;
+	background-color: inherit;
+	font-weight: bold;
+}
+
+/* リンクを貼っても設定が戻らないようにする */
+h1 a, h1 a:visited,
+h2 a, h2 a:visited,
+h3 a, h3 a:visited,
+h4 a, h4 a:visited,
+h5 a, h5 a:visited,
+h6 a, h6 a:visited {
+	border-color: #458;
+	color: #458;
+	background-color: inherit;
+	font-weight: bold;
+}
+h1 a:hover, h1 a:active,
+h2 a:hover, h2 a:active,
+h3 a:hover, h3 a:active,
+h4 a:hover, h4 a:active,
+h5 a:hover, h5 a:active,
+h6 a:hover, h6 a:active {
+	border-color: #f6c;
+	color: #f39;
+}
+
+/* コンテンツ内の見出しは上マージンを広く */
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 2.0em;
+}
+
+/* 各見出しのサイズ設定 */
+h1 {
+	font-size: 182%;
+}
+
+h2 {
+	font-size: 174%;
+}
+
+h3 {
+	font-size: 136%;
+}
+
+h4 {
+	font-size: 114%;
+}
+
+/* 隣接する見出し間でのマージン調整 */
+h1+h2, h2+h3, h3+h4, h4+h5, h5+h6 {
+	margin-top: 0.5em;
+}
+
+/* ------------------------------------------------------------
+	2.3.2 段落
+------------------------------------------------------------ */
+p {
+	margin: 1em 0;
+}
+
+/* 見出しとその直後の段落とのマージン調整 */
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+	margin-top: 0.5em;
+}
+
+/* ------------------------------------------------------------
+	2.3.3 整形済みテキスト
+------------------------------------------------------------ */
+pre {
+	width: auto;
+	_width: 90%;
+	overflow: scroll;
+	margin: 1em 10px;
+	padding: 10px;
+	border: 1px dotted #99c;
+	font-family: "Courier New", "ＭＳ ゴシック", "MS Gothic", "Osaka−等幅", Osaka-Mono, monospace;
+	font-size: 95%;
+	/* \*//*/
+	overflow: visible;
+	/**/
+}
+
+pre[title]:before {
+	content: attr(title);
+	display: block;
+	margin-bottom: 5px;
+	padding: 0 10px;
+	color: #458;
+	background-color: #eef;
+	font-weight: bold;
+}
+
+/* ------------------------------------------------------------
+	2.3.4 引用
+------------------------------------------------------------ */
+
+/* ブロック */
+blockquote {
+	margin: 1em 10px;
+	padding: 0 15px;
+	border: dotted 1px #99c;
+	color: inherit;
+	background-color: #f6f6f9;
+}
+
+/*
+blockquote[title]:before {
+	content: attr(title);
+	display: block;
+	margin: 12px 0 0;
+	padding: 0.1em 10px;
+	color: #458;
+	background-color: #fff;
+	font-weight: bold;
+}
+
+blockquote[cite]:after {
+	content: attr(cite);
+	display: block;
+	margin: -10px 20px 10px;
+	text-align: right;
+}
+*/
+
+cite {
+	display: block;
+	margin: 0.5em 15px;
+	text-align: right;
+}
+
+/* インライン */
+q {
+	margin: 3px;
+	padding: 0 2px;
+	background-color: #f6f6f9;
+}
+q:before {
+	content: no-open-quote;
+}
+q:after {
+	content: no-close-quote;
+}
+
+/* ------------------------------------------------------------
+	2.3.5 強調
+------------------------------------------------------------ */
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+strong {
+	color: #f39;
+	background-color: inherit;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* ------------------------------------------------------------
+	2.3.6 略語
+------------------------------------------------------------ */
+abbr, abbr, acronym {
+	border-bottom: 1px dotted #569;
+	cursor: help;
+}
+
+/* ------------------------------------------------------------
+	2.3.7 コードとキーボード
+------------------------------------------------------------ */
+
+/* コード */
+code {
+	font-family:"Courier New", "ＭＳ ゴシック", "MS Gothic", "Osaka−等幅", Osaka-Mono, monospace;
+}
+
+/* キーボード */
+kbd {
+	margin: 1px 4px;
+	padding: 0 4px;
+	border: 1px solid #99c;
+	font-family:"Courier New", "ＭＳ ゴシック", "MS Gothic", "Osaka−等幅", Osaka-Mono, monospace;
+	background-color: #f6f6f9;
+}
+
+/* ============================================================
+	2.4 リスト
+============================================================ */
+
+/* 順不同リスト */
+ul {
+	margin: 1em 15px;
+}
+
+ul li {
+	list-style-type: disc;
+	display: list-item;
+	margin: 0.25em 0 0.25em 18px;
+}
+
+ul ul,
+ol ul {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+ul ul li,
+ol ul li {
+	list-style-type: circle;
+}
+
+ul ul ul,
+ul ol ul,
+ol ul ul,
+ol ol ul {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+ul ul ul li,
+ul ol ul li,
+ol ul ul li,
+ol ol ul li {
+	list-style-type: square;
+}
+
+/* 番号付きリスト */
+ol {
+	margin: 1em 15px 1em 18px;
+}
+
+ol li {
+	list-style-type: decimal;
+	display: list-item;
+	margin: 0.25em 0 0.25em 18px;
+}
+
+ol ol,
+ul ol {
+	margin: 0.5em 0;
+}
+
+ol ol ol,
+ol ul ol,
+ul ol ol,
+ul ul ol {
+	margin: 0.5em 0;
+}
+
+/* 定義リスト */
+dl {
+	margin: 1em 13px;
+}
+
+dt {
+	margin-top: 0.5em;
+	padding: 0 5px;
+	color: #458;
+	font-weight: bold;
+}
+
+dd {
+	margin: 0px 15px 0px 40px;
+	padding: 0px;
+}
+
+/* ============================================================
+	2.5 表
+============================================================ */
+table, tr, th, td {
+	vertical-align: baseline;
+	border-width: 0;
+	border-style: solid;
+	border-color: #569;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #111;
+	text-align: left;
+}
+
+table {
+	max-width: 100%;
+	empty-cells: show;
+	margin: 1em 10px;
+	border-width: 1px 0 1px 0;
+}
+
+th {
+	padding: 0px 8px 0px 8px;
+	border-width: 1px 0 1px 0;
+	color: #458;
+	background-color: #eef;
+	font-weight: bold;
+}
+
+td {
+	padding: 5px 8px 0px 8px;
+	border-width: 0 0 1px 0;
+	border-style: dotted;
+}
+
+/* ============================================================
+	2.6 編集
+============================================================ */
+
+/* ------------------------------------------------------------
+	2.6.1 削除
+------------------------------------------------------------ */
+del,
+del * {
+	color: #999;
+	text-decoration: line-through;
+}
+
+del[datetime]:before {
+	content: " ("attr(datetime)" \00524a\009664) ";
+	color: #999;
+	font-size: 85%;
+}
+
+/* ------------------------------------------------------------
+	2.6.2 挿入
+------------------------------------------------------------ */
+ins {
+	display: block;
+	margin: 1em 10px;
+	padding: 0.5em;
+	border: solid 1px #99c;
+	text-decoration: none;
+}
+
+ins[datetime]:before {	
+	content: " ("attr(datetime)" \004fee\006b63) ";
+	color: #999;
+	font-size: 85%;
+}
+
+del ins {
+	text-decoration: line-through;
+}
+
+ins h1, ins h2, ins h3, ins h4, ins h5, ins h6, ins div, ins p, ins pre, ins address, ins blockquote, ins dl, ins form, ins fieldset, ins table{
+	margin: 0;
+	padding: 0;
+} 
+
+h1 ins, h2 ins, h3 ins, h4 ins, h5 ins, h6 ins, p ins, pre ins, address ins, li ins, dt ins, dd ins {
+	display: inline;
+	margin: 0;
+	padding: 2px 5px;
+	text-decoration: none;
+}
+
+pre ins, code ins, samp ins, var ins, kbd ins {
+	border: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+/* ============================================================
+	2.7 フォーム
+============================================================ */
+
+/* ------------------------------------------------------------
+	2.7.1 フォーム
+------------------------------------------------------------ */
+form {
+	width: 95%;
+	margin: 1em 10px;
+}
+
+form+form {
+	margin-top: 2em;
+}
+
+
+/* ------------------------------------------------------------
+	2.7.2 フォーム部品
+------------------------------------------------------------ */
+
+/* インプット */
+input, textarea {
+	max-width: 95%;
+	line-height: 1.2;
+	vertical-align: middle;
+	margin: 0 5px;
+	padding: 1px;
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Arial, "ＭＳ Ｐゴシック", "MS PGothic", Osaka, sans-serif;
+	font-size: 100%;
+}
+
+/* ラジオボタンとチェックボックス */
+input[type="radio"],
+input[type="checkbox"] {
+	margin: 0 3px;
+	padding: 0;
+}
+
+/* ラベル */
+label {
+	margin-right: 0.25em;
+	padding-right: 0.5em;
+}
+
+label:hover {
+	background-color: #ffd;
+}
+
+/* ボタン系 */
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	margin: 0 7px;
+	padding: 1px 5px;
+}
+
+/* プルダウンメニュー */
+select {
+	margin: 0 5px;
+}
+
+optgroup {
+	color: #458;
+	font-weight: bold;
+	background-color: #eef;
+}
+
+option {
+	padding: 0 1px;
+	color: #000;
+	background-color: #fff;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* フィールドセット */
+fieldset{
+	margin: 0 0 1em;
+	padding: 10px;
+}
+
+legend {
+	padding: 0px 5px 0px 5px;
+	color: #458;
+	font-size: 114%;
+	font-weight: bold;
+}
+
+/* ------------------------------------------------------------
+	2.7.3 定義リストを横並びしてフォームをレイアウト
+------------------------------------------------------------ */
+form dl,
+form dt,
+form dd {
+	border-width: 0;
+	border-style: solid;
+	border-color: #99c;
+}
+
+form dl {
+	margin: 0;
+	padding: 0;
+	border-width: 1px;
+	border-top: none;
+	background-color: #eef;
+}
+
+form dt {
+	width: 11em;
+	float: left;
+	clear: left;
+	margin: 0;
+	padding: 0.5em 0 0.5em 1em;
+	border-width: 1px 0 0 0;
+	color: #000;
+	background: none;
+	font-weight: normal;
+}
+	
+form dd {
+	margin: 0 0 0 11em;
+	padding: 0.5em 0.5em 0.5em 1em;
+	border-width: 1px 0 0 1px;
+	background-color: #fff;
+}
+
+/* ボタン系を配置するdl */
+form dl.submit,
+form dl.submit dt,
+form dl.submit dd {
+	border: none;
+	background: none;
+}
+
+form dl.submit dt {
+	display: none;
+}
+
+/* ボタン系を配置するp */
+form p.submit,
+div.submit form p {
+	text-align: right;
+}
+
+/* div.submitでグループ化した複数のフォーム */
+div.submit {
+	margin: 1em 0;
+}
+
+div.submit form,
+div.submit p {
+	display: inline;
+}
+
+/* ============================================================
+	2.8 その他要素
+============================================================ */
+
+/* 画像 */
+img {
+	vertical-align: baseline;
+	margin: 0 0.25em;
+	border: none;
+}
+
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+	vertical-align: bottom;
+	margin: 0;
+}
+
+/* 水平線 */
+hr {
+	width: 90%;
+	height: 1px;
+	margin: 15px auto;
+	border-width: 1px 0 0 0;
+	border-style: dashed;
+	border-color: #99c;
+	text-align: center;
+	background: none;
+}
+
+
+/* ------------------------------------------------------------
+	2.8.3 オブジェクト
+------------------------------------------------------------ */
+object,
+embed {
+	margin: 1em 0;
+}

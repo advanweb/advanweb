@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>yyyy.mm.dd (D) | ミーティングログ | Advanced Creators Members Site</title>
+<!-- TemplateEndEditable -->
+<meta name="author" content="XIAORING @ 2007 Advanced Creators Web Administrator" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<link rel="home" href="../index.html" />
+<link rel="contents" href="../log/2007/index.html" />
+<link rev="made" href="http://sound.jp/advancedcreators/" />
+<link rel="stylesheet" type="text/css" href="../css/main_master.css" />
+<link rel="shortcut icon" href="../img/favicon.ico" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body class="log">
+
+<div id="container"><!-- 全体 -->
+	
+	<div id="mainCol"><!-- メインの表示列 -->
+		
+		<div id="header"><!-- ヘッダー -->
+			<h1><a href="../index.html">Advanced Creators Members Site</a></h1>
+		<!-- header end --></div>
+	
+		<div id="content"><!-- 内容 -->
+			<h2>ミーティングログ</h2>
+
+			<!-- 日付を記入 -->
+			<h3><!-- TemplateBeginEditable name="date" -->yyyy.mm.dd (D)<!-- TemplateEndEditable --></h3>
+			
+			<ul class="navBack">
+				<li><a href="../log/2007/index.html">一覧に戻る</a></li>
+			</ul>
+
+			<!-- 備考項目を記入 -->
+			<!-- TemplateBeginEditable name="note-top" -->
+			<p>note</p>
+			<!-- TemplateEndEditable -->
+			
+			<!-- ここからログ内容 -->
+			<div class="logContent">
+				
+				<!-- イベント関連 -->
+				<!--	・<dt>～</dt>の間に日付・イベント名を記入
+				・<div class="presenter">～</div>の間に発表者を記入
+				・</div>～</dd>の間に内容を記入 -->
+				<dl class="event">
+					<!-- TemplateBeginRepeat name="event-entry" -->
+					<dt><!-- TemplateBeginEditable name="event-head" -->mm/dd　title<!-- TemplateEndEditable --></dt>
+					<dd><div class="presenter"><!-- TemplateBeginEditable name="event-presenter" -->&lt;yy name&gt;<!-- TemplateEndEditable --></div>
+					<!-- TemplateBeginEditable name="event-content" -->content<!-- TemplateEndEditable --></dd>
+					<!-- TemplateEndRepeat -->
+				</dl>
+				
+				<!-- その他連絡事項 -->
+				<!--	・<dt>～</dt>の間に日付・項目名を記入
+				・<div class="presenter">～</div>の間に発表者を記入
+				・</div>～</dd>の間に内容を記入 -->
+				<dl class="info">
+					<!-- TemplateBeginRepeat name="info-entry" -->
+					<dt><!-- TemplateBeginEditable name="info-head" -->mm/dd　title<!-- TemplateEndEditable --></dt>
+					<dd><div class="presenter"><!-- TemplateBeginEditable name="info-presenter" -->&lt;yy name&gt;<!-- TemplateEndEditable --></div>
+					<!-- TemplateBeginEditable name="info-content" -->content<!-- TemplateEndEditable --></dd>
+					<!-- TemplateEndRepeat -->
+				</dl>
+			</div>
+
+			<!-- 次回の予定など、備考項目を記入 -->
+			<!-- TemplateBeginEditable name="note-bottom" -->
+			<p>note</p>
+			<!-- TemplateEndEditable -->
+			
+			<ul class="navBack">
+				<li><a href="../log/2007/index.html">一覧に戻る</a></li>
+			</ul>
+		<!-- content end --></div>
+		
+	
+		<div id="footer"><!-- フッター -->
+			<hr />
+			<address>Advanced Creators Members Site<br />
+			Copyright &copy; 2007 Advanced Creators. All rights reserved.
+			</address>
+		<!-- footer end --></div>
+		
+	<!-- mainCol end --></div>
+
+<!-- container end --></div>
+
+</body>
+</html>

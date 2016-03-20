@@ -1,0 +1,65 @@
+*2010紅華祭ログ [#q8350e51]
+**総合連絡 [#ve7c8d0c]
+1(金)決起集会 ~
+2(土)までを目安に各総合、チーフは資料を掲示板にアップロードすること。 ~
+5(火)放課後、全体ミーティング、読み合わせ ~
+6(水)放課後、音響機材チェック ~
+7(木)放課後、照明機材チェック ~
+9(金)夜、炊き出し ~
+11(月)打ち上げ ~
+21:15エス下集合、21:45スタート、甘太郎、&yen;2990、2H飲み食べ放題。 ~
+11/4(木)全体反省会 ~
+
+***10/9(土)各ステージリハ、ゲネ、読み合わせ日 [#na80cf81]
+全男子部員は7:30メンステ集合。メインスピーカーのスタック作業があります。 ~
+女の子でも短期お手伝いさんも募集。 ~
+夜予約した人は炊き出しがあります。 ~
+大雨＼(^o^)／ｵﾜﾀ ~
+
+***10/10(日)初日 [#w6b406ac]
+''学生証忘れずに！中夜祭参加できなくなるよ！'' ~
+午前中、軽く雨＼(^o^)／ ~
+メンステは雨天時のステージからイベントしながら平行移動！ ~
+
+***10/11(月)二日目 [#b71b8430]
+''学生証忘れずに！後夜祭参加できなくなるよ！'' ~
+快晴／(^o^)＼ｻｲｼｮｶﾗﾊﾚﾛﾔ ~
+
+**メインステージ [#z7ca1f1e]
+8(金)放課後、イントレ組立て ~
+泊まり込み、強制です＾＾ ~
+電源はいつもどおり電気屋さんが引いてくれて、工事が必要なところはサイドラインさんがやってくれてます。 ~
+Cobraフルで使うとFB側の電源が96Vまで下がるという・・・要注意 ~
+FOH側はトランスを用意してくれてるのである程度までは上がってます。 ~
+|~| ディストリ電圧 |
+| FOH | 108V |
+| FB | 96V |
+
+*** レンタル機材 [#rc5b712d]
+: レンタル元 | (株)SIDELINE
+: Console | Siena480(MIDAS,FOH),Siena400(MIDAS,FB)
+: EQ | DN9340(KLARK-TEKNIK),DN9344(KLARK-TEKNIK),DN370(KLARK-TEKNIK),DN360(KLARK-TEKNIK),DN300(KLARK-TEKNIK),Square One Graphic(KLARK-TEKNIK)
+: Dynamics | Square One Dynamics(KLARK-TEKNIK),DPR-402(BSS),DPR-404(BSS),DPR-504(BSS)
+: Effect | SPX2000(YAMAHA),SPX990(YAMAHA),D-Two(t.c.electronic)
+: Player | MD-CD1 MkII(TASCAM)
+: Speaker | Cobra 4 System(3/4対向,Far*2,Top*4,PWH*8,Dynacode),D15(Dynacode),FMX1502(Electro Voice)
+: Amplifier | Power-H Series H5000(Dynacord),Power-H Series H2500(Dynacord)
+: Processor | DSP 244(Dynacord)
+: WirelessSystem | RZR-820N(REXER)
+: Microphone | SM58(SHURE),SM58S(SHURE),SM57(SHURE),BETA57A(SHURE),C451B(AKG),N/D868(Electro Voice),N/D468(Electro Voice)
+: HeadPhone | MDR-CD900ST(SONY)
+: Instrument | JCM-Slash 2555(Marshall),1960A(Marshall),JC-120(Roland),GP12 SMX(Trace Eliot),StageCustom(YAMAHA)
+: Lighting | PAR64 500M*20,PAR64 500N*10,SCENESETTER24(STAGE EVOLUTION),Dimmer...etc
+
+
+**サークルライブステージ [#oe83bbf9]
+部室、倉庫、研Aの鍵は基本田辺が所持。 ~
+
+**アカピステージ [#icc64754]
+4(月)練習会 ~
+タイムスケジュールそのうちあげるそうです！ ~
+
+**こねこステージ [#ea6ce0a9]
+
+**企画班 [#obe71c2a]
+: Artist | sonic squair

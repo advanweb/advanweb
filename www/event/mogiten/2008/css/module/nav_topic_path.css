@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		パンくずリスト
+		Site:		Advanced Creators 模擬店2008『はまーの手作りですけど、何か？』
+		Version:	1.0.0
+		Date:		2008.4.15
+		Author:		Advanced Creators <http://advancedcreators.undo.jp/>
+		
+	****************************************************************/
+
+
+ol.navTopicPath {
+	clear: both;
+	width: 450px;
+	margin: 0.5em 0;
+	font-size: 85%;
+}
+/* IEはpadding-bottomを増やしてborder-bottomを見せる */
+*+html ol.navTopicPath, * html ol.navTopicPath {
+	padding-bottom: 1px;
+}
+
+ol.navTopicPath li {
+	display: inline;
+	margin: 0;
+}
+
+ol.navTopicPath li a {
+	margin: 0;
+	padding: 0 12px 0 0;
+	background: url(../../img/ico/right_12.png) no-repeat right center;
+}
+

@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		6. ページスタイルシート
+		Site:		Advanced Creators
+		Version:	1.0.4
+		Date:		2007.10.3
+		Author:		Advanced Creators <http://sound.jp/advancedcreators/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	index.html ホーム
+============================================================ */
+
+/* ------------------------------------------------------------
+	h2を非表示
+------------------------------------------------------------ */
+body.home h2 {
+	display: none;
+	width: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	visibility: hidden;
+}
+body.home p.description {
+	margin: 0 0 0.5em;
+	font-size: 85%;
+	text-align: right;
+}
+
+/* ------------------------------------------------------------
+	Global Naviを調整
+------------------------------------------------------------ */
+body.home ul#gNav {
+	position: relative;
+	float: right;
+	top: 0px;
+	left: 0px;
+}
+*+html body.home div.news h3, * html body.home div.news h3 {
+	margin-top: 0;
+}
+
+/* ------------------------------------------------------------
+	Informationのエントリー
+------------------------------------------------------------ */
+body.home div.news {
+	clear: right;
+}
+body.home div.news div.entry {
+	float: left;
+	width: 255px;
+	border: 1px dashed #999;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background: #111 url(../img/bg/grad_b-bk.png) 0 0 repeat-x;
+}
+
+/* エントリー内の要素 */
+body.home div.news div.entry h4 {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+body.home div.news div.entry p.date {
+	margin: 0 0 1em;
+	padding: 0;
+	color: #bbb;
+	/* font-size: 85%; */
+}
+
+/* clearfix */
+body.home div.news {
+	zoom: 1;	/*for IE 5.5-7*/
+}
+body.home div.news:after {		/*for modern browser*/
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+/* h3でfloatをclear */
+body.home h3 {
+	clear: both;
+}
+
+
+/* ============================================================
+	freshman.html アドバンに興味のあるみなさんへ
+============================================================ */
+
+/* ------------------------------------------------------------
+	画像を右にフロート
+------------------------------------------------------------ */
+body.freshman div#content img.img {
+	float: right;
+	clear: right;
+	margin: 0 -15px 0 15px;
+}
+
+/* 次の見出しでクリア */
+body.freshman div#content h3,
+body.freshman div#content h4 {
+	clear: both;
+}
+
+/* 新入生説明会と新歓飲み会ではクリアしない */
+body.freshman div#content h4#briefing,
+body.freshman div#content h4#reseption {
+	clear: none;
+}
+
+/* ------------------------------------------------------------
+	主なイベントのリスト
+------------------------------------------------------------ */
+
+/* リストを左にフロート */
+body.freshman div#content dl.schedule {
+	float: left;
+	width: 450px;
+	margin: 0 1.5em 1.85em 0;
+}
+
+/* dt,ddを横並び */
+body.freshman div#content dl.schedule dt {
+	float: left;
+	clear: left;
+	width: 3em;
+	margin: 0 1em 0 0;
+	padding: 1px 0 1px 0;
+	background: none;
+	text-align: right;
+}
+
+body.freshman div#content dl.schedule dd {
+	margin: 0;
+	padding: 1px 0 1px 4em;
+	border-bottom: 1px dotted #999;
+}
+
+/* 主な学内サークルのリストに左マージン */
+body.freshman div#content ul.schedule {
+	margin-left: 470px;
+}
+
+
+/* ============================================================
+	link.html LINK
+============================================================ */
+
+/* ------------------------------------------------------------
+	段組
+------------------------------------------------------------ */
+
+body.link div.firstCol {
+	float: left;
+	width: 305px;
+}
+body.link div.secondCol {
+	margin-left: 325px;
+}
+body.link div.firstCol h3,
+body.link div.secondCol h3 {
+	margin-top: 0;
+}
+body.link div.firstCol h3 {
+	margin-right: 5px;
+}
+body.link div.firstCol ul,
+body.link div.secondCol ul {
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+

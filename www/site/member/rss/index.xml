@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://advancedcreators.undo.jp/site/member/css/rss.xsl"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://advancedcreators.undo.jp/site/member/rss/">
+<title>Advanced Creators Members Site</title>
+<link>http://advancedcreators.undo.jp/site/member/</link>
+<description><![CDATA[Advanced Creators Members Siteの更新情報を配信します。]]></description>
+<dc:language>ja</dc:language>
+<dc:date>2008-01-24T12:08:26+09:00</dc:date>
+<admin:generatorAgent rdf:resource="http://www.towofu.net/soft/rsspost.php" />
+
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/log/2008/01/17.html" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/log/2008/01/10.html" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/log/2007/12/20.html" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/html/stock.html" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/advan_equip/" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/html/event/2007/music_fes.html" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/log/2007/12/13.html" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/log/2007/12/06.html" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/log/2007/11/29.html" />
+<rdf:li rdf:resource="http://advancedcreators.undo.jp/site/member/log/2007/11/22.html" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/log/2008/01/17.html">
+<title>2008.1.17 (Thu) | ミーティングログ</title>
+<link>http://advancedcreators.undo.jp/site/member/log/2008/01/17.html</link>
+<description><![CDATA[1/17 (木) のミーティングログを掲載しました。]]></description>
+<dc:date>2008-01-24T12:08:26+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/log/2008/01/10.html">
+<title>2008.1.10 (Thu) | ミーティングログ</title>
+<link>http://advancedcreators.undo.jp/site/member/log/2008/01/10.html</link>
+<description><![CDATA[1/10 (木) のミーティングログを掲載しました。]]></description>
+<dc:date>2008-01-24T12:08:05+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/log/2007/12/20.html">
+<title>2007.12.20 (Thu) | ミーティングログ</title>
+<link>http://advancedcreators.undo.jp/site/member/log/2007/12/20.html</link>
+<description><![CDATA[12/20 (木) のミーティングログを掲載しました。]]></description>
+<dc:date>2008-01-08T16:10:27+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/html/stock.html">
+<title>機材リストを更新</title>
+<link>http://advancedcreators.undo.jp/site/member/html/stock.html</link>
+<description><![CDATA[2007年12月22日版の機材リストを更新しました。現在最新のバージョンはver.3.0です。
+同日の大掃除の際に調査した時点でのデータです。]]></description>
+<dc:date>2007-12-27T02:37:39+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/advan_equip/">
+<title>Advanced Creators 機材管理サイト オープン</title>
+<link>http://advancedcreators.undo.jp/site/member/advan_equip/</link>
+<description><![CDATA[Webブラウザ上でアドバンの所有する機材の情報を閲覧・更新できる、「Advanced Creators 機材管理サイト」がオープンしました。]]></description>
+<dc:date>2007-12-20T04:45:11+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/html/event/2007/music_fes.html">
+<title>音樂祭の反省文を掲載 | ミーティングログ</title>
+<link>http://advancedcreators.undo.jp/site/member/html/event/2007/music_fes.html</link>
+<description><![CDATA[音樂祭の反省文まとめとアンケート集計結果を、音樂祭のページに載せました。]]></description>
+<dc:date>2007-12-14T14:39:36+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/log/2007/12/13.html">
+<title>2007.12.13 (Thu) | ミーティングログ</title>
+<link>http://advancedcreators.undo.jp/site/member/log/2007/12/13.html</link>
+<description><![CDATA[12/13 (木) のミーティングログを掲載しました。]]></description>
+<dc:date>2007-12-13T14:33:04+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/log/2007/12/06.html">
+<title>2007.12.6 (Thu) | ミーティングログ</title>
+<link>http://advancedcreators.undo.jp/site/member/log/2007/12/06.html</link>
+<description><![CDATA[12/6 (木) のミーティングログを掲載しました。]]></description>
+<dc:date>2007-12-13T14:33:01+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/log/2007/11/29.html">
+<title>2007.11.29 (Thu) | ミーティングログ</title>
+<link>http://advancedcreators.undo.jp/site/member/log/2007/11/29.html</link>
+<description><![CDATA[11/29 (木) のミーティングログを掲載しました。]]></description>
+<dc:date>2007-11-29T18:30:50+09:00</dc:date>
+</item>
+
+<item rdf:about="http://advancedcreators.undo.jp/site/member/log/2007/11/22.html">
+<title>2007.11.22 (Thu) | ミーティングログ</title>
+<link>http://advancedcreators.undo.jp/site/member/log/2007/11/22.html</link>
+<description><![CDATA[11/22 (木) のミーティングログを掲載しました。]]></description>
+<dc:date>2007-11-22T19:55:10+09:00</dc:date>
+</item>
+
+</rdf:RDF>

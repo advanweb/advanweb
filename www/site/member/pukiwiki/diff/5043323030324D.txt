@@ -1,0 +1,57 @@
+ #nofollow
+ #norelated
+-* PC3500 [#fb56de1d]
++* PC2002M 編集中[#fb56de1d]
+ YAMAHA社が販売しているパワーアンプ。~
+ 
+ まだ全然編集してません！
+ 
+ ** 諸元 [#jdb0ba98]
+ |連続出力|20Hz〜20kHz&br;THD=0.05%|8&Omega;/STEREO|240W×2|
+ |~|~|16&Omega;/MONO|480W×2|
+ |出力帯域幅|8&Omega;,120W,THD=0.1%|STEREO|10Hz〜100kHz,THD+N=0.1%|
+ |~|16&Omega;,240W,THD=0.1%|MONO|10Hz〜100kHz|
+ |全高調波歪率|20Hz〜20kHz,120W|8&Omega;/STEREO|0.007%以下|
+ |周波数特性|>|RL=8&Omega;,Po=1W|0dB+0,-1dB f=10Hz〜50kHz|
+ |混変調波歪率(IMD)|60Hz:7kHz,4:1,Half Power|4&Omega;,8&Omega;/STEREO&br;8&Omega;/BRIDGE|≦0.05%|
+ |チャンネル間セパレーション&br;ATT.max.|>|Half Power RL=8&Omega;1kHz&br;入力600&Omega;シャント|≧65dB,f=20Hz〜20kHz|
+ |~|>|~|≧80dB,f=1kHz|
+ |残留ノイズ ATT.min.|>|12.7kHz LPF|≦-70dBu|
+ |~|>|IHF-Aネットワーク|≦-80dB|
+ |SN比|入力600&Omega;シャント|12.7kHz LPF|101dB|
+ |~|~|IHF-Aネットワーク|106dB|
+ |ダンピングファクター|>|RL=8&Omega;,1kHz|≧500|
+ |スルーレート|8&Omega;フルスイング|STEREO|±30V/&micro;s|
+ |~|~|BRIDGE|±50V/&micro;s|
+ |センシティビティ(ATT max.)|>|Rated Power into 8&Omega;|+4dB|
+ |>|>|ボルテージゲイン ATT.Max.|32dB|
+ |>|>|入力インピーダンス|30k&Omega;/バランス型,15k&Omega;/アンバランス型|
+ |インジケーター|>|POWER(STAND-BY)|×1(赤)|
+ |~|>|PROTECTION(MUTE)|×2(赤)|
+ |~|>|TEMP|×1(赤,点滅)(ヒートシンク温度≧85℃)|
+ |~|>|CLIP/LIMIT|×2(赤)|
+ |~|>|OUTPUT SIGNAL|×2(黄)|
+ |~|>|INPUT SIGNAL|×1(緑)|
+ |>|>|プロテクション|Power SW ON/OFF muting&br;ヒートシンク温度≧95℃,PCリミッター0 RL≦1&Omega;|
+ |>|>|リミッター|コンプ:THD≧0.5%(f=1kHz)|
+ |コントロール|>|フロントパネル|POWERスイッチ:ON/OFF&br;アッテネーター:31ポジション(チャンネル単位)×2|
+ |~|>|リアパネル|MODEスイッチ:STEREO/PARALLEL/BRIDGE&br;PIN-1 GND SW;ON/OFF|
+ |~|>|~|フィルタースイッチ:(SUB WOOFER/LOW CUT/OFF)×2&br;fc=(25Hz〜150Hz,12dB/octave)×2&br;&S Processingスイッチ(ON/OFF)|
+ |コネクター|>|INPUT|XLR-3-31×2&br;XLR-3-32×2&br;1/4"インチTRSフォーン端子(バランス型)×2|
+ |~|>|OUTPUT|5ウェイバインディングポスト×2|
+ |~|>|MONITOR&REMOTE|D-SUB 15ピン メス|
+ |モニターリモート|>|MONITOR|Pre Relay Output Level×2&br;CLIP/LIMIT Indicator×2&br;Output On Indicator×2&br;TEMP Indicator|
+ |~|REMOTE CONTROL|>|Muting(Output Relay)×2&br;Power OFF(Power Amp.)|
+ |>|>|冷却ファンスピード|〜50℃:停止&br;50℃〜70℃:低速〜高速/(Variable)&br;70℃〜:高速|
+ |>|>|電源|100V,50/60Hz|
+ |消費電力|>|無信号&br;出力4&Omega;|450W|
+ |>|>|最大外形寸法(W×H×D)|480×100×455.8mm|
+ |>|>|質量|20.0kg|
+ |>|>|オプション|ベンチレーションパネル VP1|
+ 0dBu=0.775Vrms,Half Power=1/2Power Output Level(Rated Power)
+ 
+ 
+ ** 関連ページ [#q13ff9e2]
+ 
+ #ls2
+ - [[InterWikiName]] -- [[InterWiki]]のサーバリスト

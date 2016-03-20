@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<title>スタイルシートデザインノート | Advanced Creators 機材管理サイト</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="XIAORING @ 2007 Advanced Creators Web Administrator" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+<link rel="index" href="../index.php" />
+<link rel="copyright" href="../about/index.php" />
+<link rel="help" href="../help_01.php" />
+<link rev="made" href="http://advan.dip.jp/" />
+<link href="../css/main_master.css" rel="stylesheet" type="text/css" />
+<link href="../img/favicon.ico" rel="shortcut icon" />
+</head>
+<body>
+
+<div id="container"><!-- 全体 -->
+
+	<div id="header"><!-- ヘッダー -->
+		<h1><!-- サイトタイトル --><a href="#"><img src="../img/title_01.png" alt="Advanced Creators 機材管理サイト" /></a></h1>
+		<ul id="gNav"><!-- グローバルナビゲーション -->
+			<li><a href="#" title="トップページに戻ります。" accesskey="1">トップ</a></li>
+			<li><a href="#" title="機材データベースを見ます。" accesskey="2">機材</a></li>
+			<li><a href="#" title="イベントスケジュールを見ます。" accesskey="3">イベント</a></li>
+			<li><a href="#" title="ミーティングログを見ます。" accesskey="4">ログ</a></li>
+			<li><a href="#" title="ノートを見ます。" accesskey="5">ノート</a></li>
+			<li><a href="#" title="このサイトの説明を見ます。" accesskey="6">このサイトについて</a></li>
+			<li><a href="#" title="ユーザー名やパスワードなどのユーザー情報を、確認したり変更したりします。" accesskey="7">ユーザー管理</a></li>
+		</ul>
+	<!-- header end --></div>
+	
+	
+	<div id="mainCol"><!-- メインの表示列 -->
+		
+		<div id="content"><!-- content 内容 -->
+			<h2>スタイルシートデザインノート</h2>
+			<h3>Yahoo! Library font.css</h3>
+			<p><a href="http://developer.yahoo.com/yui/fonts/">http://developer.yahoo.com/yui/fonts/</a></p>
+			<p>Copyright (c) 2006, Yahoo! Inc. All rights reserved.<br />
+				<a href="http://developer.yahoo.com/yui/license.txt">http://developer.yahoo.com/yui/license.txt</a></p>
+			<h4>Font-size Adjustment Chart</h4>
+			<table>
+				<tr>
+					<th scope="col">px</th>
+					<th scope="col">%</th>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>77</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>85</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>92</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>107</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>114</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>122</td>
+				</tr>
+				<tr>
+					<td>17</td>
+					<td>129</td>
+				</tr>
+				<tr>
+					<td>18</td>
+					<td>136</td>
+				</tr>
+				<tr>
+					<td>19</td>
+					<td>144</td>
+				</tr>
+				<tr>
+					<td>20</td>
+					<td>152</td>
+				</tr>
+				<tr>
+					<td>21</td>
+					<td>159</td>
+				</tr>
+				<tr>
+					<td>22</td>
+					<td>167</td>
+				</tr>
+				<tr>
+					<td>23</td>
+					<td>174</td>
+				</tr>
+				<tr>
+					<td>24</td>
+					<td>182</td>
+				</tr>
+				<tr>
+					<td>25</td>
+					<td>189</td>
+				</tr>
+				<tr>
+					<td>26</td>
+					<td>197</td>
+				</tr>
+			</table>
+			
+			<h3>Selector Set Format</h3>
+			<pre>.selector {
+	property: value;
+	property: value;
+}</pre>
+			
+			<h3>Property Chart Order </h3>
+			<h4>Generated Content, Automatic Numbering, and Lists</h4>
+			<ul>
+				<li>content</li>
+				<li>quotes</li>
+				<li>counter-reset</li>
+				<li>counter-increment</li>
+				<li>marker-offset</li>
+				<li>list-style
+					<ul>
+						<li>list-style-type</li>
+						<li>list-style-image</li>
+						<li>list-style-position</li>
+					</ul>
+				</li>
+			</ul>
+			
+			<h4>Visual Formatting Model</h4>
+			<ul>
+				<li>display</li>
+				<li>position</li>
+				<li>top</li>
+				<li>right</li>
+				<li>bottom</li>
+				<li>left</li>
+				<li>z-index</li>
+				<li>float</li>
+				<li>clear</li>
+				<li>direction</li>
+				<li>unicode-bidi</li>
+				<li>width</li>
+				<li>min-width</li>
+				<li>max-width</li>
+				<li>height</li>
+				<li>min-height</li>
+				<li>max-height</li>
+				<li>line-height</li>
+				<li>vertical-align</li>
+			</ul>
+			
+			<h4>Visual Effects</h4>
+			<ul>
+				<li>overflow</li>
+				<li>clip</li>
+				<li>visibility </li>
+			</ul>
+			
+			<h4>Box Model</h4>
+			<ul>
+				<li>margin
+					<ul>
+						<li>margin-top</li>
+						<li>margin-right</li>
+						<li>margin-bottom</li>
+						<li>margin-left</li>
+					</ul>
+				</li>
+				<li>padding
+					<ul>
+						<li>padding-top</li>
+						<li>padding-right</li>
+						<li>padding-bottom</li>
+						<li>padding-left</li>
+					</ul>
+				</li>
+				<li>border
+					<ul>
+						<li>border-width</li>
+						<li>border-style</li>
+						<li>border-color</li>
+						<li>border-top</li>
+						<li>border-right</li>
+						<li>border-bottom</li>
+						<li>border-left</li>
+						<li>border-top-width</li>
+						<li>border-right-width</li>
+						<li>border-bottom-width</li>
+						<li>border-left-width</li>
+						<li>border-top-style</li>
+						<li>border-right-style</li>
+						<li>border-bottom-style</li>
+						<li>border-left-style </li>
+						<li>border-top-color</li>
+						<li>border-right-color</li>
+						<li>border-bottom-color</li>
+						<li>border-left-color</li>
+					</ul>
+				</li>
+			</ul>
+			
+			<h4>Tables</h4>
+			<ul>
+				<li>caption-side</li>
+				<li>table-layout</li>
+				<li>border-collapse</li>
+				<li>border-spacing</li>
+				<li>empty-cells</li>
+				<li>speak-header</li>
+			</ul>
+			
+			<h4>Color</h4>
+			<ul>
+				<li>Color</li>
+			</ul>
+			
+			<h4>Background</h4>
+			<ul>
+				<li>background
+					<ul>
+						<li>background-color</li>
+						<li>background-image</li>
+						<li>background-repeat</li>
+						<li>background-attachment</li>
+						<li>background-position</li>
+					</ul>
+				</li>
+			</ul>
+			
+			<h4>Fonts</h4>
+			<ul>
+				<li>font
+					<ul>
+						<li>font-family</li>
+						<li>font-size</li>
+						<li>font-size-adjust</li>
+						<li>font-weight</li>
+						<li>font-style</li>
+						<li>font-variant</li>
+						<li>font-stretch</li>
+					</ul>
+				</li>
+			</ul>
+			
+			<h4>Text</h4>
+			<ul>
+				<li>text-indent</li>
+				<li>text-align</li>
+				<li>text-decoration</li>
+				<li>text-shadow</li>
+				<li>letter-spacing</li>
+				<li>word-spacing</li>
+				<li>text-transform</li>
+				<li>white-space</li>
+			</ul>
+			
+			<h4>User Interface</h4>
+			<ul>
+				<li>cursor</li>
+				<li>outline
+					<ul>
+						<li>outline-width</li>
+						<li>outline-style</li>
+						<li>outline-color</li>
+					</ul>
+				</li>
+			</ul>
+			
+			<h4>Aural Style Sheets</h4>
+			<ul>
+				<li>volume</li>
+				<li>speak</li>
+				<li>pause
+					<ul>
+						<li>pause-before</li>
+						<li>pause-after</li>
+					</ul>
+				</li>
+				<li>cue
+					<ul>
+						<li>cue-before</li>
+						<li>cue-after</li>
+					</ul>
+				</li>
+				<li>play-during</li>
+				<li>azimuth</li>
+				<li>elevation</li>
+				<li>speech-rate</li>
+				<li>voice-family</li>
+				<li>pitch</li>
+				<li>pitch-range</li>
+				<li>stress</li>
+				<li>richness</li>
+				<li>speak-punctuation</li>
+				<li>speak-numeral </li>
+			</ul>
+			
+			<h3>Heading Format </h3>
+			<h4>Title</h4>
+			<pre>/*	****************************************************************
+		
+		Title:		Sheet Title
+		Site:		Site Title
+		Version:	x.x.x
+		Date:		yyyy.mm.dd
+		Author:		Author Name &lt;Address&gt;
+		
+	****************************************************************/
+</pre>
+			<h4>Chapter</h4>
+			<pre>/* ============================================================
+	x.x Chapter Heading
+============================================================ */
+</pre>
+			<h4>Section</h4>
+			<pre>/* ------------------------------------------------------------
+	x.x.x Section Heading
+------------------------------------------------------------ */
+</pre>
+			
+		<!-- content end --></div>
+		
+	<!-- mainCol end --></div>
+	
+	
+	<div id="subCol"><!-- サイド表示列 -->
+		
+		<dl class="pa">
+			<dt>音響</dt>
+			<dd>
+				<ul>
+					<li><a href="#">コンソール</a></li>
+					<li><a href="#">エフェクター</a></li>
+					<li><a href="#">プレーヤー</a></li>
+					<li><a href="#">スピーカー</a></li>
+					<li><a href="#">パワーアンプ</a></li>
+					<li><a href="#">マイク</a></li>
+					<li><a href="#">DI</a></li>
+					<li><a href="#">PD</a></li>
+					<li><a href="#">ヘッドフォン</a></li>
+					<li><a href="#">その他音響</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl class="lighting">
+			<dt>照明</dt>
+			<dd>
+				<ul>
+					<li><a href="#">調光卓</a></li>
+					<li><a href="#">ディマー</a></li>
+					<li><a href="#">灯体</a></li>
+					<li><a href="#">レンズ・電球</a></li>
+					<li><a href="#">ハンガー・クランプ</a></li>
+					<li><a href="#">バンドア</a></li>
+					<li><a href="#">エフェクト</a></li>
+					<li><a href="#">ゼラ枠</a></li>
+					<li><a href="#">ゼラ</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl class="cable">
+			<dt>ケーブル</dt>
+			<dd>
+				<ul>
+					<li><a href="#">マイクケーブル</a></li>
+					<li><a href="#">スピーカーケーブル</a></li>
+					<li><a href="#">立ち上げ</a></li>
+					<li><a href="#">マルチ</a></li>
+					<li><a href="#">楽器用ケーブル</a></li>
+					<li><a href="#">電源</a></li>
+					<li><a href="#">コネクター</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl class="stand">
+			<dt>スタンド</dt>
+			<dd>
+				<ul>
+					<li><a href="#">マイクスタンド</a></li>
+					<li><a href="#">マイクホルダー</a></li>
+					<li><a href="#">スピーカースタンド</a></li>
+					<li><a href="#">照明スタンド</a></li>
+				</ul>
+			</dd>
+		</dl>
+		<dl class="accessory">
+			<dt>その他</dt>
+			<dd>
+				<ul>
+					<li><a href="#">音響アクセサリー</a></li>
+					<li><a href="#">照明アクセサリー</a></li>
+					<li><a href="#">ラック</a></li>
+					<li><a href="#">ケース</a></li>
+					<li><a href="#">工具</a></li>
+					<li><a href="#">文具</a></li>
+					<li><a href="#">楽器</a></li>
+					<li><a href="#">その他</a></li>
+				</ul>
+			</dd>
+		</dl>
+		
+	<!-- subCol end --></div>
+		
+	
+	<div id="footer"><!-- フッター -->
+		<hr />
+		<address>Advanced Creators 機材管理サイト<br />
+		Copyright &copy; 2006-2007 <a href="http://sound.jp/advancedcreators/" title="Advanced Creators 公式サイト">Advanced Creators</a>, <a href="http://mkgweb.or.tv/" title="サイト制作者個人サイト &quot;芽我拒グループ　web支店&quot;">XIAORING</a>. All rights reserved.
+		</address>
+	<!-- footer end --></div>
+
+<!-- container終了 --></div>
+
+</body>
+</html>

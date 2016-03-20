@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		紅華祭に参加します！
+		Site:		Advanced Creators
+		Version:	1.0.1
+		Date:		2007.10.3
+		Author:		Advanced Creators <http://sound.jp/advancedcreators/>
+		
+	****************************************************************/
+
+
+/* ------------------------------------------------------------
+	画像のfloat
+------------------------------------------------------------ */
+
+p.al.img.left {
+	float: left;
+	clear: left;
+	margin: 0 20px 2em 0;
+}
+p.al.img.right {
+	float: right;
+	clear: right;
+	margin: 0 0 2em 20px;
+}
+
+/* h4でclear */
+h4.al {
+	clear: both;
+}
+
+
+/* ------------------------------------------------------------
+	アーティストリスト
+------------------------------------------------------------ */
+.artistList dl {
+	float: left;
+	width: 275px;
+	border: 1px dashed #999;
+	margin: 0 20px 20px 0;
+	padding: 10px;
+	background: #111 url(../../img/bg/grad_b-bk.png) 0 0 repeat-x;
+}
+.artistList dl dt {
+	margin: 0.25em 0 0 0;
+	padding: 0 15px 3px;
+	border-bottom: 1px dotted #999;
+	background-position: 0px center;
+	font-size: 144%;
+	letter-spacing: 0.15em;
+}
+.artistList dl dd {
+	margin: 0;
+	padding: 0 15px;
+}
+
+/* clearfix */
+.artistList {
+	zoom: 1;	/*for IE 5.5-7*/
+}
+.artistList:after {		/*for modern browser*/
+	content: ".";
+	display: block;
+	height: 0px;
+	clear: both;
+	visibility: hidden;
+}
+
+/* 日時 */
+.artistList dl dd .datetime {
+	font-size: 114%;
+	color: #eac;
+}
+
+/* navBackでclear */
+div.navBack.al {
+	clear: left;
+}
+
