@@ -347,7 +347,7 @@ ul li {
 }
 .intro h1 {
 	color: #000;
-	font: 27px "Source Sans Pro";
+	font: 22px "Source Sans Pro";
 }
 .intro p {
 	color: #6c7279;
@@ -378,6 +378,7 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Works
 -------------------------------------------------------------------------------*/
+
 .work {
 	-moz-box-shadow: 0 0 0 1px #fff;
 	-webkit-box-shadow: 0 0 0 1px #fff;
@@ -405,7 +406,7 @@ ul li {
 .work .overlay-caption {
 	position: absolute;
 	text-align: center;
-	top: 50%;
+	top: 100%;
 	width: 100%;
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -512,11 +513,17 @@ ul li {
 .testimonials blockquote {
 	border: 0;
 	margin: 0;
-	padding: 100px 15%;
+	padding: 150px 15% 200px;
 }
 .testimonials h1 {
 	color: #fff;
 	font: 23px "Source Sans Pro";
+	font-weight: 300;
+}
+
+.testimonials h3 {
+	color: #fff;
+	font: 30px "Source Sans Pro";
 	font-weight: 300;
 }
 .testimonials p {
@@ -527,17 +534,25 @@ ul li {
 	letter-spacing: 2px;
 	font-weight: 400;
 	margin-top: 30px;
+	margin-bottom: 60px;
 	text-transform: uppercase;
+}
+.testimonials a {
+	margin-bottom: 60px;
 }
 /* ------------------------------------------------------------------------------
 	Quote
 -------------------------------------------------------------------------------*/
+.quote h1 {
+	font-size: 20px;
+	margin-top: 100px;
+}
 .quote h3 {
 	margin-top: 0;
 }
 .quote p {
 	color: #2d3033;
-	font-weight: 600;
+	font-weight: 100;
 	text-transform: uppercase;
 }
 .quote .btn {
