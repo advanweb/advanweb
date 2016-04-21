@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+/*	****************************************************************
+		
+		Title:		6. ページスタイルシート
+		Site:		Advanced Creators Members Site
+		Version:	1.0.7
+		Date:		2008.1.24
+		Author:		XIAORING <http://mkgweb.undo.jp/>
+		
+	****************************************************************/
+
+
+/* ============================================================
+	トップページ
+============================================================ */
+
+/* 段組 */
+body.home div.firstCol {
+	float: left;
+	width: 245px;
+	border-right: 1px dotted #ccc;
+}
+body.home div.secondCol {
+	margin-left: 265px;
+}
+body.home div.firstCol h3,
+body.home div.secondCol h3 {
+	margin-top: 0;
+}
+body.home div.firstCol ul,
+body.home div.secondCol ul {
+	margin-top: 0;
+	margin-bottom: 2em;
+}
+
+/* feedでfloatをclear */
+body.home .feed {
+	clear: left;
+}
+
+
+/* ============================================================
+	ミーティングログ
+============================================================ */
+
+/* ログのエントリー */
+body.log .logContent dl {
+	margin: 1em 0 3em 0;
+}
+
+/* 項目名 */
+body.log .logContent dt {
+	clear: both;
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+	padding: 0 22px;
+	border-width: 0 0 1px 0;
+	border-style: dotted;
+	background-repeat: no-repeat;
+	background-position: 4px center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* 発表者 */
+body.log .logContent .presenter {
+	float: right;
+	margin: 0 0 0 15px;
+	text-align: right;
+}
+
+/* 内容 */
+body.log .logContent dd {
+	margin: 0px 15px 0px 40px;
+	padding: 0px;
+}
+
+/* イベント関連 */
+body.log .event dt {
+	border-color: #039;
+	color: #039;
+	background-image: url(../img/ico_pa_01.png);
+}
+body.log .event .presenter {
+	color: #039;
+}
+
+/* その他連絡事項 */
+body.log .info dt {
+	border-color: #063;
+	color: #063;
+	background-image: url(../img/ico_lighting_01.png);
+}
+body.log .info .presenter {
+	color: #063;
+}
+
+/* リストの白丸・黒丸スタイル */
+ul.circle li {
+	list-style: circle;
+	display: list-item;
+	margin: 0.25em 0 0.25em 18px;
+	padding: 0;
+	background: none;
+}
+ul.disc li {
+	list-style: disc;
+	display: list-item;
+	margin: 0.25em 0 0.25em 18px;
+	padding: 0;
+	background: none;
+}
+
+
+/* 要素の再設定 */
+/* 表 */
+body.log div.logContent dd table,
+body.log div.logContent dd table tr,
+body.log div.logContent dd table th,
+body.log div.logContent dd table td {
+	margin: 0;
+	padding: 0 0.5em 0 0;
+	border: 0;
+	background: none;
+}
+
+
+/* ------------------------------------------------------------
+	ミーティングログのインデックスページ
+------------------------------------------------------------ */
+
+/* 定例ミーティングのリスト */
+body.log ul.logIndex {
+	margin: 0;
+	padding: 0;
+	width: 510px;/* 必ずwidthの設定をしてください */
+	/* for MacIE5.x \*//*/
+	overflow: hidden;
+	/* end */
+}
+
+/* clear-fix */
+body.log ul.logIndex{
+    zoom:1;/*for IE 5.5-7*/
+}
+body.log ul.logIndex:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+body.log ul.logIndex li {
+	margin: 1px;
+	padding: 0;
+	float: left;
+	width: 6.5em;
+	line-height: 1;
+	list-style-type: none;
+}
+
+body.log ul.logIndex li a {
+	padding: 5px 0; /* ボタンの厚みはここで調整 */
+	display: block;
+	position: relative; /* IE6でマウス反応領域がおかしいのをFix */
+	text-align: center;
+	text-decoration: none;
+	background-color: #f9f9fc;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #f9f9f9 #ddd #ddd #f9f9f9;
+}
+
+body.log ul.logIndex.even li a {
+	background-color: #f3f3f6;
+}
+
+body.log ul.logIndex li a:hover,
+body.log ul.logIndex li a:active {
+	color: #fff;
+	background-color: #8ac;
+}
+
+
+/* ============================================================
+	スタッフ養成プログラム
+============================================================ */
+/* 新着情報 */
+body.lecture div.topic {
+	margin: 1em 0;
+	padding: 0 15px;
+	border: 1px solid #99c;
+	background-color: #f6f6ff;
+}
+
+body.lecture div.topic + div.topic {
+	margin-top: 1.5em;
+}
+
+body.lecture div.topic h3 {
+	margin-top: 15px;
+}
+
+body.lecture div.entry {
+	margin: 1em 0;
+	padding: 0 15px;
+	border: 1px solid #99c;
+	background-color: #fff;
+}
+
+body.lecture div.entry + div.entry {
+	margin-top: 1.5em;
+}
+
+body.lecture div.entry h3 {
+	margin-top: 15px;
+}
+
+body.lecture div.topic div.entry h4 {
+	margin-top: 15px;
+}
+

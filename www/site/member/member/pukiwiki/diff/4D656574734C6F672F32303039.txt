@@ -1,0 +1,56 @@
+ * ミーティング（・∀・）ログ 2009 [#f4655fc1]
+ 
+ のページを試しに作ってみた。~
+ 文字通りテスト中。~
+ 
+ ミーティングログとか反省会ログとか、そういうもろもろのログをWikiで書いてみたらどうかなというテスト。~
+ 
++ふつうのミーティングログは[[こちら>http://advancedcreators.undo.jp/site/member/meetslog/2009/]]。~
++
+ ** &aname(regular){定例ミーティング}; [#x55293db]
+ 
+ 定例ミーティングはこちら。~
+ ページ名は「MeetsLog/2009/月/日」にしよう。(月と日は2桁、10未満の時は0を頭に補完する)~
+ 
+ - [[9/30>MeetsLog/2009/09/30]]
+ 
+ ** &aname(event){イベントミーティング}; [#n41e7c86]
+ 
+ 学祭ミーティングとか音樂祭ミーティングとか、イベント関係の集まりはこちら。~
+ ページ名は「MeetsLog/2009/Event/月/日/タイトル」~
+ 
+ 例
+ - 学祭ミーティング: [[9/30>MeetsLog/2009/Event/09/30/学祭ミーティング]]
+ 
+ ** &aname(division){各部署ミーティング}; [#d405d02f]
+ 
+ 音響・照明・企画ミーティングはこちら。~
+ ページ名は「MeetsLog/2009/Division/月/日/タイトル」~
+ 
+ 例
+ - 音響ミーティング: [[9/30>MeetsLog/2009/Division/09/30/音響ミーティング]]
+ - 照明ミーティング: [[9/30>MeetsLog/2009/Division/09/30/照明ミーティング]]
+ - 企画ミーティング: [[9/30>MeetsLog/2009/Division/09/30/企画ミーティング]]
+ 
+ ** &aname(misc){その他ミーティング}; [#qee560db]
+ 
+ 座談会とか、その他もろもろの集まりはこちら。~
+ ページ名は「MeetsLog/2009/Misc/月/日/タイトル」~
+ 
+ 例
+ - 座談会: [[9/30>MeetsLog/2009/Misc/09/30/座談会]]
+ 
+ ** &aname(review){反省会}; [#n23124f7]
+ 
+ 反省会ログはこちら。~
+ ページ名は「MeetsLog/2009/Review/月/日/タイトル」~
+ 
+ 例
+ - [[9/19 アカピ乱舞>MeetsLog/2009/Review/09/19/アカピ乱舞]]
+ 
+ * 過去のミーティングログ [#y4a1cbdd]
+ 
+ - [[2008>http://advancedcreators.undo.jp/site/member/meetslog/2008/]]
+ - [[2007>http://advancedcreators.undo.jp/site/member/meetslog/2007/]]
+ - [[2006>http://advancedcreators.undo.jp/site/member/meetslog/2006/]]
+ - [[2005>http://advancedcreators.undo.jp/site/member/meetslog/2005/]]

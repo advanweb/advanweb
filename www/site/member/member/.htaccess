@@ -1,0 +1,5 @@
+DirectoryIndex index.html index.htm
+AuthUserFile /home/advancedcreators/www/site/member/.htpasswd
+AuthType Basic
+AuthName "Web access"
+Require valid-user

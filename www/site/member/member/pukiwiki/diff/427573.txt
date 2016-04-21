@@ -1,0 +1,24 @@
+ * Bus [#t9034696]
+ 信号の通る道のこと。 ~
+ 例えばメインスピーカーへ音を送るのならばStereo Busまたは、Main Bus。 ~
+ Auxへ送るのならばAux Bus、Groupへ送るのならばGroup Busと言うことになる。 ~
+ 
+ バス数は、その道のりの数(幅)のことでGroupが10ch分あるのならばGroup Bus数は10になる。 ~
+ 
+-- Master
+-- Stereo
+-- L/R
+-- Group
+-- Sub
+-- AUX
+-- Matrix
++: Main系 | Main
++: | Master
++: | Stereo
++: | L/R
++: | Mono
++: Group系 | Group
++: | Sub
++: AUX系 | AUX
++: | MIX
++: その他バス | Matrix

@@ -1,0 +1,7 @@
+* 5W1H [#r4bc7b09]
+: Who | 誰が
+: When | いつ
+: Where | どこで
+: What | 何を
+: How | どうやって
+: Why | なぜ

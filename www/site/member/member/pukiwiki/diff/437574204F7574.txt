@@ -1,0 +1,8 @@
+ * Cut Out [#p7d5eabe]
+ フェーダーを徐々に下げるのではなくONを切ったり、MUTEすることで突然切れること。 ~
+ 
++
++** 関連項目 [#j2dd9bff]
++- [[Cut In]]
++- [[Fade In]]
++- [[Fade Out]]

@@ -1,0 +1,28 @@
+ #nofollow
+ #norelated
+ * ATM-25[#q6adf784]
+ audio-technica社が販売している楽器用マイク。~
+ [[アドバン>Advanced Creators]]ではよくバスドラムに使われる。~
+ 
+ audio-technicaの製品は「AT (Audio Technica) -数字」や「AT○-数字」という型番になることが多い。~
+ それ以外の機材も「A」から始まることが多い。~
+ 
+ ちなみにaudio-technicaは町田市が世界に誇る音響機器メーカーである。~
+ また音響機器だけでなく、自動すし握り機も作っている。~
+ 
+ ** 諸元 [#ta5fe42d]
+ 
+ 指向特性：ハイパーカーディオイド~
+ 周波数特性：30Hz〜15kHz ~
+ インピーダンス：600Ω平衡 ~
+-開回路感度：-54dB(0dB=1V/Pascal&#64;1.OkHz) ~
++開回路感度：-54dB(0dB=1V/Pascal&#64;1.0kHz) ~
+ コネクタ：XLR3ピン、オス ~
+ 外装：ツヤ消し塗装 ~
+ 寸法・質量：φ41,L118,300g ~
+ 付属品：マイクポーチ ~
+ 
+ ** 関連ページ [#oce23b6a]
+ 
+ #ls2
+ - [[InterWikiName]] -- [[InterWiki]]のサーバリスト

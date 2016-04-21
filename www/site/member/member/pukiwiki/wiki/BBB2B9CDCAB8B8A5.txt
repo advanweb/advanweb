@@ -1,0 +1,34 @@
+* 参考文献一覧 [#tf697eba]
+みんな買うといいよ！
+
+: Rittor&nbsp;Music |
+: | [[Sound &amp; Recording Magazine>http://www.rittor-music.co.jp/magazine/sr/]]
+: | [[Sound &amp; Recording Magazine エンジニア直伝！エフェクト・テクニック基礎講座>http://www.rittor-music.co.jp/books/03217306.html]]
+: | [[Sound &amp; Recording Magazine エンジニア直伝！レコーディング・テクニック大全>http://www.rittor-music.co.jp/books/02217307.html]]
+: | [[Sound &amp; Recording Magazine エンジニア直伝！DAWミックス&amp;マスタリング・テクニック>http://www.rittor-music.co.jp/books/10217302.html]]
+: | [[Sound &amp; Recording Magazine 音響映像設備マニュアル2010>http://www.rittor-music.co.jp/books/09217305.html]]
+: | [[PAの全知識 コンサートの裏側、見せます>http://www.rittor-music.co.jp/books/03317314.html]]
+: | [[現場で役立つ舞台関係用語集 ステージ・PA・照明用語辞典>http://www.rittor-music.co.jp/books/05317315.html]]
+: | [[すぐに使える！PAお役立ちハンドブック>http://www.rittor-music.co.jp/books/07317303.html]]
+: | [[マスタリングの全知識〜CDから配信まで>http://www.rittor-music.co.jp/books/08317307.html]]
+: | [[ステージ・舞台照明入門舞台の基礎からDMX、ムービングまで>http://www.rittor-music.co.jp/books/05317324.html]]
+: Stereo Sound | 
+: | [[PROSOUND>http://www.stereosound.co.jp/psweb/]]
+: SOUND DESIGNER |
+: | [[SOUND DESIGNER>http://www.sounddesigner.jp/]]
+: 寺島情報企画 |
+: | [[DTM MAGAZINE>http://www.dtmm.co.jp/]]
+: 個人出版 | 
+: | [[マイクのほん>http://www.micnophone.com/]]
+-- かつて ottotto.com で公開されていた、マイクの解説ページを著者自ら書籍化したもの。
+---ちなみにコンプ編はここにある → [[1>http://ameblo.jp/pt8/entry-10488041644.html]] [[2>http://ameblo.jp/pt8/entry-10488053498.html]] [[3>http://ameblo.jp/pt8/entry-10488066827.html]] [[4>http://ameblo.jp/pt8/entry-10488776008.html]]
+: ネット文献 |
+: | [[Wikipedia>http://ja.wikipedia.org/]]
+: | [[SOUNDHOUSE>http://www.soundhouse.co.jp/]]((コンテンツに講座がある))
+: | [[偏ったDTM用語辞典>http://www.g200kg.com/jp/docs/dic/index.html]]
+: | その他多くのWeb文献
+
+** 番外編 [#h8fa7b0f]
+// リンク切れ
+- [[良い録音を行うためのレコーディング・ミキサー心得帖（改訂版）>http://www.rittor-music.co.jp/hp/books/onkyo_data/03317320.htm]]
+-- キャリサポ・荻野先生の著書。

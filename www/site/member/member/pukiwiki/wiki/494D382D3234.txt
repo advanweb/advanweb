@@ -1,0 +1,129 @@
+#nofollow
+#norelated
+* IM8 [#d8caff5c]
+YAMAHA社が販売してるミキシングコンソール。~
+現在[[アドバン>Advanced Creators]]の持っているコンソールでは最大規模。 ~
+アドバンでは[[GA>GA32/12]]と並ぶ２大コンソールになる。 ~
+MONO INPUT数24ch、STEREO INPUT数4ch、AUX OUT数8ch、MATRIX OUT数4ch、GROUP OUT数8ch、MONO OUTとインプットだけでなくアウトプット数も充実している。 ~
+
+階段や段差が激しいところの運搬は、大抵は男子４人で運ぶことになる。が、人がいないときは女子だけだったり男子２人だったり悲惨なときもある。 ~
+平らな道なら１人で運ぶことは可能。 ~
+置くときはケースの薄い側(底側)を壁にもたれかけるように置く。 ~
+設置するときはキャスターのついてない側を操作する人がいるほうにする(キャスター側が奥)。 ~
+ケースも新しい仕様になっていて縦方向にも取っ手が付いていたり、フックの数も多くなっていて親切設計。 ~
+ケースの中のポケットにはパワーサプライと本機をつなぐための電源ケーブル、インターフェイス用のUSBケーブルが入っている。 ~
+
+各MONO INPUTには-26dBパッドスイッチ、φスイッチ、４バンドパラメトリックイコライザ、コンプレッサー、+48Vスイッチがついていて、GAよりも高性能な仕様になっている。 ~
+他にもMONO INPUTにはDIRECT OUTがあり、コンプレッサー通過後の信号を出力することが出来る。%%正直コンプレッサー通過前の方が何かと便利だと思う。%% ~
+ファンタムが各チャンネルに付いたのはとても便利だと思う。 ~
+コンプレッサーも付いたのでアウトボードで足りない分はこちらで補うと良いだろう。 ~
+
+Auxセクションは全チャンネルプリ/ポストの切り替えが可能。 ~
+AUX OUTの端子もXLRタイプでバランス転送ができる。 ~
+
+GAと違いちゃんとGroupが機能する（笑）。 ~
+Groupは8chで出力はフォン端子、各チャンネルごとにInsertもできるようになっている。 ~
+また、ミュートグループを組むことが出来るので楽器や、ボーカルをまとめてボタンひとつでオフにすることが出来る。 ~
+卓前面にiPodやWalkmanなどのポータブルオーディオからBGMなどを入力するためのステレオミニジャックが用意されているので有効に活用するとチャンネル削減になるだろう。 ~
+LANP端子も付いており、今までの卓電ではなく卓に直接接続するタイプのミキサーライトをつけることが出来るようになった。 ~
+
+USB端子が付いており、ライブ録音するにはもってこいのインターフェイス機能を備えている。 ~
+バンドルとして、CubaseAI4付属。 ~
+USBはパソコンからの入力を2tr IN、パソコンへの出力はREC OUTとしている。 ~
+REC OUTは音量の調整がマスターフェーダー依存なので実際は自分のオーディオインターフェイスを使ったほうが便利だったりする。 ~
+
+電源は専用のパワーサプライ[[PW8]]を必要とする。 ~
+
+
+** 諸元 [#bf86a2b8]
+*** 一般仕様 [#c18f2855]
+| 入出力 | マイクインプット数 | 24 |
+|~| ファントム電源 | +48V DC (each channel) |
+|~| ラインインプット数 | 4x Stereo |
+| ミキシング能力 | ミキシングチャンネル数 | 24 mono + 4 stereo |
+|~| GROUP | 8 |
+|~| AUX | 8 |
+|~| MAIN | Stereo,Mono |
+|~| MATRIX | 4 |
+|>| インプットチャンネルファンクション | Compressor(Mic channel only),&br;HPF(80Hz, 12dB/oct),&br;4-band mid-sweep PEQ(4-band PEQ for ST CH) |
+|>| その他 | USB Audio I/O |
+
+***主要規格 [#k46c817f]
+| 周波数特性 |>| 0, +1,-3dB(20Hz to 20kHz) |
+| 全高調波歪率 |>| Less than 0.1% (20Hz to 20kHz) |
+| ハム＆ノイズレベル | 入力換算ノイズ | −128dB|
+|~| 残留ノイズ | -98dBu |
+| クロストーク |>| Less than -70dB |
+| 電源電圧 |>| Use PW8 power supply unit |
+| 消費電力 |>| 200W (Use with PW8) |
+| 最大外形寸法（W×H×D） |>| 1227×219×739mm |
+| 重量 |>| 37.5kg |
+| 付属品 |>| 取扱説明書、パワーサプライリンクケーブル(3m)、 Cubase AI4 DVD |
+
+***入力仕様 [#ge72972e]
+|>| 入力端子 | 入力インピーダンス | ソースインピーダンス |>|>| 入力レベル | コネクター |
+|>|~|~|~| 入力感度 | 規定レベル | 最大ノンクリップレベル |~|
+| CH IN A [24ch:1-24,&br;32ch:1-32,40ch:1-40] | 0 | 3kohms | 50-600ohm Mics&br;& 600ohm Lines | -80dBu | -60dBu | -40dBu | XLR-3-31 type((balanced)) |
+|~|~|~|~| -36dBu | -16dBu | +4dBu |~|
+|~| 26dB |~|~| -54dBu | -34dBu | -14dBu |~|
+|~|~|~|~| -10dBu | +10dBu | +30dBu |~|
+| CH IN B [24ch:1-24,&br;32ch:1-32,40ch:1-40] | 0 | 10kohms | 600ohm Mics&br;& Lines | -80dBu | -60dBu | -40dBu | TRS Phone Jack((balanced)) |
+|~|~|~|~| -36dBu | -16dBu | +4dBu |~|
+|~| 26dB |~|~| -54dBu | -34dBu | -14dBu |~|
+|~|~|~|~| -10dBu | +10dBu | +30dBu |~|
+|>| ST CH LINE IN [1-4] | 10kohms | 600ohm Lines | -54dBu | -34dBu | -14dBu |Phone Jack((unbalanced)),&br;RCA Pin Jack((unbalanced)) |
+|~|~|~|~| -10dBu | +10dBu | +30dBu |~|
+|>| CH INSERT IN [24ch:1-24,&br;32ch:1-32,40ch:1-40] | 10kohms | 600ohm Lines | -20dBu | 0dBu | +20dBu | TRS Phone Jack((unbalanced)) |
+|>| MASTER INSERT IN&br;(AUX, GROUP, ST, MONO) | 10kohms | 600ohm Lines | -10dBu | 0dBu | +10dBu | TRS Phone Jack((unbalanced)) |
+|>| RETURN [1-4] | 10kohms | 600ohm Lines | -12dBu | +4dBu | +24dBu | Phone Jack((unbalanced)) |
+|>| 2TR IN [L,R] | 10kohms | 600ohm Lines | -26dBV | -10dBV | +10dBV | RCA Pin Jack((unbalanced)),&br; 3.5 DIA Stereo Phone Jack((unbalanced)) |
+|>| TB IN | 10kohms | 600ohm Lines | -66dBu | -50dBu | -30dBu | XLR-3-31 type((unbalanced)) |
+
+0dBu = 0.775Vrms, 0dBV = 1Vrms ~
+Sensitivity is the lowest level that will produce an output of +4dBu, or the nominal output level when the unit is set to maximum level. ~
+
+***出力仕様 [#q338571d]
+| 出力端子 | 出力インピーダンス | 負荷インピーダンス |>| 出力レベル | コネクター |
+|~|~|~| 規定レベル | 最大ノンクリップレベル |~|
+| AUX SEND [1-8] | 75ohms | 600ohm Lines | +4dBu | +24dBu | XLR-3-32 type((Balanced)) |
+| GROUP OUT [1-8] | 150ohms|  10kohm Lines | +4dBu | +20dBu | TRS Phone Jack*** |
+| STEREO OUT [L, R] | 75ohms | 600ohm Lines | +4dBu | +24dBu | XLR-3-32 type((Balanced)) |
+| MONO OUT | 75ohms | 600ohm Lines | +4dBu | +24dBu | XLR-3-32 type((Balanced)) |
+| MATRIX OUT [1-4] | 150ohms | 10kohms | +4dBu | +20dBu | TRS Phone Jack*** |
+| CH INSERT OUT | 150ohms | 10kohms | 0dBu | +20dBu | TRS Phone Jack((Unbalanced, Impedance balanced)) |
+| MASTER INSERT OUT&br;(AUX, GROUP, ST, MONO) | 150ohms | 10kohms | 0dBu | +20dBu | TRS Phone Jack** |
+| DIRECT OUT&br;(Mono CH IN) | 150ohms | 10kohms | 0dBu | +20dBu | TRS Phone Jack*** |
+| REC OUT [L, R] | 600ohms | 10kohms | -10dBV | +10dBV | RCA Pin Jack((Unbalanced, Impedance balanced)) |
+| MONITOR OUT [L, R] | 150ohms | 10kohms | +4dBu | +20dBu | TRS Phone Jack*** |
+|PHONES OUT x 3 | 100ohms | 40ohm phones | 3mW | 75mW | Stereo phone jack((Unbalanced, Impedance balanced)) |
+
+0dBu = 0.775Vrms, 0dBV = 1Vrms
+
+** デジタルオーディオ入出力規格 [#c8b123e4]
+| 入出力端子 | フォーマット | コネクター |
+| USB | USB AUDIO 1.1 | USB B type |
+
+** コンピューター動作条件 [#v5e977a8]
+USB Audio
+|>| Windows Vista |
+| OS | Windows Vista |
+| CPU | 1GHz以上のIntel Core / Pentium / Celeronプロセッサー |
+| メモリー | 1GB以上 |
+|>| Windows XP |
+| OS | Windows XP Professional / Home Edition |
+| CPU | 750MHz以上のIntel Core / Pentium / Celeronプロセッサー |
+| メモリー | 128MB以上 |
+|>| Macintosh |
+| OS | Mac OS X 10.3.3以上 |
+| CPU | Intel CPUまたは、Macintosh G3 300MHz以上 |
+| メモリー | 128MB以上 |
+
+
+
+** 取扱説明書 [#ddd61b5e]
+
+
+** 関連ページ [#dd3b5c55]
+
+#ls2
+- [[InterWikiName]] -- [[InterWiki]]のサーバリスト

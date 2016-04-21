@@ -1,0 +1,105 @@
+* 回線表 [#i2a853d7]
+回線表。コンソール、マルチ、パッチ板その他さまざまな収束端末にどのように機材が繋がっているかを示すもの。 ~
+自分にわかりやすくも重要だが誰が見てもわかるように書くのがベターである。 ~
+
+** Sample [#e61ae1a6]
+FOH:IM8-24 ~
+FB:GA32/12 ~
+Sub:1642VLZ ~
+で考えてます。マイクとかその他は適当。 ~
+*** Main Mixer [#r8b23192]
+|>|>|>|>|>|>|>| Input |
+| FOH | FB | Multi | Name | Input | Insert | Stand | Note |
+| 1 | 32 | A1 | Top L | C451 |  | 210 | あんまり触らないから端っこ |
+| 2 | 31 | A2 | Top R | C451 |  | 210 | 基本的にトップとタムはモニターに返さなくて支障ない |
+| 3 | 30 | A3 | F Tom | N/D468 | GATE | 259 | 回線が足りない時はタムから減らし次にトップを減らす |
+| 4 | 29 | A4 | L Tom | N/D468 | GATE | 259 |  |
+| 5 | 28 | A5 | H Tom | N/D468 | GATE | 259 |  |
+| 6 | 27 | A6 | H/H | C451 |  | 259 |  |
+| 7 | 26 | A7 | Sn Top | SM57 | COMP | 259 |  |
+| 8 | 25 | A8 | Sn Bot | SM57 | COMP | 259 |  |
+| 9 | 24 | A9 | Kick Out | BETA52A | GATE |  | 音作りはKick In,OutやSn Top,Botがあったほうが楽だが回線が足りない時は1つづつにしたり |
+| 10 | 23 | A10 | Kici In | BETA91 | GATE | 259 | よく触るものはマスターセクションに寄せておくと便利 |
+| 11 | 21 | A11 | Ba Line | TYPE85 | COMP |  |  |
+| 12 | 22 | A12 | Ba Mic | MD421 | COMP | 259 |  |
+| 13 | 19 | A13 | Key L | TYPE85 |  |  |  |
+| 14 | 20 | A14 | Key R | TYPE85 |  |  |  |
+| 15 | 17 | A15 | Gt1 | SM57 |  | 259 |  |
+| 16 | 18 | A16 | Gt2 | SM57 |  | 259 |  |
+| S1 |  |  |  |  |  |  |  |
+| S2 |  |  |  |  |  |  |  |
+| S3 |  |  | Effect | SubMixer |  |  | サブミキサーから |
+| S4 |  |  | PB((Play Back)) | SubMixer |  |  | サブミキサーから |
+| 17 | 12 | B1 | Vo | SM58 | COMP | 210 | よく触る(ry |
+| 18 | 11 | B2 | Dr Cho | SM58 | COMP | 210 |  |
+| 19 | 10 | B3 | Ba Cho | SM58 | COMP | 210 |  |
+| 20 | 9 | B4 | Gt Cho | SM58 | COPM | 210 |  |
+| 21 |  | B5 | 影アナ | SM58S |  |  | ホールでは使う |
+| 22 | 4 | B6 | ガナリ | SM58S |  |  | ホールでは使う |
+| 23 | 3 | B7 | Spare | SM58 |  |  | 予備は重要 |
+| 24 | 2 | B13 | TB | SM58S |  |  | TBは余った回線にでも |
+|  | 1 |  | ME | SM58S |  |  | ミー（私の）マイク、FBでのTB。混乱を避ける為名前を変える。端っこ。 |
+|  | 8 | B14 | PB From FOH |  |  |  |  |
+&nbsp;
+|>|>|>|>| ハウス返しの場合のAux Out |
+| Ch | Name | Send | Multi | Note |
+| 1 | Rev1 | SPX2000 |  |  |
+| 2 | Rev2 | SPX900 |  |  |
+| 3 | DDL | SPX90 |  |  |
+| 4 | Foot Vo | 2231 | B10 | GEQなんて必ず通すものなのだから書かなくてもいい |
+| 5 | Foot Dr | Q1031 | B11 | でも種類が別れるなら書いておく |
+| 6 | Foot Ba | DN360 | B12 |  |
+| 7 | Foot Gt1 | Q2031 | B13 |  |
+| 8 | Foot Gt2 | DN300 | B14 |  |
+|>|>|>|>| FB返し場合のFOH Aux Out |
+| Ch | Name | Send | Multi | Note |
+| 1 | Rev1 | SPX2000 |  |  |
+| 2 | Rev2 | SPX900 |  |  |
+| 3 | DDL | SPX90 |  |  |
+| 4 |  |  |  |  |
+| 5 |  |  |  |  |
+| 6 |  |  |  |  |
+| 7 | PB | to FB | B13 |  |
+| 8 | TB | to FB | B14 |  |
+|>|>|>|>| FB返しの場合のFB Aux Out |
+| Ch | Name | Send | Multi | Note |
+| 1 | SR |  |  | Stage Right((ステージから見て右、つまり下手))のサイドスピーカー |
+| 2 | SL |  |  | Stage Left((ステージから見て左、つまり上手))のサイドスピーカー |
+| 3 |  |  |  |  |
+| 4 |  |  |  |  |
+| 5 | Foot Vo |  |  | シングルかダブルか書いとくと便利 |
+| 6 | Foot Dr |  |  | 必要ならスピーカーやアンプの種類も書く |
+| 7 | Foot BA |  |  | スピーカーやアンプの種類が一緒なら書かなくてもわかる |
+| 8 | Foot Key |  |  |  |
+| 9 | Foot Gt2 |  |  |  |
+| 10 | Foot Gt2 |  |  |  |
+
+*** Sub Mixer [#i2a53480]
+|>|>|>| Input |
+| CH | Name | Input | Note |
+| 1 | Rev1 L | SPX2000 | SubMix1,2へ |
+| 2 | Rev1 R | SPX2000 | SubMix1,2へ |
+| 3 | Rev2 L | SPX900 | SubMix1,2へ |
+| 4 | Rev2 R | SPX900 | SubMix1,2へ |
+| 5 | DDL((Digital DeLay)) | SPX90 | SubMix1,2へ |
+| 6 |  |  |  |
+| 7 |  |  |  |
+| 8 |  |  |  |
+| 9 |  |  |  |
+| 10 |  |  |  |
+| 11 | CD1 L | MD-CD1 | SubMix3,4へ |
+| 12 | CD1 R | MD-CD1 | SubMix3,4へ |
+| 13 | CD2 L | MD-CD1 | SubMix3,4へ |
+| 14 | CD2 R | MD-CD1 | SubMix3,4へ |
+| 15 | BGM L | iPodなど | SubMix3,4へ |
+| 16 | BGM R | iPodなど | SubMix3,4へ |
+&nbsp;
+|>|>|>| Output |
+| CH | Name | Send | Note |
+| SubMix1 | Effect L | MainMixer S3 | チャンネル節約術の1つサブミキサー |
+| SubMix2 | Effect R | MainMixer S3 |  |
+| SubMix3 | PB((Play Back)) L | MainMixer S4 |  |
+| SubMix4 | PB((Play Back)) R | MainMixer S4 |  |
+| Aux1 |  |  |  |
+| L |  |  |  |
+| R |  |  |  |

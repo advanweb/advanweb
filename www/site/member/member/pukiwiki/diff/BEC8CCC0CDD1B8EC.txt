@@ -1,0 +1,95 @@
+ * 照明用語一覧 [#ge1cbfeb]
+ 
+ : A | 
+ : B | 
+ : | [[Barndoor]]
+ : | [[Baton]]
+ : | [[Black Out]]
+ : | [[Border]]
+ : | [[Bottom Cyclorama Light>Horizont Light]]
+ : C | 
+ : | [[Ceiling Light]]
+ : | [[Color]]
+ : | [[Color Filter]]
++: | [[Cut In]]
++: | [[Cut Out]]
+ : | [[Cutter]]
+ : D | 
+ : | [[DF]]
+ : | [[Dimmer]]
+ : | [[DMX]]
+ : E | 
+ : | [[Eripusoidaru Spot]]
+ : F | 
++: | [[Fade In]]
++: | [[Fade Out]]
+ : | [[Filter]]
+ : | [[Fog]]
+ : | [[Fresnel Lens]]
+ : | [[Frontside Light]]
+ : | [[Full ON]]
+ : G | 
+ : | [[GOBO]]
+ : H | 
+ : | [[Hunger]]
+ : I | 
+ : J | 
+ : K | 
+ : L |
+ : | [[Lazer]]
+ : | [[LED]]
+ : | [[Lens Spot]]
+ : | [[Lower Horizont Light>Horizont Light]]
+ : M | 
+ : | [[Moving]]
+ : N | 
+ : | [[Narrow]]
+ : O | 
+ : P | 
+ : | [[Parabolic Aluminized Reflector(PAR)>PAR]]
+ : | [[Profile Spot]]
+ : Q | 
+ : R |
+ : S | 
+ : | [[Shoot]]
+ : | [[Smoke Machine]]
+ : | [[Source Four]]
+ : | [[Splitter]]
+ : | [[Spot Light]]
+ : | [[Stage Light]]
+ : | [[Strobe]]
+ : | [[Suspension Light]]
+ : | [[Suspension Light Baton]]
+ : T | 
+ : | [[Terminator]]
+ : | [[Top Cyclorama Light>Horizont Light]]
+ : | [[Truss]]
+ : U | 
+ : | [[Upper Horizont Light>Horizont Light]]
+ : V | 
+ : W | 
+ : X | 
+ : Y | 
+ : Z | 
+ : あ | 
+ : | [[暗転]]
+ : | [[色>Color]]
+ : か | 
+ : | [[介錯棒]]
+ : | [[嫌う]]
+ : さ | 
+ : | [[指向性]]
+ : | [[ゼラ>Color Filter]]
+ : | [[ゼラ枠]]
+ : た | 
+ : | [[地明り]]
+ : | [[灯体]]
+ : | [[灯体チェック]]
+ : | [[トンボ]]
+ : な | 
+ : は | 
+ : ま | 
+ : | [[明転]]
+ : や | 
+ : ら | 
+ : わ |

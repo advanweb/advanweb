@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rssprojects>
+  <rssproject title="Advanced Creators Members Site">
+    <title>Advanced Creators Members Site</title>
+    <ftp>
+      <targetdir></targetdir>
+      <targetfile></targetfile>
+      <host></host>
+      <user></user>
+      <password></password>
+      <port>21</port>
+      <passive>0</passive>
+    </ftp>
+    <exportonsave>-1</exportonsave>
+    <exportonupload>0</exportonupload>
+    <exporttarget>D:\- Documents -\My Sentences\Web Site Data\Advan\member\rss\index.xml</exporttarget>
+    <rsstitle>Advanced Creators Members Site</rsstitle>
+    <siteurl>http://advancedcreators.undo.jp/site/member/</siteurl>
+    <rssurl>http://advancedcreators.undo.jp/site/member/rss/</rssurl>
+    <stylesheet>../css/rss.xsl</stylesheet>
+    <rssdescription><![CDATA[Advanced Creators Members Siteの更新情報を配信します。]]></rssdescription>
+    <rssencoding>UTF-8</rssencoding>
+    <contentencoded>0</contentencoded>
+    <numexportitems>10</numexportitems>
+    <items>
+      <item>
+        <title>機材リストを更新</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/stock.html</url>
+        <datetime>2007/12/27 2:37:39</datetime>
+        <description><![CDATA[2007年12月22日版の機材リストを更新しました。現在最新のバージョンはver.3.0です。
+同日の大掃除の際に調査した時点でのデータです。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>Advanced Creators 機材管理サイト オープン</title>
+        <url>http://advancedcreators.undo.jp/site/member/advan_equip/</url>
+        <datetime>2007/12/20 4:45:11</datetime>
+        <description><![CDATA[Webブラウザ上でアドバンの所有する機材の情報を閲覧・更新できる、「Advanced Creators 機材管理サイト」がオープンしました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>音樂祭の反省文を掲載 | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/event/2007/music_fes.html</url>
+        <datetime>2007/12/14 14:39:36</datetime>
+        <description><![CDATA[音樂祭の反省文まとめとアンケート集計結果を、音樂祭のページに載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.12.13 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/12/13.html</url>
+        <datetime>2007/12/13 14:33:04</datetime>
+        <description><![CDATA[12/13 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.12.6 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/12/06.html</url>
+        <datetime>2007/12/13 14:33:01</datetime>
+        <description><![CDATA[12/6 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.11.29 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/11/29.html</url>
+        <datetime>2007/11/29 18:30:50</datetime>
+        <description><![CDATA[11/29 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.11.22 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/11/22.html</url>
+        <datetime>2007/11/22 19:55:10</datetime>
+        <description><![CDATA[11/22 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.11.15 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/11/15.html</url>
+        <datetime>2007/11/22 19:55:05</datetime>
+        <description><![CDATA[11/15 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.11.1 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/11/01.html</url>
+        <datetime>2007/11/01 14:08:12</datetime>
+        <description><![CDATA[11/1 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>府中お月見の反省文を掲載 | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/index.html</url>
+        <datetime>2007/10/26 11:46:31</datetime>
+        <description><![CDATA[雑談掲示板に上がっていた 府中お月見 の反省文まとめを、ミーティングログのページに載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.10.25 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/10/25.html</url>
+        <datetime>2007/10/25 23:54:56</datetime>
+        <description><![CDATA[10/25 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>リンクのページを掲載 | リンク</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/link.html</url>
+        <datetime>2007/10/24 10:41:55</datetime>
+        <description><![CDATA[Members Siteにもリンクのページを作りました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.10.18 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/10/18.html</url>
+        <datetime>2007/10/19 18:21:41</datetime>
+        <description><![CDATA[10/18 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.10.3 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/10/03.html</url>
+        <datetime>2007/10/19 18:21:36</datetime>
+        <description><![CDATA[10/3 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.9.27 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/09/27.html</url>
+        <datetime>2007/10/01 1:25:47</datetime>
+        <description><![CDATA[9/27 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>学祭と音樂祭のページを掲載 | イベント関連</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/event/index.html</url>
+        <datetime>2007/09/26 10:19:11</datetime>
+        <description><![CDATA[学祭と音樂祭のページを作って、雑談BBSに上がっていた資料をそこに掲載しました。
+今後も随時更新されます。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.9.20 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/09/20.html</url>
+        <datetime>2007/09/20 16:01:57</datetime>
+        <description><![CDATA[9/20 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>音響・照明セミナーFes.の反省文を掲載 | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/index.html</url>
+        <datetime>2007/09/16 19:10:59</datetime>
+        <description><![CDATA[雑談掲示板に上がっていた 音響・照明セミナーFes. の反省文まとめを、ミーティングログのページに載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.9.14 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/09/14.html</url>
+        <datetime>2007/09/16 19:10:31</datetime>
+        <description><![CDATA[9/14 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.9.8 (Sat) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/09/08.html</url>
+        <datetime>2007/09/09 0:49:50</datetime>
+        <description><![CDATA[9/8 (土) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>音響・照明セミナーFes.のページを更新 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/seminar_fes.html</url>
+        <datetime>2007/09/03 21:53:02</datetime>
+        <description><![CDATA[音響・照明セミナーFesのページに、6・7日の音響機材リストなどいくつかの資料を追加しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.8.31 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/08/31.html</url>
+        <datetime>2007/09/03 19:04:08</datetime>
+        <description><![CDATA[8/31 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>音響・照明セミナーFes.のページを掲載 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/seminar_fes.html</url>
+        <datetime>2007/09/01 18:59:55</datetime>
+        <description><![CDATA[音響・照明セミナーFesのページを作って、そこに詳細を掲載しました。
+必要な資料もこのページに上げていきます。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.8.22 (Wed) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/08/22.html</url>
+        <datetime>2007/08/26 15:26:12</datetime>
+        <description><![CDATA[8/22 (水) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>夏合宿 音響・照明の仕込み図を掲載 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/summer_camp/index.html</url>
+        <datetime>2007/08/16 3:42:41</datetime>
+        <description><![CDATA[夏合宿のページに、音響・照明講習の仕込み図を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.8.9 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/08/09.html</url>
+        <datetime>2007/08/14 5:42:47</datetime>
+        <description><![CDATA[8/9 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>夏合宿 機材リスト・音響講習資料を更新 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/summer_camp/index.html</url>
+        <datetime>2007/08/13 7:51:26</datetime>
+        <description><![CDATA[夏合宿の全体の機材リストを更新しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>夏合宿 機材リスト・音響講習資料を掲載 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/summer_camp/index.html</url>
+        <datetime>2007/08/10 3:32:04</datetime>
+        <description><![CDATA[夏合宿 2007 のページに、全体の機材リストと音響講習資料を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.8.3 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/08/03.html</url>
+        <datetime>2007/08/04 2:04:47</datetime>
+        <description><![CDATA[8/3 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.7.27 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/07/27.html</url>
+        <datetime>2007/07/27 15:12:06</datetime>
+        <description><![CDATA[7/27 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.7.20 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/07/20.html</url>
+        <datetime>2007/07/20 13:52:58</datetime>
+        <description><![CDATA[7/20 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>機材リストとレパ表を追加 | 各種シートのテンプレート</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/sheet.html</url>
+        <datetime>2007/07/15 2:32:42</datetime>
+        <description><![CDATA[各種シートのテンプレート のページに機材リストとレパ表を追加しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>07練習会 班分けその他資料を掲載 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/exercise.html</url>
+        <datetime>2007/07/15 2:20:02</datetime>
+        <description><![CDATA[夏合宿07企画の班分けのリストを始め、タイムスケジュールや音響機材リストなどの資料を、07練習会のページに掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.7.13 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/07/13.html</url>
+        <datetime>2007/07/13 15:42:43</datetime>
+        <description><![CDATA[7/13 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.7.6 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/07/06.html</url>
+        <datetime>2007/07/06 15:18:16</datetime>
+        <description><![CDATA[7/6 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.6.29 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/06/29.html</url>
+        <datetime>2007/06/29 15:07:02</datetime>
+        <description><![CDATA[6/29 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.6.22 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/06/22.html</url>
+        <datetime>2007/06/22 14:07:14</datetime>
+        <description><![CDATA[6/22 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>座談会ログを掲載 | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/index.html</url>
+        <datetime>2007/06/16 6:15:57</datetime>
+        <description><![CDATA[雑談掲示板に上がっていた、6/13 (水)の座談会ログを、ミーティングログのページに載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>07練習会の予定を掲載 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/exercise.html</url>
+        <datetime>2007/06/16 6:13:46</datetime>
+        <description><![CDATA[スタッフ養成プログラム のページに 07練習会 のページを作り、07練習会 第1回・第2回の予定を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>夏合宿 07企画班分け結果を追加 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/summer_camp/index.html</url>
+        <datetime>2007/06/16 6:13:43</datetime>
+        <description><![CDATA[夏合宿 2007 のページに、07企画の班分け結果を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>今週の課題を掲載 | Sound &amp; Engineering Experience</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/pa/experience.html</url>
+        <datetime>2007/06/15 15:59:44</datetime>
+        <description><![CDATA[Sound & Engineering Experienceのページに、第4週の課題の内容を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>Workshopの予定を更新 | Sound &amp; Engineering Workshop</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/pa/workshop.html</url>
+        <datetime>2007/06/15 15:59:41</datetime>
+        <description><![CDATA[Sound & Engineering Workshopのページに、Workshop vol.4の予定を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.6.15 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/06/15.html</url>
+        <datetime>2007/06/15 14:13:59</datetime>
+        <description><![CDATA[6/15 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>照明講習資料を追加 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/lighting/index.html</url>
+        <datetime>2007/06/12 14:05:02</datetime>
+        <description><![CDATA[照明講習 のページに資料を追加しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>軽音1年生ライブの反省文を掲載 | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/index.html</url>
+        <datetime>2007/06/11 17:31:39</datetime>
+        <description><![CDATA[雑談掲示板に上がっていた 軽音1年生ライブ の反省文まとめを、ミーティングログのページに載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>Workshop vol.3の資料を掲載 | Sound &amp; Engineering Reference</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/pa/reference.html</url>
+        <datetime>2007/06/11 15:21:00</datetime>
+        <description><![CDATA[Sound & Engineering Reference のページにWorkshop vol.3の参考資料を掲載しました。
+参加希望者はダウンロードして印刷してきてください。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>今週の課題を掲載 | Sound &amp; Engineering Experience</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/pa/experience.html</url>
+        <datetime>2007/06/09 2:54:56</datetime>
+        <description><![CDATA[Sound & Engineering Experienceのページに、第3週の課題の内容を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>Workshopの予定を更新 | Sound &amp; Engineering Workshop</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/pa/workshop.html</url>
+        <datetime>2007/06/09 2:54:54</datetime>
+        <description><![CDATA[Sound & Engineering Workshopのページに、Workshop vol.3の予定を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.6.8 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/06/08.html</url>
+        <datetime>2007/06/09 2:52:08</datetime>
+        <description><![CDATA[6/8 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>夏合宿 07企画資料を追加 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/summer_camp/index.html</url>
+        <datetime>2007/06/07 9:52:56</datetime>
+        <description><![CDATA[スタッフ養成プログラム のページに 夏合宿 2007 のページを作り、07企画の資料を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>レパ表説明書を掲載 | 各種書類</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/doc_download.html</url>
+        <datetime>2007/06/07 9:51:01</datetime>
+        <description><![CDATA[雑談BBSにアップされていた、レパ表の出演者向けのマニュアルを載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>Workshop vol.2の資料を掲載 | Sound &amp; Engineering Reference</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/pa/reference.html</url>
+        <datetime>2007/06/04 19:00:27</datetime>
+        <description><![CDATA[Sound & Engineering Reference のページにWorkshop vol.2の参考資料を掲載しました。
+参加希望者はダウンロードして印刷してきてください。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>今週の課題を掲載 | Sound &amp; Engineering Experience</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/pa/experience.html</url>
+        <datetime>2007/05/29 15:30:13</datetime>
+        <description><![CDATA[Sound & Engineering Experienceのページに、第2週の課題の内容を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>Workshopの予定を更新 | Sound &amp; Engineering Workshop</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/pa/workshop.html</url>
+        <datetime>2007/05/29 15:28:09</datetime>
+        <description><![CDATA[Sound & Engineering Workshopのページに、Workshop vol.2の予定を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.5.28 (Mon) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/05/28.html</url>
+        <datetime>2007/05/29 15:27:29</datetime>
+        <description><![CDATA[5/28 (月) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>講習資料を追加 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/index.html</url>
+        <datetime>2007/05/18 3:57:59</datetime>
+        <description><![CDATA[スタッフ養成プログラム のページにオリエンテーションと企画・総合・まとめの資料を掲載しました。
+同時に音響講習関連のページを構成しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>講習資料を掲載 | スタッフ養成プログラム</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/index.html</url>
+        <datetime>2007/05/15 18:34:05</datetime>
+        <description><![CDATA[スタッフ養成プログラム のページに音響と照明の資料を掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.5.11 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/05/11.html</url>
+        <datetime>2007/05/12 1:44:16</datetime>
+        <description><![CDATA[5/11 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>MLについてを更新</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/ml.html</url>
+        <datetime>2007/05/09 0:54:55</datetime>
+        <description><![CDATA[MLが届かないときの対処方法 のページを書き直し、タイトルも変更しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>スタッフ養成プログラムを更新</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture/index.html</url>
+        <datetime>2007/05/09 0:54:54</datetime>
+        <description><![CDATA[新入生向け講習関連のページを更新しました。
+新着情報や講習資料を載せるスペースを設け、今まで掲載していた年間計画などは シラバス のページを新設しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>まちおんライブの反省文を掲載</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/index.html</url>
+        <datetime>2007/05/03 4:37:39</datetime>
+        <description><![CDATA[雑談掲示板に上がっていた まちおんライブ の反省文まとめを、ミーティングログのページに載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>機材リストを更新</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/stock.html</url>
+        <datetime>2007/04/29 0:07:40</datetime>
+        <description><![CDATA[機材リストを最新のバージョン (ver.2.0) に更新しました。
+3月29日時点でのデータです。
+春休みに2006年度の予算を使い切って購入した機材も含まれています。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2006年度 追加購入報告書を掲載</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/accounting.html</url>
+        <datetime>2007/04/29 0:07:37</datetime>
+        <description><![CDATA[会計資料のページに、春休みに2006年度の予算を使い切って購入した物品のリストを載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.4.24 (Tue) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/04/24.html</url>
+        <datetime>2007/04/26 0:49:29</datetime>
+        <description><![CDATA[4/24 (火) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>新歓の反省文を掲載</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/index.html</url>
+        <datetime>2007/04/17 14:13:35</datetime>
+        <description><![CDATA[雑談掲示板に上がっていた 新入生歓迎会 の反省文まとめを、ミーティングログのページに載せました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>会計資料のページを作成</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/accounting.html</url>
+        <datetime>2007/04/17 14:13:34</datetime>
+        <description><![CDATA[予算や会計報告書などの会計資料を載せるページを作りました。
+トップページのダウンロードのリストからリンクしてあります。
+同時に、雑談掲示板に上がっていた 2007年度 部費マニュアル 第1稿 も掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.4.17 (Tue) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/04/17.html</url>
+        <datetime>2007/04/17 14:13:33</datetime>
+        <description><![CDATA[4/17 (火) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.4.13 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/04/13.html</url>
+        <datetime>2007/04/13 13:09:25</datetime>
+        <description><![CDATA[4/13 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007年度 スタッフ養成プログラム(仮)</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/lecture.html</url>
+        <datetime>2007/04/13 4:15:14</datetime>
+        <description><![CDATA[4/10 (火)の05ミーティングで話し合ったことをもとに、 2007年度 スタッフ養成プログラム(仮) のページを作りました。
+今年の新入生の講習の計画が載っています。
+ちなみに名前は現在仮称です。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>ミーティングログのページをプチリニューアル</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/</url>
+        <datetime>2007/04/03 13:36:44</datetime>
+        <description><![CDATA[ミーティングログのページが、今までサーバーの機能で自動的にインデックス表示されていただけでしたが、(X)HTMLでコーディングして見やすくしました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.4.3 (Tue) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/04/03.html</url>
+        <datetime>2007/04/03 13:04:01</datetime>
+        <description><![CDATA[4/3 (火) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.3.29 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/03/29.html</url>
+        <datetime>2007/03/29 14:04:29</datetime>
+        <description><![CDATA[3/29 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.3.20 (Tue) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/03/20.html</url>
+        <datetime>2007/03/20 13:35:11</datetime>
+        <description><![CDATA[3/20 (火) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.3.13 (Tue) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/03/13.html</url>
+        <datetime>2007/03/13 12:58:13</datetime>
+        <description><![CDATA[3/13 (火) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.3.9 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/03/09.html</url>
+        <datetime>2007/03/09 13:47:48</datetime>
+        <description><![CDATA[3/9 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>レパ表を2種類追加</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/sheet.html</url>
+        <datetime>2007/03/08 0:43:38</datetime>
+        <description><![CDATA[[各種シートのテンプレート] のページにレパ表を2種類追加しました。
+ライブ向けと外現場向けの2種類です。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>機材リストを更新</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/stock.html</url>
+        <datetime>2007/03/03 9:57:51</datetime>
+        <description><![CDATA[2007年1月31日版の機材リストを更新しました。現在最新のバージョンはver.1.10です。
+今回の更新で、音響機材のシリアルナンバーと課外備品番号が空欄になっていたところを埋めました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.3.2 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/03/02.html</url>
+        <datetime>2007/03/02 13:39:12</datetime>
+        <description><![CDATA[3/2 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.2.22 (Thu) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/02/22.html</url>
+        <datetime>2007/02/22 14:09:19</datetime>
+        <description><![CDATA[2/22 (木) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>機材リストを更新</title>
+        <url>http://advancedcreators.undo.jp/site/member/html/stock.html</url>
+        <datetime>2007/02/17 20:40:05</datetime>
+        <description><![CDATA[機材リストを最新のバージョンに更新しました。1月31日の大掃除の時に調べたデータです。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>Members Site プチリニューアル</title>
+        <url>http://advancedcreators.undo.jp/site/member/</url>
+        <datetime>2007/02/16 4:38:29</datetime>
+        <description><![CDATA[Advanced Creators Members Siteを軽くリニューアル的なことをやりました。具体的には、●XHTMLとCSSによるデザイン　●各ページのテキストの微妙な修正　●各ファイルのディレクトリの整理　●RSS配信　●アイコンの作成　…を行いました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>RSS配信を開始</title>
+        <url>http://advancedcreators.undo.jp/site/member/rss/index.xml</url>
+        <datetime>2007/02/15 18:30:53</datetime>
+        <description><![CDATA[Advanced Creators Members Siteの更新情報のRSS配信を試験的に開始しました。RSSリーダーやRSS対応のWebブラウザで更新情報を購読できます。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.2.13 (Tue) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/02/13.html</url>
+        <datetime>2007/02/13 20:07:21</datetime>
+        <description><![CDATA[2/13 (火) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>2007.2.2 (Fri) | ミーティングログ</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/2007/02/02.html</url>
+        <datetime>2007/02/03 0:42:49</datetime>
+        <description><![CDATA[2/2 (金) のミーティングログを掲載しました。]]></description>
+        <checked>-1</checked>
+      </item>
+      <item>
+        <title>HTMLによるミーティングログの配信を開始</title>
+        <url>http://advancedcreators.undo.jp/site/member/log/</url>
+        <datetime>2007/02/02 12:45:59</datetime>
+        <description><![CDATA[今までテキスト形式で配信していたミーティングログをHTMLでの配信にしました。文書のマークアップはXHTML、レイアウト・デザインはCSSにて記述しています。]]></description>
+        <checked>-1</checked>
+      </item>
+    </items>
+  </rssproject>
+</rssprojects>

@@ -1,18 +1,18 @@
 @charset "utf-8";
 
 /*	****************************************************************
-		
+
 		Title:		2. 基本スタイルシート
 		Site:		Advanced Creators Members Site
 		Version:	1.0.9
 		Date:		2007.12.18
 		Author:		XIAORING <http://mkgweb.undo.jp/>
-		
+
 	****************************************************************/
 
 
 /* ============================================================
-	
+
 	2.1 Yahoo Library Font.css
 	http://developer.yahoo.com/yui/fonts/
 
@@ -126,12 +126,12 @@ a:active {
 
 /* ------------------------------------------------------------
 	2.3.1 見出し
-	
+
 		h1:	サイトタイトル
 		h2:	ページタイトル
 		h3:	コンテンツ大見出し
 		h4:	コンテンツ小見出し
-	
+
 ------------------------------------------------------------ */
 
 /* 全体の設定 */
@@ -192,6 +192,15 @@ h3 {
 
 h4 {
 	font-size: 114%;
+	line-height: 1px;
+}
+
+h5 {
+	font-size: 100%;
+}
+
+h6 {
+	font-size: 90%;
 }
 
 /* 隣接する見出し間でのマージン調整 */
@@ -476,7 +485,7 @@ ins {
 	text-decoration: none;
 }
 
-ins[datetime]:before {	
+ins[datetime]:before {
 	content: " ("attr(datetime)" \004fee\006b63) ";
 	color: #999;
 	font-size: 85%;
@@ -489,7 +498,7 @@ del ins {
 ins h1, ins h2, ins h3, ins h4, ins h5, ins h6, ins div, ins p, ins pre, ins address, ins blockquote, ins dl, ins form, ins fieldset, ins table{
 	margin: 0;
 	padding: 0;
-} 
+}
 
 h1 ins, h2 ins, h3 ins, h4 ins, h5 ins, h6 ins, p ins, pre ins, address ins, li ins, dt ins, dd ins {
 	display: inline;
@@ -624,7 +633,7 @@ form dt {
 	background: none;
 	font-weight: normal;
 }
-	
+
 form dd {
 	margin: 0 0 0 11em;
 	padding: 0.5em 0.5em 0.5em 1em;
