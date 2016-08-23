@@ -34,7 +34,7 @@ img {
 	height: auto;
 }
 a {
-    color: #4A4A4A;	
+    color: #4A4A4A;
 }
 a:hover, a:focus, a:active, a.active {
 	color: #fec503;
@@ -246,7 +246,7 @@ header {
 	font-family: "Raleway", Sans-serif;
 }
 .sidebar-widget {
-	margin-bottom: 40px;	
+	margin-bottom: 40px;
 }
 .sidebar-widget li {
 	font-size: 17px;
@@ -383,4 +383,19 @@ footer .footer-socials a:hover {
 }
 footer .footer-bottom {
 	padding: 10px 0 40px;
+}
+
+iframe{
+
+	  border: 1px solid #aaa;
+    width: 100%;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+
+
 }
